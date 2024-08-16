@@ -53,6 +53,6 @@ Seiten im THEIß-Buch
 [//]: # "Complexity: 1 - low"
 [//]: # "Task type: Imitation task"
 
-Autor: Robert Ringel, Fakultät Informatik/Mathematik, HTW Dresden  
+Author: Robert Ringel, Faculty Informatics/Mathematics, HTW Dresden  
 Version: 08/2024            
 Lizenz: CC BY-SA 4.0
