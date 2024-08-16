@@ -1,67 +1,67 @@
-### Aufgabe: Berechnung Kreisumfang
+### Learning Task: Calculation of a circle perimeter
 
-Was leistet das folgende Programm? 
-Schreiben Sie Kommentare am Ende der Zeilen 2-4.
+What does the following program? 
+Note your answer in short sentences.
+Add comments to the end of line 2-4.
 
-Formulieren Sie die Antwort in kurzen Sätzen. 
 
 ``` python
-print("Berechnung Kreisumfang")
+print("Calculation of a circle's perimeter")
 d = 5         # ...
 pi = 3.14     # ...
-u = pi * d    # ...
-print("Durchmesser d:", d)
-print("Umfang:", u)
+p = pi * d    # ...
+print("Diameter  d:", d)
+print("Perimeter p:", p)
 print("----- Datentypen -----")
-print("d: ", d, "Datentyp:", type(d))
-print("pi:", pi, "Datentyp:", type(pi))
-print("u :", u, "Datentyp:", type(u))
+print("d: ", d, "data type:", type(d))
+print("pi:", pi, "data type:", type(pi))
+print("p :", p, "data type:", type(p))
 ```
 
 ---------------------------------------
 ---------------------------------------
 
-##### Lösung
+##### Solution
 
-Das Programm berechnet den Kreisumfang für den Durchmesser, der in Variable angegeben ist.
-Es zeigt die Werte und die Datentypen aller verwendeten Variablen an. 
+The program calculates the perimeter of a circle for the diameter given by variable d.
+It show the values and the data types of all used variables. 
 
 ``` python
-print("Berechnung Kreisumfang")
-d = 5         # Kreisdurchmesser
-pi = 3.14     # Pi - die Kreiszahl
-u = pi * d    # Berechnung des Kreisumfangs in Variable u
+print("Calculation of a circle's perimeter")
+d = 5         # circle diameter
+pi = 3.14     # pi - calculation constant for circles
+p = pi * d    # calculation of the perimeter in variable p
 ...
 ```
 
-##### Vorwissen
+##### Previous Knowledge
 
-- print-Anweisung
-- Variable und Wertezuweisung
+- print statement
+- variables and assignments to variables
 
-##### Lernhandlungen
+##### Learning Activities
 
-1) Programmquelltext lesen - ggf. ausführen
-2) Verständnis der Zeilen 2-4 herstellen - ggf. Wert für Variable d verändern 
-3) Verständnis als Zeilenkommentar aufschreiben
-4) Ausgabe der type-Anweisung erkennen und interpretieren
-5) 2-3 Antwortsätze gemäß Aufgabenstellung formulieren
+1) read and run the Python code
+2) get an understanding of lines 2-4 - change the value of variable d
+3) write line comments
+4) realize the type-statement and its result
+5) write 2-3 	sentences to answer the question given by the task
 
-##### Lösungsprozess
+##### Problem solving process
 
-![Lösungsprozess](01_Kreisumfang.png)
+![Problem solving process](01_Kreisumfang.png)
 
-###### Unterstützende Informationen
+###### Supporting information
 
 Seiten im THEIß-Buch  
 [tutorialspoint.com: Variables](https://www.tutorialspoint.com/python/python_variables.htm)
 
 ----
-[//]: # "Lernziel: Verstehen von Variablen, Berechnung, Ergebnisanzeige"
-[//]: # "Thema: Variablen, Berechnung, Anzeige"
-[//]: # "Komplexität: 1 - niedrig"
-[//]: # "Aufgabentyp: vollständiges Beispiel"
+[//]: # "Learning objective: Understanding of variables, calculation and result printing"
+[//]: # "Topic: variables, calculations, printing"
+[//]: # "Complexity: 1 - low"
+[//]: # "Task type: working example"
 
-Autor: Robert Ringel, Fakultät Informatik/Mathematik, HTW Dresden  
+Author: Robert Ringel, Faculty Informatics/Mathematics, HTW Dresden  
 Version: 08/2024            
 Lizenz: CC BY-SA 4.0
