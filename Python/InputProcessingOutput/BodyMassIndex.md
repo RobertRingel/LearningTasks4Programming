@@ -37,7 +37,7 @@ print('Your bmi:',bmi)
 ###### Supporting information
 
 [tutorialspoint.com: Assignments/Calculations](https://www.tutorialspoint.com/python/python_assignment_operators.htm)  
-
+[tutorialspoint.com: User input](https://www.tutorialspoint.com/python/python_user_input.htm)  
 Matthes, E. (2019). Python crash course a hands-on, project-based introduction to programming (2nd edition). No Starch Press.:  
 Chapter 2, pages 15-32, Chapter 7, pages 114-116  
 
