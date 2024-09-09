@@ -37,7 +37,7 @@ print('Total duration time (hours:minutes:seconds):',hh,':',mm,':',ss)
 
 Seiten im THEIß-Buch  
 [tutorialspoint.com: Assignments/Calculations](https://www.tutorialspoint.com/python/python_assignment_operators.htm)  
-[www.python-kurs.eu: Ausdrücke und Operatoren](https://www.python-kurs.eu/python3_operatoren.php)  
+[python-kurs.eu: Ausdrücke und Operatoren](https://www.python-kurs.eu/python3_operatoren.php)  
 ----
 [//]: # "Learning objective: Understanding of variables, calculation and result printing"
 [//]: # "Topic: variables, calculations, printing"
