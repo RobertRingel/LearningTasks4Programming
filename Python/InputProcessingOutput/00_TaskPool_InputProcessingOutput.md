@@ -4,7 +4,7 @@
 | BasicCalculation      | Basic calculation                 | variables, calculations, printing | understanding of variables, calculation and result printing | 1 - low        | imitation task     |           |
 | WindChillCalculation  | Wind-Chill-Factor                 | variables, calculations, printing | understanding of variables, calculation and result printing | 1 - low        | imitation task     |           |
 | BodyMassIndex         | Calculate the Body-Mass-Index     | variables, calculations, printing | understanding of variables, calculation and result printing | 1 - low        | conventional task  |           |
-| BottleDeposits        | Refund for Bottle Deposits        | variables, calculations, printing | understanding of variables, calculation and result printing | 1 - low        | complition task    |           |
+| BottleDeposits        | Refund for Bottle Deposits        | variables, calculations, printing | understanding of variables, calculation and result printing | 1 - low        | completion task    |           |
 | DataTypes             | Examples for data types           | variables, calculations, printing | understanding of basic data types and related values        | 1 - low        | completion task    |           |
 | FuelPriceCalculation  | Fuel Price Calculation            | variables, calculations, printing | understanding of input and numeric type conversion          | 1 - low        | completion task    |           |
 | VariablesDataTypes    | Examples for data types           | variables, calculations, printing | understanding of basic data types and related values        | 1 - low        | worked out example |           |
