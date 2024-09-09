@@ -46,11 +46,6 @@ Chapter 2, pages 15-32, Chapter 7, pages 114-116
 Theis, T. G. P. (2017). Einstieg in Python. In Rheinwerk Computing (5., aktualisierte Auflage). Rheinwerk Verlag GmbH.:   
 Kapitel X, Seiten 
 
-
-
-Seiten im THEIß-Buch  
-[tutorialspoint.com: Assignments/Calculations](https://www.tutorialspoint.com/python/python_assignment_operators.htm)
-[www.python-kurs.eu: Ausdrücke und Operatoren](https://www.python-kurs.eu/python3_operatoren.php)
 ----
 [//]: # "Learning objective: Understanding of variables, calculation and result printing"
 [//]: # "Topic: variables, calculations, printing"
