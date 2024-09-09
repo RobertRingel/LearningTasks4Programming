@@ -9,7 +9,7 @@ Discuss your program with another student. Explain your programms to each other.
 
 ##### Solution
 
-As an example aconversion program Meters to Yards is shown here.
+As an example a conversion program Meters to Yards is shown here.
 
 ``` python
 print("***** Conversion Meters to Yards *****")
