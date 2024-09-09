@@ -1,4 +1,4 @@
-### Learning Task: Basic calculation
+### Learning Task: Total time duration in seconds
 
 Write a Python program to calculate the total time duration in seconds, based on the user input of hours, minutes and seconds.
 
