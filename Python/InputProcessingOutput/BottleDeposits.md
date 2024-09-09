@@ -1,4 +1,4 @@
-### Learning Task: Bottle Deposit
+### Learning Task: Refund for Bottle Deposits
 
 The following program calculates the refund for bottle deposits.  
 
