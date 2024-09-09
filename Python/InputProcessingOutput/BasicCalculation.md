@@ -41,8 +41,13 @@ print("y:", y, "data type:", type(y))
 
 ###### Supporting information
 
-Seiten im THEIß-Buch  
-[tutorialspoint.com: Assignments/Calculations](https://www.tutorialspoint.com/python/python_assignment_operators.htm)
+[tutorialspoint.com: Assignments/Calculations](https://www.tutorialspoint.com/python/python_assignment_operators.htm)  
+
+Matthes, E. (2019). Python crash course a hands-on, project-based introduction to programming (2nd edition). No Starch Press.:  
+Chapter 2, pages 15-32  
+
+Theis, T. G. P. (2017). Einstieg in Python. In Rheinwerk Computing (5., aktualisierte Auflage). Rheinwerk Verlag GmbH.:   
+Kapitel X, Seiten 
 
 ----
 [//]: # "Learning objective: Understanding of variables, calculation and result printing"
