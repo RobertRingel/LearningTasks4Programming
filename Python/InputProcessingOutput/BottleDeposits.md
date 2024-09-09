@@ -71,4 +71,4 @@ Seiten im THEIß-Buch
 
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 08/2024            
-Lizenz: CC BY-SA 4.0
+License: CC BY-SA 4.0
