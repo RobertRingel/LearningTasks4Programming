@@ -95,7 +95,7 @@ Kapitel X, Seiten
 [//]: # "Learning objective: Test and branch using if-elif"
 [//]: # "Topic: Controlling program execution"
 [//]: # "Complexity: 2 - normal"
-[//]: # "Task type: complition task"
+[//]: # "Task type: completion task"
 
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 08/2024            
