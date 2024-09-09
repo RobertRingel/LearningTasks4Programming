@@ -60,8 +60,15 @@ Add-on: The program is not able to reject a negative number as invalid input. Th
 
 ###### Supporting information
 
-Seiten im THEIß-Buch  
-[tutorialspoint.com: Variables](https://www.tutorialspoint.com/python/python_variables.htm)
+[tutorialspoint.com: Assignments/Calculations](https://www.tutorialspoint.com/python/python_assignment_operators.htm)  
+[tutorialspoint.com: User input](https://www.tutorialspoint.com/python/python_user_input.htm)  
+Matthes, E. (2019). Python crash course a hands-on, project-based introduction to programming (2nd edition). No Starch Press.:  
+Chapter 2, pages 15-32, Chapter 7, pages 114-116  
+
+[www.python-kurs.eu: Ausdrücke und Operatoren](https://www.python-kurs.eu/python3_operatoren.php)
+
+Theis, T. G. P. (2017). Einstieg in Python. In Rheinwerk Computing (5., aktualisierte Auflage). Rheinwerk Verlag GmbH.:   
+Kapitel X, Seiten 
 
 ----
 [//]: # "Learning objective: Understanding of variables, calculation and result printing"
