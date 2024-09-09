@@ -1,6 +1,6 @@
 | **Task Name**         | **Title**                         | **Topic**                         | **Learning objective**                                      | **Complexity** | **Task type**      | **Notes** |
 | --------------------- | --------------------------------- | --------------------------------- | ----------------------------------------------------------- | -------------- | ------------------ | --------- |
-| CirclePerimeter       | Calculation of a circle perimeter | variables, calculations, printing | understanding of variables, calculation and result printing | 1 - low        | worked out example |           |
+| (CirclePerimeter.md)       | Calculation of a circle perimeter | variables, calculations, printing | understanding of variables, calculation and result printing | 1 - low        | worked out example |           |
 | BasicCalculation      | Basic calculation                 | variables, calculations, printing | understanding of variables, calculation and result printing | 1 - low        | imitation task     |           |
 | WindChillCalculation  | Wind-Chill-Factor                 | variables, calculations, printing | understanding of variables, calculation and result printing | 1 - low        | imitation task     |           |
 | BodyMassIndex         | Calculate the Body-Mass-Index     | variables, calculations, printing | understanding of variables, calculation and result printing | 1 - low        | conventional task  |           |
