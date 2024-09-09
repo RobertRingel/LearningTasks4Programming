@@ -1,4 +1,4 @@
-### Learning Task: Basic calculation
+### Learning Task: Calculate the Body-Mass-Index
 
 Write a Python program to calculate the body-mass-index based on the user input for weight in kilogramms and body height in meters.
 The related calculation equiation is bmi = mass / height²  
