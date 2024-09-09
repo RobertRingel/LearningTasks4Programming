@@ -32,10 +32,10 @@ print("Distance [km]: ",distance)
 ```
 
 *Initial help:*  
-![initial help](GPSDistCalculation_H1.png)
+![initial help](GPSDistCaluculation_H1.png)
 
 *More help:*  
-![more help](GPSDistCalculation_H2.png)
+![more help](GPSDistCaluculation_H2.png)
 
 
 ##### Previous Knowledge
