@@ -6,7 +6,7 @@ Read the given code samples and answer the following questions:
    Hint: When gets the data type assigned? What causes the data type definition?  
 2) How to proceed for entering a number into a Python variable as user input?  
 
-<img src="05_VariablesDataTypes_1.png">
+<img src="VariablesDataTypes_1.png">
 
 
 |Variable   | Data Type | Value     |
