@@ -77,8 +77,8 @@ Kapitel X, Seiten
 ----
 [//]: # "Learning objective: Test and branch using if-else in combination with and-conjunction"
 [//]: # "Topic: Controlling program execution"
-[//]: # "Complexity: 2 - standard"
-[//]: # "Task type: complition task"
+[//]: # "Complexity: 2 - normal"
+[//]: # "Task type: completion task"
 
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 08/2024            
