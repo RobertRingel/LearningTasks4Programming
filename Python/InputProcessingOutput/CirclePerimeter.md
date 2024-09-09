@@ -57,7 +57,7 @@ Seiten im THEIß-Buch
 [//]: # "Learning objective: Understanding of variables, calculation and result printing"
 [//]: # "Topic: variables, calculations, printing"
 [//]: # "Complexity: 1 - low"
-[//]: # "Task type: working example"
+[//]: # "Task type: worked out example"
 
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 08/2024            
