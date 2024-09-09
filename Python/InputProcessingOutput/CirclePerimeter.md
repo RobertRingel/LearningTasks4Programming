@@ -54,7 +54,7 @@ p = pi * d    # calculation of the perimeter in variable p
 Matthes, E. (2019). Python crash course a hands-on, project-based introduction to programming (2nd edition). No Starch Press.:  
 Chapter 2, pages 15-32
 
-[www.python-kurs.eu: Ausdrücke und Operatoren](https://www.python-kurs.eu/python3_operatoren.php)
+[www.python-kurs.eu: Variablen](https://www.python-kurs.eu/python3_variablen.php)  
 
 Theis, T. G. P. (2017). Einstieg in Python. In Rheinwerk Computing (5., aktualisierte Auflage). Rheinwerk Verlag GmbH.:   
 Kapitel X, Seiten 
