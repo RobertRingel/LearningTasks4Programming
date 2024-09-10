@@ -10,8 +10,8 @@
 | [FuelPriceCalculation](FuelPriceCalculation.md)  | Fuel Price Calculation            | variables, calculations, printing | understanding of input and numeric type conversion          | 1 - low        | completion task    |           |
 | [VariablesDataTypes](VariablesDataTypes.md)    | Examples for data types           | variables, calculations, printing | understanding of basic data types and related values        | 1 - low        | worked out example |           |
 | [YourIdea](YourIdea.md)  | Your own calculation program    | variables, calculations, printing | understanding of variables, calculation and result printing | 2 - normal     | non-specific goal task  |           |
+| [RevTask_Time](RevTask_Time.md)     | Total time duration               | variables, calculations, printing | understanding of variables, calculation and result printing | 2 - normal     | reverse task  |           |
 | [TotalDurationSeconds](TotalDurationSeconds.md)  | Total time duration in seconds    | variables, calculations, printing | understanding of variables, calculation and result printing | 2 - normal     | conventional task  |           |
-| [TotalDurationTime](TotalDurationSeconds.md)     | Total time duration               | variables, calculations, printing | understanding of variables, calculation and result printing | 2 - normal     | conventional task  |           |
 | [GPSDistCaluculation](GPSDistCaluculation.md)   | Distance between GPS co-ordniates | variables, calculations, printing | problem solving using basic calculation                     | 2 - normal     | conventional task  |           |  
 
 
