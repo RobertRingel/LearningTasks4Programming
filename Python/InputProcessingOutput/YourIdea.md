@@ -28,7 +28,7 @@ Implement the program, test it and explain it to another student.
 ##### Learning Activities
 
 1) thinking of potential useful calculations
-2) wrting and running Python code
+2) writing and running Python code
 3) wrting code comments
 4) explaining Python code to other people
 
@@ -51,4 +51,4 @@ Kapitel X, Seiten
 
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 08/2024            
-Lizenz: CC BY-SA 4.0
+License: CC BY-SA 4.0
