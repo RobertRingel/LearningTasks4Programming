@@ -36,16 +36,16 @@ total = 0.0      # cumulated total outcome
 month = 0        # month number
 
 while month < 12:                              # run for 12 months
-	month = month +1                           # increment the month counter
+	month = month +1                               # increment the month counter
 	print('Month:',month)
-	while True:                                # repeat until valid input
+	while True:                                    # repeat until valid input
 		earn = float(input('Earnings [EUR]: '))
 		exp = float(input('Expenses [EUR]: '))
 		if earn>=0.0 and exp>=0.0:             # valid input data?
-			break                              # yes:  exit the loop
+			break                          # yes:  exit the loop
 		else:                                  # no:
-			print('Correct your input!')       #     print message
-	total = total + earn - exp                 # update the cumulated total
+			print('Correct your input!')   #     print message
+	total = total + earn - exp                     # update the cumulated total
 	print(total)
 
 print('Outcome per year [EUR]:', total)
@@ -59,16 +59,16 @@ total = 0.0      # cumulated total outcome
 month = 0        # month number
 
 while month < 12:                              # run for 12 months
-	month = month +1                           # increment the month counter
+	month = month +1                               # increment the month counter
 	print('Month:',month)
-	while ...                                  # repeat until valid input
+	while ...                                      # repeat until valid input
 		earn = float(input('Earnings [EUR]: '))
 		exp = float(input('Expenses [EUR]: '))
 		if ...                   :             # valid input data?
-			...                                # yes:  exit the loop
+			...                            # yes:  exit the loop
 		else:                                  # no:
-			...                                #     print message
-	total = total + earn - exp                 # update the cumulated total
+			...                            #     print message
+	total = total + earn - exp                     # update the cumulated total
 	print(total)
 
 print('Outcome per year [EUR]:', total)
