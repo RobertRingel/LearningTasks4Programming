@@ -22,7 +22,7 @@ distance = (dx * dx + dy * dy) ** 0.5
 ``` python
 # --- Length of a GPS-Track ---
 
-AVG_LON = 71.5          # average distance [km] for 1 degree longitude
+AVG_LON = 71.5                  # average distance [km] for 1 degree longitude
 AVG_LAT = 111.3			# average distance [km] for 1 degree latitude
 
 print('*** Length of a GPS-Track ***')
@@ -62,7 +62,7 @@ print('Track length [km]:', track)
 ``` python
 # --- Length of a GPS-Track ---
 
-AVG_LON = 71.5          # average distance [km] for 1 degree longitude
+AVG_LON = 71.5                  # average distance [km] for 1 degree longitude
 AVG_LAT = 111.3			# average distance [km] for 1 degree latitude
 
 print('*** Length of a GPS-Track ***')
