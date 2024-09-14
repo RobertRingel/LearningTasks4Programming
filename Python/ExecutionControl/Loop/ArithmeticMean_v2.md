@@ -43,9 +43,9 @@ total = 0                              # sum of entered numbers
 while True:                            # infinite loop to process numbers
 	print('Enter Number >0 (0=end)')
 	number = int(input('Number:'))
-	if number>0:				# valid number?
-		total = total + number          # yes:  sum up the numbers 
-		i = i+1                         #       increment number counter
+	if number>0:			    # valid number?
+		total = total + number      # yes:  sum up the numbers 
+		i = i+1                     #       increment number counter
 	elif number == 0:                   # number zero?
 		break                       # yes:  exit the loop
 	else:                               # --- add-on solution
