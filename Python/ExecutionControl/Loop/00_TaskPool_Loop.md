@@ -3,7 +3,7 @@
 
 | **Task Name**                                    | **Title**                             | **Topic**                     | **Learning objective**                                            | **Complexity** | **Task type**      | **Notes** |
 | ------------------------------------------------ | ------------------------------------- | ----------------------------- | ----------------------------------------------------------------- | -------------- | ------------------ | --------- |
-| [MinMaxNum](MinMaxNum.md)                        | Minimum and maximum number            | controlling program execution | loop to repeat code sections, break a loop                        | 1 - low        | worked out example |           |
+| [MinMaxNumber](MinMaxNumber.md)                  | Minimum and maximum number            | controlling program execution | loop to repeat code sections, break a loop                        | 1 - low        | worked out example |           |
 | [ArithmeticMean_v1](ArithmeticMean_v1.md)        | Arithmetic mean calculation           | controlling program execution | Loop to repeat code sections                                      | 1 - low        | completion task    |           |
 | [ArithmeticMean_v2](ArithmeticMean_v2.md)        | Arithmetic mean calculation           | controlling program execution | Loop to repeat code sections and break to exit a loop             | 1 - low        | completion task    |           |
 | [FunctionCalculation](FunctionCalculation.md)    | Calculation of function values        | controlling program execution | Loop to repeat code sections                                      | 1 - low        | reverse task       |           |
