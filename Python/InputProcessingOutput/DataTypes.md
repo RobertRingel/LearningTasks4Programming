@@ -59,7 +59,7 @@ Chapter 2, pages 15-32
 [www.python-kurs.eu: Variablen](https://www.python-kurs.eu/python3_variablen.php)  
 
 Theis, T. G. P. (2017). Einstieg in Python. In Rheinwerk Computing (5., aktualisierte Auflage). Rheinwerk Verlag GmbH.:   
-Kapitel X, Seiten 
+Kapitel 2, Seiten 23-27
 
 ----
 [//]: # "Learning objective: Understanding of basic data types and related values"
