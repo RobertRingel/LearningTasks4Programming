@@ -100,7 +100,7 @@ Chapter 5, pages 72-84
 [www.python-kurs.eu: Bedingte Anweisungen](https://python-kurs.eu/python3_bedingte_anweisungen.php)
 
 Theis, T. G. P. (2017). Einstieg in Python. In Rheinwerk Computing (5., aktualisierte Auflage). Rheinwerk Verlag GmbH.:   
-Kapitel X, Seiten 
+Kapitel 3, Seiten 41-48 
 
 ----
 [//]: # "Learning objective: Boolean variables and branches using if-elif"
