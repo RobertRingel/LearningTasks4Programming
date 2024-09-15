@@ -64,7 +64,7 @@ Chapter 2, pages 15-32, Chapter 7, pages 114-116
 [www.python-kurs.eu: Ausdrücke und Operatoren](https://www.python-kurs.eu/python3_operatoren.php)
 
 Theis, T. G. P. (2017). Einstieg in Python. In Rheinwerk Computing (5., aktualisierte Auflage). Rheinwerk Verlag GmbH.:   
-Kapitel X, Seiten 
+Kapitel 2, Seiten 23-27
 
 ----
 [//]: # "Learning objective: Understanding of basic data types and related values"
