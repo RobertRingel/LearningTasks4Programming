@@ -47,7 +47,7 @@ Matthes, E. (2019). Python crash course a hands-on, project-based introduction t
 Chapter 2, pages 15-32  
 
 Theis, T. G. P. (2017). Einstieg in Python. In Rheinwerk Computing (5., aktualisierte Auflage). Rheinwerk Verlag GmbH.:   
-Kapitel X, Seiten 
+Kapitel 2, Seiten 23-27 
 
 ----
 [//]: # "Learning objective: Understanding of variables, calculation and result printing"
