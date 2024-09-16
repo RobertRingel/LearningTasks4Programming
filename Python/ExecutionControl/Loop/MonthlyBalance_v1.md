@@ -43,7 +43,7 @@ print('Outcome per year [EUR]:', total)
 
 [tutorialspoint.com: while-loops](https://www.tutorialspoint.com/python/python_while_loops.htm)  
 Matthes, E. (2019). Python crash course a hands-on, project-based introduction to programming (2nd edition). No Starch Press.:  
-Chapter ..., pages ....  
+Chapter 7, pages 118-121 
 
 [www.python-kurs.eu: Schleifen](https://python-kurs.eu/python3_schleifen.php)
 Theis, T. G. P. (2017). Einstieg in Python. In Rheinwerk Computing (5., aktualisierte Auflage). Rheinwerk Verlag GmbH.:   
