@@ -1,0 +1,308 @@
+Aufgaben-Pool - Ideen zu Listen
+-------------------------------
+
+1) Messwerte speichern: max, min, MW, SAbw. berechnen
+
+water_level = []
+while True:
+	val = int(input('Water level [cm]:'))
+	if val >= 0:
+		water_level.append(val)
+	else:
+		break
+
+avg = sum(water_level)/len(water_level)
+std_dev = ...
+
+print('All measured water level values in centimeters:')
+print(water_level)
+print('min. value:',min(water_level))
+print('max. value:',max(water_level))
+print('avg. value:',avg)
+print('std. deviation:',std_dev)
+
+----------------------------------------------------------
+
+1a) In Code von Aufg. 1 Berechnung des median ergänzen!
+water_level = []
+while True:
+	val = int(input('Water level [cm]:'))
+	if val >= 0:
+		water_level.append(val)
+	else:
+		break
+
+avg = sum(water_level)/len(water_level)
+std_dev = ...
+srt_data = sorted(water_level)
+# ... gerande Anzahl Werte: median anders berechnen:
+# https://www.scribbr.de/statistik/median/
+med_idx = int(len(water_level)/2)
+med_val = srt_data[med_idx]
+
+print('All measured water level values in centimeters:')
+print(water_level)
+print('min. value:',min(water_level))
+print('max. value:',max(water_level))
+print('med. value:',med_val)
+print('avg. value:',avg)
+print('std. deviation:',std_dev)
+
+----------------------------------------------------------
+
+
+2) Wechselkurs-Rechner: USD,EUR,0.81, EUR,USD,1.21, YEN,GBP,432.87, ...
+WOE ... kommentieren
+
+currencies = ['EUR','USD',0.81,'USD','EUR',1.21,'YEN','GBP',432.71]
+
+src = input('From what currency:')
+dest = input('To what currency:')
+
+i=0
+while i<len(currencies):
+	if src == currencies[i] and dest == currencies[i+1]:
+		rate = currencies[i+2]
+		amount = float(input('Amount:'))
+		exchange = amount*rate
+		print('You will get:',exchange,dest)
+		break
+	i=i+3
+
+if i>=len(currencies):
+	print('This is not possible.')
+
+--------------------------------------------------------------------
+
+3) Imitation-Task Edelmetall-Ankauf-Verkauf
+	DS skizzieren, Programm schreiben
+
+material = ['buy','Gold',810.1,'sell','Gold',798.2,'buy','Silver',232.1, 'sell','Silver',198.2]
+
+act = input('buy or sell:')
+metal = input('sort of metal:')
+
+i=0
+while i<len(material):
+	if act == material[i] and metal == material[i+1]:
+		price = material[i+2]
+		weight = float(input('Weight [g]:'))
+		amount = price*weight
+		print('Total amount:',amount)
+		break
+	i=i+3
+if i>=len(material):
+	print('This is not possible.')
+--------------------------------------------------------------------
+ 
+4) Messwerte speichern: gleitender MW berechnen
+
+values = []
+
+while True:
+	v = float(input('new water level [cm]:'))
+	if v<0.0:
+		break
+	values.append(v)
+	n = len(values)
+	if n >= 3:
+		mv_avg = sum(values[n-3:])/3
+		print('moving average:',mv_avg)
+
+print('End.')
+...........................................................
+
+5) Wechselkurs-Rechner: Datensätze hinzufügen, Werte ändern, Datensätze löschen
+
+siehe currency_code.py
+------------------------------------------------------------
+
+6) Wechselkurs-Rechner: Wechselkurstabelle anzeigen
+
+currencies = ['EUR','USD',0.81,'USD','EUR',1.21,'YEN','GBP',432.71]
+
+i=0
+print('from','to','rate')
+while i<len(currencies):
+	record = currencies[i:i+3]
+	print(record)
+	i=i+3
+....................................................................
+currencies = ['EUR','USD',0.81,'USD','EUR',1.21,'YEN','GBP',432.71]
+
+i=0
+print('from','to','rate')
+while i<len(currencies):
+	print(currencies[i], currencies[i+1], currencies[i+2])
+	i=i+3
+
+------------------------------------------------------------------
+ 
+7) Lagerwert berechnen: Artikel, Preis, Menge   >>> reverse task
+
+store = ['beer', 100, 0.76, 'wine',20, 5.10, 'gin', 2, 18.99]
+
+total = 0
+i=0
+while i<len(store):
+	prod = store[i]
+	pieces = store[i+1]
+	price = store[i+2]
+	value = price*pieces
+	total = total + value
+	print(prod,':',pieces,'pcs',price,'EUR',value,'EUR')
+	i = i+3
+
+print('Total store value:',total,'EUR')
+	
+-------------------------------------------------------------------
+###################################################################
+-------------------------------------------------------------------
+8) Python-Poster (4)-Würfelbeispiel
+worked-out-example
+print('Calculation of a metal cubes weight')
+print('-----------------------------------')
+
+material = ['gold','silver','aluminium']
+dens = [19.3, 10.5, 2.7]
+
+print('- Materials -')
+for i in material:
+	print(i)
+
+a = input('cube side length [cm]:')
+a = int(a)
+v = a*a*a
+
+n = len(material)
+index = 0
+while index<n:
+	mat = material[index]
+	d = dens[index]
+	weight = d*v
+	print(mat,'... weight:',weight,'g')
+	index = index+1
+print('end of programm')
+
+-------------------------------------------------------------------
+
+
+9) einfache Fifo-ToDo-Liste: append(String) pop()-Top-Element
+>>>> conventional task
+todo = []
+
+select = ''
+while select != '0':
+	print()
+	print('1: add task  2: remove top task  0: end program')
+	select = input('your choice: ')
+	
+	if select == '1':
+		task = input('New task : ')
+		todo.append(task)
+		print(todo)
+	elif select == '2':
+		todo.pop(0)
+		print(todo)
+print('program ended')
+
+-----------------------------------------------------------------
+
+10) Prio-ToDo-Liste Prio,Task, Prio,Task, ... sortierte Anzeige  neue Aufgabe rein, Top-Aufgabe-raus
+>>>> reverse task
+
+todo = ['1: water my plants','5: buy movies tickets']
+
+select = ''
+while select != '0':
+	print()
+	print('1: add task  2: remove top task  0: end program')
+	select = input('your choice: ')
+	
+	if select == '1':
+		task = input('New task (Prio: Note): ')
+		todo.append(task)
+		todo.sort()
+		print(todo)
+	elif select == '2':
+		todo.pop(0)
+		print(todo)
+print('program ended')
+---------------------------------------------------------------------
+
+11) GPS-Track mit Liste
+
+track = ['Airport', 13.7652, 51.1306, 'Main Station', 13.7303, 51.0408, 'University', 13.7351, 51.0372, 'Blue Wonder', 13.8095, 51.0533]
+
+print('*** Length of a GPS track ***')
+
+LON_KM = 71.5
+LAT_KM = 111.3  
+length = 0
+pos=0
+
+loc1 = track[pos*3]
+lon1 = track[pos*3+1]
+lat1 = track[pos*3+2]
+pos = pos+1
+
+while pos*3 < len(track):
+	loc2 = track[pos*3]
+	lon2 = track[pos*3+1]
+	lat2 = track[pos*3+2]
+
+	dx = LON_KM * (lon1 - lon2)
+	dy = LAT_KM * (lat1 - lat2)
+	distance = (dx*dx + dy*dy) **0.5
+	
+	length = length + distance
+
+	print(loc1,'>', loc2,':',distance,'km')
+
+	pos = pos+1
+	loc1 = loc2
+	lon1 = lon2
+	lat1 = lat2
+
+print('Total distance:',length,'km')
+---------------------------------------------------------------------------
+
+12) non-specific-Goal Task
+
+
+
+================================================================================
+
+Ideen zu Tupeln
+---------------
+
+1) Menü-Benutzerführung mittels Tupel A, Menüpunkt, G, Menüpunkt, ...
+
+2) Messwerte ... Trendberechnung
+
+3) Lotterie: Tip, Einsatz, Spieler    Gewinnzahlen
+
+4) Umsätze bei Geldwechsel ... Tagesumsatz berechnen
+
+5) bewusst Fehler provozieren, durch Manipulation eines Tupel-Elements = non-specifi-Goal Task
+
+6) Monat,Tage, Monat,Tage ... für 1 Jahr; Schaltjahre 1900, ... 2050
+	Geburtstag am wievielten Tag im Jahr
+
+7) Berechnungs der Tagesdifferenz zwischen zwei Tagesangaben
+     Monat,Tage, Monat,Tage ... für 1 Jahr; Schaltjahre 1900, ... 2050
+
+================================================================================
+
+
+Ideen zu Dictionary
+-------------------
+
+Morse-Codes
+
+Farbcodes der RAL-Farben
+
+
+
+
+
