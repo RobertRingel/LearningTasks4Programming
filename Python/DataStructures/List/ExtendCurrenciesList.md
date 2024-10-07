@@ -1,4 +1,4 @@
-### Learning Task: Existing currencies check
+### Learning Task: Extend currencies list
 
 The following list data structure can be used as a basis for a currency exchange calculation program.  
 
