@@ -125,7 +125,7 @@ Theis, T. G. P. (2017). Einstieg in Python. In Rheinwerk Computing (5., aktualis
 Kapitel 4, Seiten 109-116
 
 ----
-[//]: # "Learning objective: basic list data structure operations"
+[//]: # "Learning objective: problem solving"
 [//]: # "Topic: List data structures"
 [//]: # "Complexity: 3 - high"
 [//]: # "Task type: conventional task / complex task"
