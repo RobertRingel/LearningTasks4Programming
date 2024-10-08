@@ -2,12 +2,12 @@
 
 This task repository is a collection of learning tasks for basic Python programming. Its current status is: work in progress.
 
-The collection of learning tasks may be used in task based learning methodic approaches such as 4C/ID (www.4cid.org). It can bee seen as a task set inspired by Astleithner (2006) and Stephenson's Python Workbook (2014). I have used similar sequences of learning tasks in my PhD work (Ringel, 2024b) here at the University of Applied Sciences in Dresden. I implemented these learning tasks in Jupyter Notebook as a digital learning environment (Ringel, 2024a).
+The collection of learning tasks may be used in task based learning methodic approaches such as 4C/ID (www.4cid.org). It can bee seen as a task set inspired by Astleitner (2006) and Stephenson's Python Workbook (2014). I have used similar sequences of learning tasks in my PhD work (Ringel, 2024b) here at the University of Applied Sciences in Dresden. I implemented these learning tasks in Jupyter Notebook as a digital learning environment (Ringel, 2024a).
 
 This task repository aims the following goals:  
 - source of inspiration to other teachers for designing own learning tasks
 - pool of ready to use learning tasks for Python beginners classes
-- source of samples for the six basic programming task typs proposed by Merriënboer and Kirschner) (2018, p. 72)
+- source of samples for the six basic programming task typs proposed by Merriënboer and Kirschner (2018, p. 72)
 - sharpen the sense for potential learning activities in learning programming (there is much more then wrting code)
 - providing a range of potential real live topics to learn basic programming (there is much more then classic math tasks)
 - example for the design and documentation of learning tasks
