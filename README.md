@@ -2,9 +2,9 @@
 
 This task repository is a collection of learning tasks for basic Python programming. Its current status is: work in progress.
 
-The collection of learning tasks may be used in task based learning methodic approaches such as 4C/ID (www.4cid.org). It can bee seen as a task set inspired by Astleithner (2006) and Stephenson's Python Workbook (2014). I have used similar sequences of learning task in my PhD work (Ringel, 2024b) here at the University of Applied Sciences in Dresden. I implemented these learning task in Jupyter Notebook as a digital learning environment(Ringel, 2024a).
+The collection of learning tasks may be used in task based learning methodic approaches such as 4C/ID (www.4cid.org). It can bee seen as a task set inspired by Astleithner (2006) and Stephenson's Python Workbook (2014). I have used similar sequences of learning task in my PhD work (Ringel, 2024b) here at the University of Applied Sciences in Dresden. I implemented these learning task in Jupyter Notebook as a digital learning environment (Ringel, 2024a).
 
-This task repository aims the following goals:
+This task repository aims the following goals:  
 - source of inspiration to other teachers for designing own learning tasks
 - pool of ready to use learning tasks for Python beginners classes
 - source of samples for the six basic programming task types proposed by Merrienboer (Merriënboer & Kirschner, 2018, S. 72)
@@ -16,12 +16,12 @@ I would like to invite you to contribute to this collection of learning task - o
 
 Do not heasitate to give me feed-back regarding this task repository or share your experiences using these tasks.
 
-Robert Ringel,
-Dresden, October 2024
+Robert Ringel,  
+Dresden, October 2024  
 contact: robert.ringel@htw-dresden.de
 
 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
-Related literature:
+Related literature:  
 
 Astleitner, H. (2006). Aufgaben-Sets und Lernen. Instruktionspsychologische Grundlagen und Anwendungen. Frankfurt am Main; Berlin; Bern; Wien [u.a.]: Lang.
 
