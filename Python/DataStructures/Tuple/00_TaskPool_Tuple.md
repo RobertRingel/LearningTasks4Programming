@@ -15,6 +15,7 @@
 | [DaysUntilEndOfYear](DaysUntilEndOfYear.md)                   | Days until end of year                 | access tuple elements with help of an index          | 2 - normal     | imitation task         |
 | [CheckLotteryGuess](CheckLotteryGuess.md)                     | Check lottery guess                    | definition and iteration of a tuple                  | 2 - normal     | completion task        |
 | [CurrencyExchangeTable](CurrencyExchangeTable.md)             | Currency exchange table                | extract data from tuples in just one line of code    | 2 - normal     | conventional task      |
+| [GPSTrackProcessing](GPSTrackProcessing.md)                   | GPS track processing                   | compose a tuple, use a list to store tuples          | 3 - high       | complex task           |
 
 
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
