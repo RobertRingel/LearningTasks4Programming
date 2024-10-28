@@ -1,4 +1,4 @@
-### Learning Task: Noble metal daeling analytics
+### Learning Task: Noble metal dealing analytics
 
 The following program can be used to calculate the currency exchange balance out of the log of currency exchanges.  
 Read and run the given code in order to get an understanding of the implementation. 
