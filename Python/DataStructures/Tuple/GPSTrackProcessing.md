@@ -53,7 +53,7 @@ while True:
 	i = i +1                                       # increment track point counter
 print('---------------------------------')
 print('Length of the track',length,'km')           # print track length
-print(track)                                       # prin track list
+print(track)                                       # print track list
 
 ```
 
