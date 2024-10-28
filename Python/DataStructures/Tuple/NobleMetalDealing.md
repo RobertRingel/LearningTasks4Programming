@@ -4,7 +4,7 @@ The following program can be used to calculate the currency exchange balance out
 Read and run the given code in order to get an understanding of the implementation. 
 
 Write a similar program to analize a noble metal deal transcation log.  
-Draw a documentation for the data structure used in your code.  
+Draw a sketch as documentation for the data structure used in your code.  
 Write the program, test it and do not forget to write comments to the code.
 
 ``` python
