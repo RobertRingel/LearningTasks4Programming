@@ -32,7 +32,7 @@ track = []                                         # list of track points
 i = 1                                              # track index
 
 while True:
-	print('Track point:'i)                         # user will enter track point data
+	print('Track point:',i)                        # user will enter track point data
 	name = input('Name of the location (end will stop the program):')
 	if name == 'end':
 		break
