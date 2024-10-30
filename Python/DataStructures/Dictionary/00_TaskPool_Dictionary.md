@@ -5,7 +5,7 @@
 
 | **Task Name**                                                 | **Title**                              | **Learning objective**                               | **Complexity** | **Task type**          |
 | ------------------------------------------------------------- | -------------------------------------- | ---------------------------------------------------- | -------------- | ---------------------- |
-| [MorseCode](MorseCode.md)                                        | Morse code translator                  | access data of a dictionary                          | 1 - low        | completion task        |
+| [MorseCode](MorseCode.md)                                     | Morse code translator                  | access data of a dictionary                          | 1 - low        | completion task        |
 | [StudentGradings](StudentGradings.md)                         | Average student grading                | iterate a dictionary based on the keys-view          | 1 - low        | reverse task           |
 | [CurrencyRates](CurrencyRates.md)                             | Currency rates                         | concept of a combined dictionary key                 | 2 - normal     | worked-out example     |
 | [CurrencyExchangeTable](CurrencyExchangeTable.md)             | Currency exchange table                | access list data stored in a dictionary              | 2 - normal     | worked-out example     |
