@@ -7,25 +7,25 @@ Finally feel free to write comments to the code.
 
 ``` python
 def median(values):
-	"""
-	Calculates the median of a list of numbers.
+    """
+    Calculates the median of a list of numbers.
 
-	Args:
-		values (list) : a list of int or float numbers
+        Args:
+            values (list) : a list of int or float numbers
 
-	Returns:
-		int or float : the median value
-	"""
-	med_val = None
-	srt_data = sorted(values)
-	n = len(values)
-	if n%2 == 1:               
-		med_idx = int(n/2)            
-		med_val = srt_data[med_idx]
-	else:                                       
-		m = int(n/2)-1                          
-		med_val = (srt_data[m]+srt_data[m+1])/2 
-	return med_val
+        Returns:
+            int or float : the median value
+    """
+    med_val = None
+    srt_data = sorted(values)
+    n = len(values)
+    if n%2 == 1:               
+        med_idx = int(n/2)            
+        med_val = srt_data[med_idx]
+    else:                                       
+        m = int(n/2)-1                          
+        med_val = (srt_data[m]+srt_data[m+1])/2 
+    return med_val
 
 # --- main part ---
 numbers = [1, 34, 7, 12, 17]
