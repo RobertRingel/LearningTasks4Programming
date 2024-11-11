@@ -7,14 +7,14 @@ Test the implementation by running the final program.
 # --- calculation of the body-mass-index ---
 
 def                                          # implement function header
-	'''
-		Calculates the body-mass-index as weight/height**2
-		Args:
-			weight(float): the body weight [kg]
-			height(float): the body height [m]
-		Returns:
-			float: the body-mass-index
-	'''
+    '''
+    Calculates the body-mass-index as weight/height**2
+        Args:
+            weight(float): the body weight [kg]
+            height(float): the body height [m]
+        Returns:
+            float: the body-mass-index
+    '''
                                          	# implement calculation
                                          	# pass the result
 	
@@ -34,16 +34,16 @@ print('Your bmi:',bmi)
 # --- calculation of the body-mass-index ---
 
 def calc_body_mass_index(weight, height):
-	'''
-		Calculates the body-mass-index as weight/height**2
-		Args:
-			weight(float): the body weight [kg]
-			height(float): the body height [m]
-		Returns:
-			float: the body-mass-index
-	'''
-	bmi = weight/height**2
-	return bmi
+    '''
+    Calculates the body-mass-index as weight/height**2
+        Args:
+            weight(float): the body weight [kg]
+            height(float): the body height [m]
+        Returns:
+	    float: the body-mass-index
+    '''
+    bmi = weight/height**2
+    return bmi
 
 w = float(input('Your weight [kg]:'))
 h = float(input('Your height [m]:'))
