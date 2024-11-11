@@ -7,19 +7,19 @@ recursive function call inside the function implementation.
 
 ``` python
 def factorial(n):
-	"""
-	Calculate the factorial using a recursive function call.
+    """
+    Calculate the factorial using a recursive function call.
 
-	Args:
-		n (int) : the number to calculate the factorial
+    Args:
+        n (int) : the number to calculate the factorial
 
-	Returns:
-		int : the factorial
-	"""
-	if n == 0:
-		return 1
-	else:
-		return n * factorial(n-1)
+    Returns:
+        int : the factorial
+    """
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
 
 # --- main part ---
 num = 8
@@ -34,19 +34,19 @@ print('Factorial of', num, '=', fac)
 
 ``` python
 def factorial(n):
-	"""
-	Calculate the factorial using a recursive function call.
+    """
+    Calculate the factorial using a recursive function call.
 
-	Args:
-		n (int) : the number to calculate the factorial
+    Args:
+        n (int) : the number to calculate the factorial
 
-	Returns:
-		int : the factorial
-	"""
-	if n == 0:   # factorial of 0 is 1
-		return 1
-	else:   # calculate factorial for n-1 by recursive function call
-		return n * factorial(n-1) 
+    Returns:
+        int : the factorial
+"""
+    if n == 0:   # factorial of 0 is 1
+        return 1
+    else:   # calculate factorial for n-1 by recursive function call
+	return n * factorial(n-1) 
 
 # --- main part ---
 num = 8
