@@ -11,23 +11,23 @@ LAT_WIDTH = 111.3   # avg. width of 1° latitude in Germany
 LON_WIDTH = 71.5    # avg. width of 1° longitude in Germany
 
 def calc_GPS_distance(lat1, lon1, lat2, lon2):
-	"""
-	Calculates the distance between two GPS co-ordinate points.
-	The function uses a simple theorem of Pythagoras approach. 
+    """
+    Calculates the distance between two GPS co-ordinate points.
+    The function uses a simple theorem of Pythagoras approach. 
 
-	Args:
-		lat1 (float): latitude of point 1
-		lon1 (float): longitude of point 1
-		lat2 (float): latitude of point 2
-		lon2 (float): longitude of point 2
+    Args:
+        lat1 (float): latitude of point 1
+        lon1 (float): longitude of point 1
+        lat2 (float): latitude of point 2
+        lon2 (float): longitude of point 2
 
-	Returns:
-		float: the distance between the given GPS points [km]
-	"""
-	dx = LON_WIDTH * (lon1 - lon2)
-	dy = LAT_WIDTH * (lat1 - lat2)
-	distance = (dx * dx + dy * dy) ** 0.5	
-	return distance 
+    Returns:
+        float: the distance between the given GPS points [km]
+    """
+    dx = LON_WIDTH * (lon1 - lon2)
+    dy = LAT_WIDTH * (lat1 - lat2)
+    distance = (dx * dx + dy * dy) ** 0.5	
+    return distance 
 
 
 d = calc_GPS_distance(51.2, 14.3, 51.2, 14.4)
@@ -41,25 +41,25 @@ print(d)
 
 ``` python
 def calc_GPS_distance(lat1, lon1, lat2, lon2, lat_width=111.3, lon_width=71.5):
-	"""
-	Calculates the distance between two GPS co-ordinate points.
-	The function uses a simple theorem of Pythagoras approach. 
+    """
+    Calculates the distance between two GPS co-ordinate points.
+    The function uses a simple theorem of Pythagoras approach. 
 
-	Args:
-		lat1 (float): latitude of point 1
-		lon1 (float): longitude of point 1
-		lat2 (float): latitude of point 2
-		lon2 (float): longitude of point 2
-		lat_width(float) : width for 1 degree latitude [km]
-		lon_width(float) : width for 1 degree longitude [km]
+    Args:
+        lat1 (float): latitude of point 1
+        lon1 (float): longitude of point 1
+        lat2 (float): latitude of point 2
+        lon2 (float): longitude of point 2
+        lat_width(float) : width for 1 degree latitude [km]
+        lon_width(float) : width for 1 degree longitude [km]
 
-	Returns:
-		float: the distance between the given GPS points [km]
-	"""
-	dx = lon_width * (lon1 - lon2)
-	dy = lat_width * (lat1 - lat2)
-	distance = (dx * dx + dy * dy) ** 0.5	
-	return distance 
+    Returns:
+        float: the distance between the given GPS points [km]
+    """
+    dx = lon_width * (lon1 - lon2)
+    dy = lat_width * (lat1 - lat2)
+    distance = (dx * dx + dy * dy) ** 0.5	
+    return distance 
 
 
 d = calc_GPS_distance(51.2, 14.3, 51.2, 14.4)
