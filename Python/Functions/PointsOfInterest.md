@@ -41,71 +41,71 @@ gps_points = {'Opera' : (51.054, 13.735), 'Airport' : (51.128, 13.766),
 			  'Central Station' : (51.040, 13.731), 'Blue Wonder':(51.053, 13.809)}
 
 def calculate_bearing(lat1, long1, lat2, long2):
-	"""
-	Calculates the bearing between the two given GPS points.
-	Args:
-		lat1 (float): latitude of point 1
-		lon1 (float): longitude of point 1
-		lat2 (float): latitude of point 2
-		lon2 (float): longitude of point 2
+    """
+    Calculates the bearing between the two given GPS points.
+    Args:
+        lat1 (float): latitude of point 1
+        lon1 (float): longitude of point 1
+        lat2 (float): latitude of point 2
+        lon2 (float): longitude of point 2
 
-	Returns:
-		float: the bearing between the given GPS points [°]
-	"""	
-	dLon = (long2 - long1)
-	x = math.cos(math.radians(lat2)) * math.sin(math.radians(dLon))
-	y = math.cos(math.radians(lat1)) * math.sin(math.radians(lat2)) - math.sin(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.cos(math.radians(dLon))
-	brng = numpy.arctan2(x,y)
-	brng = numpy.degrees(brng)
-	return brng
+    Returns:
+        float: the bearing between the given GPS points [°]
+    """	
+    dLon = (long2 - long1)
+    x = math.cos(math.radians(lat2)) * math.sin(math.radians(dLon))
+    y = math.cos(math.radians(lat1)) * math.sin(math.radians(lat2)) - math.sin(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.cos(math.radians(dLon))
+    brng = numpy.arctan2(x,y)
+    brng = numpy.degrees(brng)
+    return brng
 
 def calculate_distance(lat1, lon1, lat2, lon2, lat_width=111.3, lon_width=71.5):
-	"""
-	Calculates the distance between two GPS co-ordinate points.
-	The function uses a simple theorem of Pythagoras approach. 
+    """
+    Calculates the distance between two GPS co-ordinate points.
+    The function uses a simple theorem of Pythagoras approach. 
 
-	Args:
-		lat1 (float): latitude of point 1
-		lon1 (float): longitude of point 1
-		lat2 (float): latitude of point 2
-		lon2 (float): longitude of point 2
-		lat_width(float) : width for 1 degree latitude [km]
-		lon_width(float) : width for 1 degree longitude [km]
+    Args:
+        lat1 (float): latitude of point 1
+        lon1 (float): longitude of point 1
+        lat2 (float): latitude of point 2
+        lon2 (float): longitude of point 2
+        lat_width(float) : width for 1 degree latitude [km]
+        lon_width(float) : width for 1 degree longitude [km]
 
-	Returns:
-		float: the distance between the given GPS points [km]
-	"""
-	dx = lon_width * (lon1 - lon2)
-	dy = lat_width * (lat1 - lat2)
-	distance = (dx * dx + dy * dy) ** 0.5	
-	return distance 
+    Returns:
+        float: the distance between the given GPS points [km]
+    """
+    dx = lon_width * (lon1 - lon2)
+    dy = lat_width * (lat1 - lat2)
+    distance = (dx * dx + dy * dy) ** 0.5	
+    return distance 
 
 def print_locations(points):
-	"""
-	Prints a sorted list of GPS location names.
+    """
+    Prints a sorted list of GPS location names.
 
-	Args:
-		points (dictionary) : GPS locations as dictionary of name : (lat,lon)
-	"""
-	names = sorted(points.keys())
-	for name in names:
-		print(name)
+    Args:
+        points (dictionary) : GPS locations as dictionary of name : (lat,lon)
+    """
+    names = sorted(points.keys())
+    for name in names:
+        print(name)
 
 
 while True:
-	print_locations(gps_points)
-	loc1 = input('Start location: ')
-	loc2 = input('Destination location: ')
+    print_locations(gps_points)
+    loc1 = input('Start location: ')
+    loc2 = input('Destination location: ')
 
-	if loc1 in gps_points.keys() and loc2 in gps_points.keys():
-		lat1, lon1 = gps_points.get(loc1)
-		lat2, lon2 = gps_points.get(loc2)
-		dist = calculate_distance(lat1, lon1, lat2, lon2)
-		bear = calculate_bearing(lat1, lon1, lat2, lon2)
-		print('Distance [km]:',dist)
-		print('Bearing  [°] :' ,bear)
-	elif loc1 == '' or loc2 == '':
-		break
+    if loc1 in gps_points.keys() and loc2 in gps_points.keys():
+        lat1, lon1 = gps_points.get(loc1)
+        lat2, lon2 = gps_points.get(loc2)
+        dist = calculate_distance(lat1, lon1, lat2, lon2)
+        bear = calculate_bearing(lat1, lon1, lat2, lon2)
+        print('Distance [km]:',dist)
+        print('Bearing  [°] :' ,bear)
+    elif loc1 == '' or loc2 == '':
+        break
 ```
 
 ##### Previous Knowledge
