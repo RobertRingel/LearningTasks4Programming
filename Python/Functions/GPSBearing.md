@@ -11,25 +11,25 @@ import numpy
 import math
 
 def get_bearing(lat1, long1, lat2, long2):
-	"""
-	Calculates the bearing between the two given GPS points.
-	Args:
-		lat1 (float): latitude of point 1
-		lon1 (float): longitude of point 1
-		lat2 (float): latitude of point 2
-		lon2 (float): longitude of point 2
+    """
+    Calculates the bearing between the two given GPS points.
+    Args:
+        lat1 (float): latitude of point 1
+        lon1 (float): longitude of point 1
+        lat2 (float): latitude of point 2
+        lon2 (float): longitude of point 2
 
-	Returns:
-		float: the bearing between the given GPS points [°]
-	"""	
-	dLon = (long2 - long1)
-	x = math.cos(math.radians(lat2)) * math.sin(math.radians(dLon))
-	y = math.cos(math.radians(lat1)) * math.sin(math.radians(lat2)) \
-		- math.sin(math.radians(lat1)) * math.cos(math.radians(lat2)) \
-		* math.cos(math.radians(dLon))
-	brng = numpy.arctan2(x,y)
-	brng = numpy.degrees(brng)
-	return brng
+    Returns:
+        float: the bearing between the given GPS points [°]
+    """	
+    dLon = (long2 - long1)
+    x = math.cos(math.radians(lat2)) * math.sin(math.radians(dLon))
+    y = math.cos(math.radians(lat1)) * math.sin(math.radians(lat2)) \
+        - math.sin(math.radians(lat1)) * math.cos(math.radians(lat2)) \
+        * math.cos(math.radians(dLon))
+    brng = numpy.arctan2(x,y)
+    brng = numpy.degrees(brng)
+    return brng
 
 # --- main part ---
 bear = get_bearing(51.2, 14.0, 51.1, 14.1)
