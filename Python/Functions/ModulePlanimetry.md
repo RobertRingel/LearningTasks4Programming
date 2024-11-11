@@ -12,61 +12,61 @@ and the perimeter of a circle. Finally call these two circle functions from anot
 # -----------------------------------------------------------
 
 def rect_triangle_area(a,b):
-	"""
-	Calculates the area of a right-angled triangle.
+    """
+    Calculates the area of a right-angled triangle.
 
-	Args:
-		a (int or float) : length of side a
-		b (int or float) : length of side b
+    Args:
+        a (int or float) : length of side a
+        b (int or float) : length of side b
 
-	Returns:
-		int or float : the area of the triangle
-	"""
-	area = a * b / 2.0
-	return area
+    Returns:
+        int or float : the area of the triangle
+    """
+    area = a * b / 2.0
+    return area
 
 def rect_triangle_extent(a, b):
-	"""
-	Calculates the extent of a right-angled triangle.
+    """
+    Calculates the extent of a right-angled triangle.
 
-	Args:
-		a (int or float) : length of side a
-		b (int or float) : length of side b
+    Args:
+        a (int or float) : length of side a
+        b (int or float) : length of side b
 
-	Returns:
-		int or float : the extent of the triangle
-	"""
-	c = ((a*a) + (b*b))**0.5
-	ext = a + b + c
-	return ext
+    Returns:
+        int or float : the extent of the triangle
+    """
+    c = ((a*a) + (b*b))**0.5
+    ext = a + b + c
+    return ext
 
 def rectangle_area(a, b):
-	"""
-	Calculates the area of a rectangle.
+    """
+    Calculates the area of a rectangle.
 
-	Args:
-		a (int or float) : length of side a
-		b (int or float) : length of side b
+    Args:
+        a (int or float) : length of side a
+        b (int or float) : length of side b
 
-	Returns:
-		int or float : the area of the rectangle
-	"""
-	area = a * b
-	return area
+    Returns:
+        int or float : the area of the rectangle
+    """
+    area = a * b
+    return area
 
 def rectangle_extent(a, b):
-	"""
-	Calculates the extent of a rectangle.
+    """
+    Calculates the extent of a rectangle.
 
-	Args:
-		a (int or float) : length of side a
-		b (int or float) : length of side b
+    Args:
+        a (int or float) : length of side a
+        b (int or float) : length of side b
 
-	Returns:
-		int or float : the extent of the rectangle
-	"""
-	ext = 2*a + 2*b
-	return ext
+    Returns:
+        int or float : the extent of the rectangle
+    """
+    ext = 2*a + 2*b
+    return ext
 
 # --- end of module implementation ---
 
@@ -91,30 +91,30 @@ print(area_rect)
 # --- extension of the module planimetry.py
 
 def circle_area(d):
-	"""
-	Calculates the area of a circle.
+    """
+    Calculates the area of a circle.
 
-	Args:
-		d (int or float) : diameter of the circle
+    Args:
+        d (int or float) : diameter of the circle
 
-	Returns:
-		float : the area of the circle
-	"""
-	area = 3.14 * d * d / 4.0
-	return area
+    Returns:
+        float : the area of the circle
+    """
+    area = 3.14 * d * d / 4.0
+    return area
 
 def circle_perimeter(d):
-	"""
-	Calculates the perimeter of a circle.
+    """
+    Calculates the perimeter of a circle.
 
-	Args:
-		d (int or float) : diameter of the circle
+    Args:
+        d (int or float) : diameter of the circle
 
-	Returns:
-		float : the perimeter of the circle
-	"""
-	perimeter = 3.14 * d
-	return perimeter
+    Returns:
+        float : the perimeter of the circle
+    """
+    perimeter = 3.14 * d
+    return perimeter
 
 # --- Python program to perform geometric calculations ---
 import planimetry as pl
