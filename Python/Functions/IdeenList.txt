@@ -1,0 +1,477 @@
+.............. diese Codes spezifizieren / abgrenzen!!!!!!!!!!!!!!!!
+[//]: # "learning objective: 1-loop 2-branch"
+[//]: # "previous knowledge: 2-ipo 1-branch"
+.............. diese Codes spezifizieren / abgrenzen!!!!!!!!!!!!!!!!
+
+
+
+================================================================================
+
+Ideen zu Sets
+-------------
+
+
+Menge Farben - Menge Grundfarben
+
+Menge Lehrkräfte - Menge Studenten
+
+Menge der Studienabschlüsse
+
+Geldwechsel: Menge der gültigen Währungen
+
+------------------------------------------------------
+Geldwechsel-Tagesumsätze aller Währungen
+
+# --- daily currency echange balance ---
+
+exch = [('EUR','USD',450.00,500.00),('YEN','GBP',23455.54,321.43),('EUR','GBP',1234.55,994.54),('USD','EUR',342.00,432.00)]
+
+# die Menge aller Währungen in der Statistik
+curr = set()
+for r in exch:
+	src, dest, rec, spent = r
+	curr.add(src)
+	curr.add(dest)
+
+for currency in curr:
+	sum_rec = 0.0
+	sum_spent = 0.0
+
+	for r in exch:
+		src, dest, rec, spent = r	
+		if src == currency:
+			sum_rec = sum_rec + rec
+		if dest == currency:
+			sum_spent = sum_spent + spent
+	print('-----',currency,'-----')
+	print('received:',sum_rec,'currency')
+	print('spent   :',sum_spent,'currency')
+	print('total   :',sum_rec-sum_spent,'currency')
+	print()
+
+
+
+================================================================================
+
+Ideen zu Functions:
+-------------------
+
+1) printExchangeRates(rates) ... Tabelle printen
+
+exchange_rates = {'GBP-USD':2.31, 'EUR-USD':1.23, 'USD-EUR':0.85, 'GBP-EUR':2.24, 'YEN-USD':234.1}
+
+def print_rates_table(rates):
+	"""
+	Prints currency exchange rates in a simple table format.
+
+	Args:
+		rates (dict): the rates as currencies : rate
+	"""
+	keys = sorted(rates.keys())
+	for k in keys:
+		print(k,':',rates[k])
+
+print_rates_table(exchange_rates)
+
+-----------------------------------------------------------------------<<<<<<<<<
+
+2) BMI-berechnen
+
+# Calculation of the body-mass-index
+
+def calc_body_mass_index(weight, height):
+	'''
+		Calculates the body-mass-index.
+		Args:
+			weight(float): the body weight [kg]
+			height(float): the body height [m]
+		Returns:
+			float: the body-mass-index
+	'''
+	bmi = weight/height**2
+	return bmi
+
+w = float(input('Your weight [kg]:'))
+h = float(input('Your height [m]:'))
+
+bmi = calc_body_mass_index(w, h)
+print('Your bmi:',bmi)
+
+------------------------------------------------------------------------<<<<<<<<
+
+3) updateExchangeRates(rates) ... Kurse durch Tastatureingabe anpassen
+
+exchange_rates = {'GBP-USD':2.31, 'EUR-USD':1.23, 'USD-EUR':0.85, 'GBP-EUR':2.24, 'YEN-USD':234.1}
+
+def print_rates_table(rates):
+	"""
+	Prints currency exchange rates in a simple table format.
+
+	Args:
+		rates (dict): the rates as currencies : rate
+	"""
+	keys = sorted(rates.keys())
+	for k in keys:
+		print(k,':',rates[k])
+
+def update_rates(rates):
+	"""
+	Updates currency exchange rates according to user input.
+	Invalid rates will not be accepted by the update.
+
+	Args:
+		rates (dict): the rates as currencies : rate
+	"""
+	curr1 = input('From currency:')
+	curr2 = input('To currency  :')
+	key = curr1+'-'+curr2
+	rate = float(input('Rate         :'))
+	if rate < 0.0:
+		print('Invalid rate!')
+		return
+	rates[key] = rate
+	return
+	
+
+print_rates_table(exchange_rates)
+update_rates(exchange_rates)
+print_rates_table(exchange_rates)
+
+----------------------------------------------------------------------<<<<<<<<<<
+
+4) GPS-Entfernung mit Default-Parametern
+
+def calc_GPS_distance(lat1, lon1, lat2, lon2, lat_width=111.3, lon_width=71.5):
+	"""
+	Calculates the distance between two GPS co-ordinate points.
+	The function uses a simple theorem of Pythagoras approach. 
+
+	Args:
+		lat1 (float): latitude of point 1
+		lon1 (float): longitude of point 1
+		lat2 (float): latitude of point 2
+		lon2 (float): longitude of point 2
+		lat_width(float) : width for 1 degree latitude [km]
+		lon_width(float) : width for 1 degree longitude [km]
+
+	Returns:
+		float: the distance between the given GPS points [km]
+	"""
+	dx = lon_width * (lon1 - lon2)
+	dy = lat_width * (lat1 - lat2)
+	distance = (dx * dx + dy * dy) ** 0.5	
+	return distance 
+
+
+d = calc_GPS_distance(51.2, 14.3, 51.2, 14.4)
+print(d)
+
+-----------------------------------------------------------------------<<<<<<<<<
+
+5) verschiedene Aufrufvarianten für calc_GPS_distance:
+
+d = calc_GPS_distance(51.2, 14.3, 51.2, 14.4)
+print(d)
+
+d = calc_GPS_distance(51.2, 14.3, 51.2, 14.4, 121.5, 76.9)
+print(d)
+
+d = calc_GPS_distance(lat2=51.2, lon2=14.3, lat1=51.2, lon1=14.4)
+print(d)
+
+-----------------------------------------------------------------------<<<<<<<<<
+
+6) Rückgabe mehrerer Ergebniswerte calculate_circle(diameter):
+												return area, umfang
+
+
+def calculate_circle(diameter):
+	"""
+	Calculates area and perimeter of a circle.
+
+	Args:
+		diameter (float): the diameter of the circle
+
+	Returns:
+		float : the area of the circle
+		float : the perimeter of the circle
+	"""
+	area = diameter * diameter * 3.14/4.0
+	perimeter = 3.14 * diameter
+	return area, perimeter
+
+a, p = calculate_circle(10.0)
+print('Area:', a)
+print('Perimeter:', p)
+
+------------------------------------------------------------------------<<<<<<<<
+
+7) rekursive Funktion - Fakultät
+
+def factorial(n):
+	"""
+	Calculate the factorial using a recursive function call.
+
+	Args:
+		n (int) : the number to calculate the factorial
+
+	Returns:
+		int : the factorial
+	"""
+	if n == 0:
+		return 1
+	elif n == 1:
+		return n
+	else:
+		return n * factorial(n-1)
+
+
+num = 8
+fac = factorial(num)
+print('Factorial of', num, '=', fac)
+
+---------------------------------------------------------------------<<<<<<<<<<<
+
+8) GPS-Heading:
+
+import numpy
+import math
+
+def get_bearing(lat1, long1, lat2, long2):
+	"""
+	Calculates the bearing between the two given GPS points.
+	Args:
+		lat1 (float): latitude of point 1
+		lon1 (float): longitude of point 1
+		lat2 (float): latitude of point 2
+		lon2 (float): longitude of point 2
+
+	Returns:
+		float: the bearing between the given GPS points [°]
+	"""	
+	dLon = (long2 - long1)
+	x = math.cos(math.radians(lat2)) * math.sin(math.radians(dLon))
+	y = math.cos(math.radians(lat1)) * math.sin(math.radians(lat2)) - math.sin(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.cos(math.radians(dLon))
+	brng = numpy.arctan2(x,y)
+	brng = numpy.degrees(brng)
+	return brng
+
+bear = get_bearing(51.2, 14.0, 51.1, 14.0)
+print(bear,'°')
+
+-----------------------------------------------------------------------<<<<<<<<<
+
+9) Median berechnen   .... reverse task
+
+def median(values):
+	"""
+	Calculates the median of a list of numbers.
+
+	Args:
+		values (list) : a list of int or float numbers
+
+	Returns:
+		int or float : the median value
+	"""
+	med_val = None
+	srt_data = sorted(values)
+	n = len(values)
+	if n%2 == 1:               
+		med_idx = int(n/2)            
+		med_val = srt_data[med_idx]
+	else:                                       
+		m = int(n/2)-1                          
+		med_val = (srt_data[m]+srt_data[m+1])/2 
+	return med_val
+
+
+numbers = [1, 34, 7, 12, 17]
+med = median(numbers)
+print(med)
+
+numbers.pop(0)
+med = median(numbers)
+print(med)
+
+-------------------------------------------------------------------<<<<<<<<<<<<<
+
+10) Lib planimetry
+	Dreieck - Fläche, Umfang
+	Rechteck - Fläche, Umfang
+	Kreis .... selbst ergänzen
+
+	... aufrufen+testen
+
+def rect_triangle_area(a,b):
+	"""
+	Calculates the area of a right-angled triangle.
+
+	Args:
+		a (int or float) : length of side a
+		b (int or float) : length of side b
+
+	Returns:
+		int or float : the area of the triangle
+	"""
+	area = a * b / 2.0
+	return area
+
+def rect_triangle_extent(a, b):
+	"""
+	Calculates the extent of a right-angled triangle.
+
+	Args:
+		a (int or float) : length of side a
+		b (int or float) : length of side b
+
+	Returns:
+		int or float : the extent of the triangle
+	"""
+	c = ((a*a) + (b*b))**0.5
+	ext = a + b + c
+	return ext
+
+
+
+def rectangle_area(a, b):
+	"""
+	Calculates the area of a rectangle.
+
+	Args:
+		a (int or float) : length of side a
+		b (int or float) : length of side b
+
+	Returns:
+		int or float : the area of the rectangle
+	"""
+	area = a * b
+	return area
+
+def rectangle_extent(a, b):
+	"""
+	Calculates the extent of a rectangle.
+
+	Args:
+		a (int or float) : length of side a
+		b (int or float) : length of side b
+
+	Returns:
+		int or float : the extent of the rectangle
+	"""
+	ext = 2*a + 2*b
+	return ext
+
+
+import planimetry as pl
+
+a = 10
+b = 5
+
+area_triang = pl.rect_triangle_area(a,b)
+area_rect = pl.rectangle_area(a, b)
+
+print(area_triang)
+print(area_rect)
+
+--------------------------------------------------------------------<<<<<<<<<<<<
+
+11) Diagram mit Pyplot darstellen
+
+import matplotlib.pyplot as plt
+
+xpoints1 = [1, 8, 12, 17]
+ypoints1 = [3, 10, 11, 19]
+
+xpoints2 = [2, 9, 13, 18]
+ypoints2 = [3, 10, 11, 19]
+
+plt.plot(xpoints1, ypoints1, xpoints2, ypoints2)
+plt.xlabel('x-Values')
+plt.ylabel('y-Values')
+plt.title('My first chart')
+plt.show()
+
+# https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.plot.html#matplotlib.pyplot.plot
+
+# https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html
+
+-------------------------------------------------------------------<<<<<<<<<<<<<
+
+11) Komplexaufgabe: GPS-Punkte
+
+import numpy
+import math
+
+gps_points = {'Opera' : (51.054, 13.735), 'Airport' : (51.128, 13.766), 'Central Station' : (51.040, 13.731), 'Blue Wonder':(51.053, 13.809)}
+
+def calculate_bearing(lat1, long1, lat2, long2):
+	"""
+	Calculates the bearing between the two given GPS points.
+	Args:
+		lat1 (float): latitude of point 1
+		lon1 (float): longitude of point 1
+		lat2 (float): latitude of point 2
+		lon2 (float): longitude of point 2
+
+	Returns:
+		float: the bearing between the given GPS points [°]
+	"""	
+	dLon = (long2 - long1)
+	x = math.cos(math.radians(lat2)) * math.sin(math.radians(dLon))
+	y = math.cos(math.radians(lat1)) * math.sin(math.radians(lat2)) - math.sin(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.cos(math.radians(dLon))
+	brng = numpy.arctan2(x,y)
+	brng = numpy.degrees(brng)
+	return brng
+
+def calculate_distance(lat1, lon1, lat2, lon2, lat_width=111.3, lon_width=71.5):
+	"""
+	Calculates the distance between two GPS co-ordinate points.
+	The function uses a simple theorem of Pythagoras approach. 
+
+	Args:
+		lat1 (float): latitude of point 1
+		lon1 (float): longitude of point 1
+		lat2 (float): latitude of point 2
+		lon2 (float): longitude of point 2
+		lat_width(float) : width for 1 degree latitude [km]
+		lon_width(float) : width for 1 degree longitude [km]
+
+	Returns:
+		float: the distance between the given GPS points [km]
+	"""
+	dx = lon_width * (lon1 - lon2)
+	dy = lat_width * (lat1 - lat2)
+	distance = (dx * dx + dy * dy) ** 0.5	
+	return distance 
+
+def print_locations(points):
+	"""
+	Prints a sorted list of GPS location names.
+
+	Args:
+		points (dictionary) : GPS locations as dictionary of name : (lat,lon)
+	"""
+	names = sorted(points.keys())
+	for name in names:
+		print(name)
+
+
+while True:
+	print_locations(gps_points)
+	loc1 = input('Start location: ')
+	loc2 = input('Destination location: ')
+
+	if loc1 in gps_points.keys() and loc2 in gps_points.keys():
+		lat1, lon1 = gps_points.get(loc1)
+		lat2, lon2 = gps_points.get(loc2)
+		dist = calculate_distance(lat1, lon1, lat2, lon2)
+		bear = calculate_bearing(lat1, lon1, lat2, lon2)
+		print('Distance [km]:',dist)
+		print('Bearing  [°] :' ,bear)
+	elif loc1 == '' or loc2 == '':
+		break
+
+---------------------------------------------------------------------<<<<<<<<<<<
+
+... imitation task??????
+
