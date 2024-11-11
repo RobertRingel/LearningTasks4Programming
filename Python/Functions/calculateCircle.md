@@ -7,18 +7,18 @@ Finally run the programm and explain it to another student.
 
 ``` python
 def calculate_circle..... :
-	"""
-	Calculates area and perimeter of a circle.
+    """
+    Calculates area and perimeter of a circle.
 
-	Args:
-		diameter (float): the diameter of the circle
+    Args:
+        diameter (float): the diameter of the circle
 
-	Returns:
-		float : the area of the circle
-		float : the perimeter of the circle
-	"""
+    Returns:
+        float : the area of the circle
+        float : the perimeter of the circle
+    """
 
-	... implement the function ...
+    ... implement the function ...
 
 # --- main code ---	
 
@@ -35,19 +35,19 @@ def calculate_circle..... :
 
 ``` python
 def calculate_circle(diameter):
-	"""
-	Calculates area and perimeter of a circle.
+    """
+    Calculates area and perimeter of a circle.
 
-	Args:
-		diameter (float): the diameter of the circle
+    Args:
+        diameter (float): the diameter of the circle
 
-	Returns:
-		float : the area of the circle
-		float : the perimeter of the circle
-	"""
-	area = diameter * diameter * 3.14/4.0
-	perimeter = 3.14 * diameter
-	return area, perimeter
+    Returns:
+        float : the area of the circle
+        float : the perimeter of the circle
+    """
+    area = diameter * diameter * 3.14/4.0
+    perimeter = 3.14 * diameter
+    return area, perimeter
 
 # --- main code ---	
 
