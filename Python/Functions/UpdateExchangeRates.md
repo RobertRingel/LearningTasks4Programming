@@ -10,25 +10,25 @@ Explain your understanding to another student.
 exchange_rates = {'GBP-USD':1.30, 'EUR-USD':1.09, 'USD-EUR':0.91, 'GBP-EUR':1.19, 'YEN-USD':0.0066}
 
 def print_rates_table(rates):
-	"""
-	Prints currency exchange rates in a simple table format.
+    """
+    Prints currency exchange rates in a simple table format.
 
-	Args:
-		rates (dict): the rates as currencies : rate
-	"""
-	keys = sorted(rates.keys())
-	for k in keys:
-		print(k,':',rates[k])
+    Args:
+        rates (dict): the rates as currencies : rate
+    """
+    keys = sorted(rates.keys())
+    for k in keys:
+        print(k,':',rates[k])
 
 def update_rates(rates):
-	curr1 = input('From currency:')
-	curr2 = input('To currency  :')
-	key = curr1+'-'+curr2
-	rate = float(input('Rate         :'))
-	if rate < 0.0:
-		print('Invalid rate!')
-		return
-	rates[key] = rate
+    curr1 = input('From currency:')
+    curr2 = input('To currency  :')
+    key = curr1+'-'+curr2
+    rate = float(input('Rate         :'))
+    if rate < 0.0:
+        print('Invalid rate!')
+    return
+        rates[key] = rate
 
 	
 print_rates_table(exchange_rates)
@@ -45,32 +45,32 @@ print_rates_table(exchange_rates)
 exchange_rates = {'GBP-USD':1.30, 'EUR-USD':1.09, 'USD-EUR':0.91, 'GBP-EUR':1.19, 'YEN-USD':0.0066}
 
 def print_rates_table(rates):
-	"""
-	Prints currency exchange rates in a simple table format.
+    """
+    Prints currency exchange rates in a simple table format.
 
-	Args:
-		rates (dict): the rates as currencies : rate
-	"""
-	keys = sorted(rates.keys())    # get a sorted list of currencies
-	for k in keys:
-		print(k,':',rates[k])      # print currency and exchange rate
+    Args:
+        rates (dict): the rates as currencies : rate
+    """
+    keys = sorted(rates.keys())    # get a sorted list of currencies
+    for k in keys:
+        print(k,':',rates[k])      # print currency and exchange rate
 
 def update_rates(rates):
-	"""
-	Updates currency exchange rates according to user input.
-	Invalid rates will not be accepted by the update.
+    """
+    Updates currency exchange rates according to user input.
+    Invalid rates will not be accepted by the update.
 
-	Args:
-		rates (dict): the rates as currencies : rate
-	"""
-	curr1 = input('From currency:')
-	curr2 = input('To currency  :')
-	key = curr1+'-'+curr2                   # create a combined dictionary key
-	rate = float(input('Rate         :'))
-	if rate < 0.0:                          # invalid rate?
-		print('Invalid rate!')              # yes: print message
-		return                              #      end function
-	rates[key] = rate                       # update exchange rate
+    Args:
+        rates (dict): the rates as currencies : rate
+    """
+    curr1 = input('From currency:')
+    curr2 = input('To currency  :')
+    key = curr1+'-'+curr2                   # create a combined dictionary key
+    rate = float(input('Rate         :'))
+    if rate < 0.0:                          # invalid rate?
+        print('Invalid rate!')              # yes: print message
+        return                              #      end function
+    rates[key] = rate                       # update exchange rate
 	
 	
 
