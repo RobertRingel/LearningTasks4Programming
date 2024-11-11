@@ -16,15 +16,15 @@ to demonstrate its functionality.
 exchange_rates = {'GBP-USD':1.30, 'EUR-USD':1.09, 'USD-EUR':0.91, 'GBP-EUR':1.19, 'YEN-USD':0.0066}
 
 def print_rates_table(rates):
-	"""
-	Prints currency exchange rates in a simple sorted table format.
+    """
+    Prints currency exchange rates in a simple sorted table format.
 
-	Args:
-		rates (dict): the rates as currencies : rate
-	"""
-	keys = sorted(rates.keys())
-	for k in keys:
-		print(k,':',rates[k])
+        Args:
+            rates (dict): the rates as currencies : rate
+    """
+    keys = sorted(rates.keys())
+    for k in keys:
+        print(k,':',rates[k])
 
 print_rates_table(exchange_rates)
 ```
