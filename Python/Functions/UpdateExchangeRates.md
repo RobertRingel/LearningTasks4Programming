@@ -27,9 +27,9 @@ def update_rates(rates):
     rate = float(input('Rate         :'))
     if rate < 0.0:
         print('Invalid rate!')
+        return
+    rates[key] = rate
     return
-        rates[key] = rate
-
 	
 print_rates_table(exchange_rates)
 update_rates(exchange_rates)
@@ -71,7 +71,7 @@ def update_rates(rates):
         print('Invalid rate!')              # yes: print message
         return                              #      end function
     rates[key] = rate                       # update exchange rate
-	
+    return
 	
 
 print_rates_table(exchange_rates)           # show current exchange rates
