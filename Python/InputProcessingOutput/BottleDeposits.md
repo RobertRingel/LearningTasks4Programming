@@ -6,8 +6,6 @@ Read the code and run the program.
 
 Extend the code to include refund for can deposit of 25 cent per can.
 
-$sin(x) = \frac{Gegenkathete}{Hypotenuse}$
-
 ``` python
 # deposit per unit in Euro
 PLASTIC = 0.25
