@@ -5,10 +5,8 @@
 ``` python
 # Programmcode mit Bezug zur Aufgabenstellung
 
-
 ```
 
----------------------------------------
 ---------------------------------------
 
 #### Beispiellösung
@@ -34,7 +32,6 @@
 1) ...
 2) ...
 3) ...
-
 
 ##### Unterstützende Informationen
 
