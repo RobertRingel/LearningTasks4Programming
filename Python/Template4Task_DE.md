@@ -41,7 +41,7 @@
 [//]: # "Lernziel: ..."
 [//]: # "Lernbereich: ..."
 [//]: # "Aufgabenkomplexität: 1 - niedrig / 2 - normal / 3 - hoch"
-[//]: # "Aufgabentyp: worked-out example / reverse task / imitation task / non-specific goal task / completion task / conventional task"
+[//]: # "Aufgabentyp: worked-out example / reverse task / imitation task ... "
 
 Autor: ...Name und Institution...  
 Version: ...Monat/Jahr...  
