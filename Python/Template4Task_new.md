@@ -20,6 +20,8 @@ Topic: ...name a specific lecture topic...
 
 ...written answers, images, drawings or result tables for the above task...
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | ...specific learning objective of this task... | ...             | 2 - normal     |  
