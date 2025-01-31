@@ -49,7 +49,7 @@ else:
 
 | **Learning objective**                   | **Task type**   | **Complexity**           |
 | ---------------------------------------- | --------------- | ------------------------ |
-| delete data from a list data structure   | completion task | 1-low (branch, list data struc.) |  
+| delete data from a list data structure   | completion task | 1-low (branch, list data structure) |  
 
 #### Previous Knowledge
 
