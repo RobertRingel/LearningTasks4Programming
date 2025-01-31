@@ -12,9 +12,9 @@
 | [ExtendCurrenciesList](ExtendCurrenciesList.md)               | Extend currencies list                 | add data to a list data structure                    | 1 - low        | completion task        |
 | [RevTaskTodo](RevTaskTodo.md)                                 | The ToDo-list                          | basic list data structure operations                 | 1 - low        | reverse task           |
 | [WaterLevel](WaterLevel.md)                                   | Series of water level measurements     | store data in a list, perform basic list operations  | 1 - low        | worked out example     |
-| [ExistingCurrenciesCheck](ExistingCurrenciesCheck.md)         | Existing currencies check              | access list items by index                           | 2 - normal     | completion task        |
-| [RemoveCurrencyExchangeData](RemoveCurrencyExchangeData_new.md)   | Remove currency exchange data          | update data in an existing list data structure       | 2 - normal     | completion task        |
-| [UpdateCurrencyExchangeRates](UpdateCurrencyExchangeRates.md) | Update currency exchange rates         | update data in an existing list data structure       | 2 - normal     | completion task        |
+| [ExistingCurrenciesCheck](ExistingCurrenciesCheck.md)         | Existing currencies check              | access list items by index                           | 1 - low        | completion task        |
+| [RemoveCurrencyExchangeData](RemoveCurrencyExchangeData_new.md)   | Remove currency exchange data          | update data in an existing list data structure       | 1 - low     | completion task        |
+| [UpdateCurrencyExchangeRates](UpdateCurrencyExchangeRates.md) | Update currency exchange rates         | update data in an existing list data structure       | 1 - low        | completion task        |
 | [TaskList](TaskList.md)                                       | Basic task list                        | basic list data structure operations                 | 2 - normal     | conventional task      |
 | [MovingAverage](MovingAverage.md)                             | Water level moving average             | basic list operations                                | 2 - normal     | worked out example     |
 | [WaterLevel_median](WaterLevel_median.md)                     | Median water level                     | list index to access list items                      | 2 - normal     | conventional task      |
