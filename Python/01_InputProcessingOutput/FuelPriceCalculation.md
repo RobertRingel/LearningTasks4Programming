@@ -45,7 +45,7 @@ vcp-2: type conversion for numeric input
 #### Learning Activities
 
 1) read and run the Python code
-2) get an understanding of the code
+2) obtain an understanding of the code
 3) extent the code by input-statements and the propper type-conversion
 4) delete the lines with the initial variable settings
 5) run and test the extended program
@@ -62,7 +62,7 @@ Theis, T. (2017). Einstieg in Python. In Rheinwerk Computing (5., aktualisierte 
 Kapitel 2, Seiten 23-27
 
 ---------------------------------------
-[
+
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 02/2025  
 License: CC BY-SA 4.0
