@@ -56,7 +56,7 @@ vcp-2: type conversion for numeric input
 #### Learning Activities
 
 1) read and run the Python code
-2) get an understanding of the code
+2) obtain an understanding of the code
 3) extent the code by using the same coding pattern as in the given code
 4) run and test the extended program
 
