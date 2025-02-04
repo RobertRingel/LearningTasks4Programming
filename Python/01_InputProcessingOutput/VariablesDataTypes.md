@@ -2,7 +2,7 @@ Topic: variables, calculations, printing
 
 ## Learning Task: Examples for data types
 
-Read the given code samples and answer the following questions:  
+Read the 3 given code samples and answer the following questions:  
 1) What are the data types and values of the individual variables?  
    Use a table to show the results - variables shall be sorted by data type!  
    Hint: When gets the data type assigned? What causes the data type definition?  
