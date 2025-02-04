@@ -5,7 +5,7 @@
 
 | **Task Name**                                    | **Title**                         | **Learning objective**                                      | **Complexity** | **Task type**          |
 | ------------------------------------------------ | --------------------------------- | ----------------------------------------------------------- | -------------- | ---------------------- |
-| [CirclePerimeter](BasicCalculation.md)           | Calculation of a circle perimeter | understanding of variables, calculation and result printing | 1 - low        | worked out example     |
+| [CirclePerimeter](CirclePerimeter.md)            | Calculation of a circle perimeter | understanding of variables, calculation and result printing | 1 - low        | worked out example     |
 | [BasicCalculation](BasicCalculation.md)          | Basic calculation                 | understanding of variables, calculation and result printing | 1 - low        | imitation task         |
 | [WindChillCalculation](WindChillCalculation.md)  | Wind-Chill-Factor                 | understanding of variables, calculation and result printing | 1 - low        | imitation task         |  
 | [RevTask_Tax](RevTask_Tax.md)                    | Tax calculation                   | understanding of variables, calculation and result printing | 1 - low        | reverse task           |
