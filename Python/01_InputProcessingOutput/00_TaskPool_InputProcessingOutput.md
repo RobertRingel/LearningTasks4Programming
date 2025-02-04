@@ -10,9 +10,9 @@
 | [RevTask_Tax](RevTask_Tax.md)                    | Tax calculation                   | understanding of variables, calculation and result printing | 1 - low        | reverse task           |
 | [BodyMassIndex](BodyMassIndex.md)                | Calculate the Body-Mass-Index     | understanding of variables, calculation and result printing | 1 - low        | conventional task      |
 | [BottleDeposits](BottleDeposits.md)              | Refund for Bottle Deposits        | understanding of variables, calculation and result printing | 1 - low        | completion task        |
+| [VariablesDataTypes](VariablesDataTypes.md)      | Examples for data types           | understanding of basic data types and related values        | 1 - low        | worked out example     |
 | [DataTypes](DataTypes.md)                        | Examples for data types           | understanding of basic data types and related values        | 1 - low        | completion task        |
 | [FuelPriceCalculation](FuelPriceCalculation.md)  | Fuel Price Calculation            | understanding of input and numeric type conversion          | 1 - low        | completion task        |
-| [VariablesDataTypes](VariablesDataTypes.md)      | Examples for data types           | understanding of basic data types and related values        | 1 - low        | worked out example     |
 | [YourIdea](YourIdea.md)                          | Your own calculation program      | understanding of variables, calculation and result printing | 1 - low        | non-specific goal task |
 | [RevTask_Time](RevTask_Time.md)                  | Total time duration               | understanding of variables, calculation and result printing | 1 - low        | reverse task           |
 | [TotalDurationSeconds](TotalDurationSeconds.md)  | Total time duration in seconds    | understanding of variables, calculation and result printing | 1 - low        | conventional task      |
