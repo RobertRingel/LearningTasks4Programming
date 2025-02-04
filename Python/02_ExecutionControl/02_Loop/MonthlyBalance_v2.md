@@ -99,7 +99,7 @@ loop-2: while-loop including break-statement
 [tutorialspoint.com: break-Statement](https://www.tutorialspoint.com/python/python_break_statement.htm)  
 Matthes, E. (2019). Python crash course a hands-on, project-based introduction to programming (2nd edition). No Starch Press.: Chapter 7, pages 118-121
 
-[www.python-kurs.eu: Schleifen](https://python-kurs.eu/python3_schleifen.php)
+[www.python-kurs.eu: Schleifen](https://python-kurs.eu/python3_schleifen.php)  
 Theis, T. (2017). Einstieg in Python. In Rheinwerk Computing (5., aktualisierte Auflage). Rheinwerk Verlag GmbH.: Kapitel 3, Seiten 60-62
 
 ---------------------------------------
