@@ -16,7 +16,7 @@
 | [DateCheck](DateCheck.md)                           | Check the Date                        | test and branch using if-elif                                     | 1 - low        | completion task        |
 | [CurrencyExchange](CurrencyExchange.md)             | Currency exchange calculator          | test and branch using if-elif                                     | 1 - low        | completion task        |
 | [CarInspection](CarInspection.md)                   | Car Maintenance                       | test and branch using if-elif and boolean variables               | 1 - low        | completion task        |
-| [CinemaTicketPrices](CinemaTicketPrices.md)         | Cinema Ticket Price Calculation       | test and branch using if-elif and boolean variables               | 1 - low        | conventional task      |
+| [CinemaTicketPrices](CinemaTicketPrices.md)         | Cinema Ticket Price Calculation       | Test and branch using if-else including conjunction               | 1 - low        | conventional task      |
 | [TicketPriceCalculation](TicketPriceCalculation.md) | Ticket Price Calculation              | test and branch using if-else including conjunction               | 1 - low        | imitation task         |
 
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
