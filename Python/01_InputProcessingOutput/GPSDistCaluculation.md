@@ -40,7 +40,7 @@ print("Distance [km]: ",distance)
 
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
-| problem solving using basic calculation        | conventional task | 1 - low      |  
+| problem solving using basic calculation        | conventional task | 2 - normal     |  
 
 #### Previous Knowledge
 
