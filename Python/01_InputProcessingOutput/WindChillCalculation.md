@@ -56,7 +56,7 @@ print('Wind chill [°F]:', wc)
 
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
-| understanding variables, calculation and result printing | imitation task | 1 - low     |  
+| understanding variables, calculation and result printing | imitation task | 2 - normal     |  
 
 #### Previous Knowledge
 
