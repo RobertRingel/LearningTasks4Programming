@@ -8,7 +8,7 @@
 | [MinMaxNumber](MinMaxNumber.md)                  | Minimum and maximum number            | loop to repeat code sections, break a loop                        | 2 - normal     | worked out example     |
 | [FunctionCalculation](FunctionCalculation.md)    | Calculation of function values        | loop to repeat code sections                                      | 1 - low        | reverse task           |
 | [ArithmeticMean_v1](ArithmeticMean_v1.md)        | Arithmetic mean calculation           | loop to repeat code sections                                      | 1 - low        | completion task        |
-| [YourIdea](YourIdea.md)                          | Your own loop program                 | loop to repeat code sections and break to exit a loop             | 1 - low        | non-specific goal task |
+| [YourIdea](YourIdea.md)                          | Your own loop program                 | loop to repeat code sections                                      | 1 - low        | non-specific goal task |
 | [ArithmeticMean_v2](ArithmeticMean_v2.md)        | Arithmetic mean calculation           | loop to repeat code sections and break to exit a loop             | 2 - normal     | completion task        |
 | [MovingAverage](MovingAverage.md)                | Moving average calculation            | loop to repeat code sections, break a loop                        | 2 - normal     | worked out example     |
 | [MiniMarket](MiniMarket.md)                      | Mini market cash point                | loop to repeat code sections, break a loop                        | 2 - normal     | reverse task           |
