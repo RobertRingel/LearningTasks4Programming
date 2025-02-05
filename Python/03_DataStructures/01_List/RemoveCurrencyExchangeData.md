@@ -48,7 +48,7 @@ else:
 
 #### Previous Knowledge
 
-vcp-1, vcp-2: print, input, variable
+vcp-1, vcp-2: print, input, variable  
 branch-2: if-else  
 list-1, list-2: list, index access, basic list operations  
 
