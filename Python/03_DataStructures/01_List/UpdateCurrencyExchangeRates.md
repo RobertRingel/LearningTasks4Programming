@@ -39,6 +39,9 @@ if src_idx >= 0 and dest == currencies[src_idx+1]:   # check the dest. currency
 else:
 	print(src,'is not a source currency.')
 ```
+| **Learning objective**                         | **Task type**   | **Complexity** |
+| ---------------------------------------------- | --------------- | -------------- |
+| update data in a list data structure           | completion task | 2 - normal     |  
 
 #### Previous Knowledge
 
