@@ -82,7 +82,7 @@ print('total   :',sum_rec_money-sum_spent_money,'EUR')
 
 vcp-1, vcp-2: print, input, variable, calculations  
 branch-2: if including conjunction  
-list-1, list-2: for-iteration   
+list-1: for-iteration   
 tuple-1, tuple-2: list of tuples, tuple item access by index  
   
 #### Learning Activities
