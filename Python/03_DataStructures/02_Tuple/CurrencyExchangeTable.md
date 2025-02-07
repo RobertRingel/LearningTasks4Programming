@@ -1,4 +1,4 @@
-Topic: Tuple data structures
+Topic: data structures - tuple
 
 ## Learning Task: Currency exchange table
 
