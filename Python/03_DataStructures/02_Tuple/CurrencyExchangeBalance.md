@@ -63,8 +63,8 @@ print('total   :',sum_rec-sum_spent,'currency')
 
 vcp-1, vcp-2: print, input, variable, calculations  
 branch-1: simple if  
-list-1, list-2: basic list, for-iteration, list of tuples
-tuple-1: define a tuple, index access
+list-1, list-2: basic list, for-iteration  
+tuple-1: define a tuple, list of tuples, index access  
 
 #### Learning Activities
 
