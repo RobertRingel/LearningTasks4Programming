@@ -1,4 +1,4 @@
-Topic: Tuple data structures
+Topic: data structures - tuple
 
 ## Learning Task: Water level trend analysis
 
@@ -93,8 +93,8 @@ while i < n:                                              # loop over all level 
 vcp-1, vcp-2: print, input, variable  
 branch-1: simple if  
 loop-1: basic while-loop  
-list-1, list-2: list append, list index, for-iteration, list of tuples  
-tuple-2: data extraction from tuple
+list-1: list append, list index, for-iteration  
+tuple-2: list of tuples, data extraction from tuple  
 
 #### Learning Activities
 
