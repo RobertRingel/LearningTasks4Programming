@@ -29,8 +29,8 @@ Implement the program, test it and explain it to another student.
 vcp-1, vcp-2: print, input, variable  
 branch-1: simple if  
 loop-2: while-loop using break  
-list-1, list-2: list append, for-iteration, list of tuples  
-tuple-1: define a tuple, access tuple items by index  
+list-1: list append, for-iteration  
+tuple-1, tuple-2: define a tuple, access tuple items by index, list of tuples  
   
 #### Learning Activities
 
