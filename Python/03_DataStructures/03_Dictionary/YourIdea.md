@@ -22,6 +22,8 @@ Finally demonstrate your program to another student.
 
 ... potentially any Python program similar to the ones given in this section of the task pool.
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | implement a Python program that uses a dictionary | non-specific goal task | 3 - high     |  
@@ -52,5 +54,5 @@ Theis, T. (2017). Einstieg in Python. In Rheinwerk Computing (5., aktualisierte 
 
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
-Version: 20/2025  
+Version: 02/2025  
 License: CC BY-SA 4.0
