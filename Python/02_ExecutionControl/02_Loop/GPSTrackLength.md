@@ -99,6 +99,8 @@ while                                            # loop over series of track poi
 print('Track length [km]:', track)
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | loop to repeat code sections, break a loop     | conventional task | 3 - high     |  
