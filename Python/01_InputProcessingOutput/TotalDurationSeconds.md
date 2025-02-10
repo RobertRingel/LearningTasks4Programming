@@ -19,6 +19,8 @@ duration_sec = hours*3600 + minutes*60 + seconds
 print('Total duration in seconds:',duration_sec)
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | understanding of variables, calculation and result printing | conventional task | 1 - low     |  
