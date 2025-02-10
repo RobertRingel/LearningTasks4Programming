@@ -77,6 +77,8 @@ while True:
 			lendings.pop(obj_key)              # delete object in dictionary
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | practise various dictionary statements         | completion task | 3 - high       |  
