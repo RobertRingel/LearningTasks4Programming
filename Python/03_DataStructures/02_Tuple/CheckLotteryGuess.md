@@ -65,6 +65,8 @@ for number in guess:                                  # iterate all the numbers 
 print('This guess is',result)
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | definition and iteration of a tuple            | completion task | 2 - normal     |  
