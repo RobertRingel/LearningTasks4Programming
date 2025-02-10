@@ -40,6 +40,8 @@ The program can be used as a mini market cash point calculator.
 Write a Python program to be used as a mini market cash point calculator.  
 The user will enter product name, price, number of pieces and VAT for a series of products and the program will calculate the total price and the total VAT.
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | loop to repeat code sections, break a loop     | reverse task    | 2 - normal     |  
