@@ -25,6 +25,8 @@ print("f:", f, "data type:", type(f))
 print("y:", y, "data type:", type(y))
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | understanding variables, calculation and result printing | Imitation task | 1 - low    |
