@@ -68,6 +68,8 @@ while i<12:                                 # sum up the days over the months
 print('This date has',d,'days until year end.')
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | access tuple elements with help of an index    | imitation task  | 2 - normal     |  
