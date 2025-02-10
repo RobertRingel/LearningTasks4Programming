@@ -77,6 +77,8 @@ else:                            # none of the above
 		print('Get driven!')     # ... kids should not drive
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | boolean variables and branches using if-elif   | Worked-out-example | 1 - low     |  
