@@ -44,6 +44,8 @@ print('Your total refund is:', refund, 'Euro')
 
 Add-on: The program is not able to reject a negative number as invalid input. Therefore the if-statement is required as a new coding feature.
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | understanding variables, calculation and result printing | completion task | 1 - low  |
