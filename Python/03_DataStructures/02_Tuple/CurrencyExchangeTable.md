@@ -37,6 +37,8 @@ for record in currencies:
 	print(source,dest,rate)
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | extract data from tuples in just one line of code | conventional task | 2 - normal     |  
