@@ -67,6 +67,8 @@ if (year in leap_years) and mon>2:      # is it a leap year?
 print('This date represents the day number',d,'in this year.')
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | access tuple elements with help of an index    | completion task | 2 - normal     |  
