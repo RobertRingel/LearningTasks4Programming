@@ -33,6 +33,8 @@ fuel_cost = 0.01*dist * fuel_cons * price
 print('The fuel cost for this trip is:', fuel_cost)
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | understanding input and numeric type conversion | completion task | 1 - low  |
