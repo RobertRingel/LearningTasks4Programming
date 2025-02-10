@@ -58,6 +58,8 @@ print(track)                                       # print track list
 
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | definition of tuple, use list to store tuples  | conventional task | 4 - complex    |  
