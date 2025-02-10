@@ -74,9 +74,11 @@ while True:
 			print('unknown product')                      # print error message
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
-| access data stored in a dictionary             | completion task | 3 - highal     |  
+| access data stored in a dictionary             | completion task | 3 - high       |  
 
 #### Previous Knowledge
 
@@ -104,4 +106,5 @@ Theis, T. (2017). Einstieg in Python. In Rheinwerk Computing (5., aktualisierte 
 
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
-Version: 02/2025  License: CC BY-SA 4.0
+Version: 02/2025   
+License: CC BY-SA 4.0
