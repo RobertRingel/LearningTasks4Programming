@@ -49,6 +49,8 @@ for char in message.upper():      # convert message to upper case and iterate al
 print()
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | access dictionary data                         | completion task | 2 - normal     |  
