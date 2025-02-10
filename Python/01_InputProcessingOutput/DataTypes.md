@@ -40,6 +40,8 @@ name = 'Bob'       # <<<<< add your own name
 print("name:", name, " - the data type is", type(name))
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | understanding basic data types and related values | completion task | 1 - low |
