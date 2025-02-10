@@ -72,6 +72,8 @@ else:
 
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | test and branch using if-elif                  | completion task | 1 - low        |  
