@@ -55,6 +55,8 @@ print('spent   :',sum_spent,'currency')
 print('total   :',sum_rec-sum_spent,'currency')
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | access tuple data by index                     | worked-out example | 2 - normal     |  
