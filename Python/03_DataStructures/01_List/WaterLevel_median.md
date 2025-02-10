@@ -89,6 +89,8 @@ print('std. deviation:',std_dev)
 print('median value:',med_val)
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | list index to access list items                | conventional task | 3 - high     |  
