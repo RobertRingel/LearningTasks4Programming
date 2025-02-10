@@ -48,6 +48,8 @@ Q3: Have you had already some success in learning programming?
 
 The total disposition score is the sum of points for each question. The programm will print a final verbal statement related to the total score.
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | test and branch using if-else including conjunction | reverse task | 1 - low      |  
