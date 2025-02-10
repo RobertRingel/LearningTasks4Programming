@@ -84,6 +84,8 @@ while i < n:                                              # loop over all level 
 	i=i+1                                                 # increment index
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | data extraction from tuples, using list of tuples | worked-out example | 3 - high       |  
