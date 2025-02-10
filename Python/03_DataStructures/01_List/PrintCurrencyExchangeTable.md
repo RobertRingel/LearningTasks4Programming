@@ -49,6 +49,8 @@ while i<len(currencies):                                    # loop over currenci
 	i=i+3                                                   # increment index
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | print data stored in a list data structure     | completion task | 2 - normal     |  
