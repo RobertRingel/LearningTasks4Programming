@@ -41,6 +41,8 @@ else:
 Use the list index-operation to look-up the source currency index:  
 https://www.tutorialspoint.com/python/list_index.htm
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | access list items by index                     | completion task | 2 - normal     |  
