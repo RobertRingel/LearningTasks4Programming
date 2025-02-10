@@ -55,6 +55,8 @@ mean = total/i                          # calculation of arithm. mean value
 print('The arithmetic mean is:', mean)  # display the result
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | loop to repeat code sections and break to exit a loop | completion task | 2 - normal     |  
