@@ -61,6 +61,8 @@ if i>=len(material):                         # action and metal not found
 
 ![](NobleMetalPrices.png)
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | access list items by index                     | imitation task  | 2 - normal     |  
