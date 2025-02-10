@@ -42,6 +42,8 @@ elif scr_ratio >= 50:
 print('Exam mark:',mark)
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | test and branch using if-elif                  | completion task | 1 - low        |  
