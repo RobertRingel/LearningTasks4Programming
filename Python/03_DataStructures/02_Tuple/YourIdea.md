@@ -20,6 +20,8 @@ Implement the program, test it and explain it to another student.
 
 ... potentially any Python program similar to the ones given in this section of the task pool.
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | compose a tuple, read data out of a tuple      | non-specific goal task | 3 - high     |  
