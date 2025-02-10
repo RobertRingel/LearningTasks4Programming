@@ -33,6 +33,8 @@ The program is used to generate random numbers for the lottery game '1 out of 49
 Write a Python program to generate random numbers for the lottery game '1 out of 49'. The generated numbers shall be
 sorted and stored in a data structure that prevents the numbers from any change. Finally the numbers shall be printed.
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | conversion of a list to a tuple                | reverse task    | 2 - normal     |  
