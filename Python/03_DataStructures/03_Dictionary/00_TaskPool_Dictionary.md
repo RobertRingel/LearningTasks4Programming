@@ -7,8 +7,8 @@
 | ------------------------------------------------------------- | -------------------------------------- | ---------------------------------------------------- | -------------- | ---------------------- |
 | [MorseCode](MorseCode.md)                                     | Morse code translator                  | access dictionary data                               | 2 - normal     | completion task        |
 | [StudentGradings](StudentGradings.md)                         | Average student grading                | iterate a dictionary based on the keys-view          | 2 - normal     | reverse task           |
-| [CurrencyRates](CurrencyRates.md)                             | Currency rates                         | concept of a combined dictionary key                 | 3 - high       | worked-out example     |
 | [CurrencyExchangeTable](CurrencyExchangeTable.md)             | Currency exchange table                | access list data stored in a dictionary              | 2 - normal     | worked-out example     |
+| [CurrencyRates](CurrencyRates.md)                             | Currency rates                         | concept of a combined dictionary key                 | 3 - high       | worked-out example     |
 | [NobleMetalTrading](NobleMetalTrading.md)                     | Noble metal trading                    | access list data stored in a dictionary              | 3 - high       | imitation task         |
 | [LendingOverview](LendingOverview.md)                         | Lending overview                       | practise various dictionary statements               | 3 - high       | completion task        |
 | [YourIdea](YourIdea.md)                                       | Your own data storing program          | implement a Python program that uses a dictionary    | 3 - high       | non-specific goal task |
