@@ -54,6 +54,8 @@ elif ok:
 	print('no action required.')
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | test and branch using if-elif and boolean variables | completion task | 1 - low   |  
