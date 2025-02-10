@@ -27,6 +27,8 @@ The program is used to calculate and print a series of function values of a squa
 Write a Python program to calculate and print values x and y of the equation y = x²+2x+3
 The user shall enter the interval (x-start and x-end) and the step distance for the x-values.
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | loop to repeat code sections                   | reverse task    | 1 - low        |  
