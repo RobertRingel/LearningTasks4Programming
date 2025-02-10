@@ -59,6 +59,8 @@ while True:
 print('Program finished.')
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | loop to repeat code sections, break a loop     | worked-out-example | 2 - normal     |  
