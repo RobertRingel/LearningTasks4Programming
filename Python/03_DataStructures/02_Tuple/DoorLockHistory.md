@@ -60,6 +60,8 @@ for r in door_log:                        # print the locking history sequence
 
 ![](DoorLockHistory.png)  
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | compose a tuple, use a list to store tuples    | worked-out example | 3 - high     |  
