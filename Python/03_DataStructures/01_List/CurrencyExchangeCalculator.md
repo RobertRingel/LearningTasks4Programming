@@ -57,6 +57,8 @@ if i>=len(currencies):                      # currencies not found
 
 ![](CurrencyExchangeCalculator.png)
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | access list items by index                     | worked-out example | 2 - normal     |  
