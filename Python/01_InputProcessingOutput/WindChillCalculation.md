@@ -54,6 +54,8 @@ wc = OFFSET + F1*temp + F2*wind**EXP + F3*temp*wind**EXP
 print('Wind chill [°F]:', wc)
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | understanding variables, calculation and result printing | imitation task | 2 - normal     |  
