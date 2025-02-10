@@ -41,6 +41,8 @@ Read the 3 given code samples and answer the following questions:
 - input returns always a result of data type string  
 - before any numeric calculation the data type string needs to be converted to an appropriate numeric data type like int or float
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | understanding of basic data types and related values | worked out example | 1 - low |
