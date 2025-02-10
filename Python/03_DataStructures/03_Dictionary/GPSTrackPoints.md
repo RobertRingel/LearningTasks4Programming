@@ -63,6 +63,8 @@ for l in loc:
 	print(l,':',locations[l])
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | use a dictionary to store tuples               | conventional task | 4 - complex   |  
