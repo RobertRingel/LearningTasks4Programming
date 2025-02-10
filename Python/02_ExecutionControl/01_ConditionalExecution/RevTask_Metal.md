@@ -41,6 +41,8 @@ The program is used to calculate the monetary value for a given weight of Gold, 
 Write a Python program to calculate the monetary value for a given weight of Gold, Silver or Platinum.
 The user shall enter the  kind of metal and the related weight and the programm shall calculate the according value. In case of an invalid input the programm shall print a message. Otherwise it will perform the calculation and print the result.
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | test and branch using if-else including conjunction | reverse task | 1 - low      |  
