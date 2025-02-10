@@ -67,6 +67,8 @@ print('std. deviation:',std_dev)
 Answer to the question: Why is an infinite loop benefitial for this implementation?  
 Because an infinite loop allows the user to enter non-predefined number of measured values.  
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | store data in a list and usebasic list functions | worked out example | 2 - normal     |  
