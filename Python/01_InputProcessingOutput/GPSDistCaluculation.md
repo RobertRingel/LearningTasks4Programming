@@ -38,6 +38,8 @@ print("Distance [km]: ",distance)
 *More help:*  
 ![more help](GPSDistCaluculation_H2.png)
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | problem solving using basic calculation        | conventional task | 2 - normal     |  
