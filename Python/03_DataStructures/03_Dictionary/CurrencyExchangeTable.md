@@ -64,6 +64,8 @@ else:                                          # currency is listed
 
 ![](CurrencyExchangeTable.png) 
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | access list data stored in a dictionary        | worked-out example | 2 - normal     |  
