@@ -64,6 +64,8 @@ else:
 	print('The co-ordinates are outside of Germany. Calculation not possible.')
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | test and branch using if-else, use of boolean variables | completion task | 1 - low    |  
