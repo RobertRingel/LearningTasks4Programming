@@ -44,6 +44,8 @@ while True:                                    # loop to enter and process value
 print('End.')
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | basic list operations                          | worked-out example | 2 - normal     |  
