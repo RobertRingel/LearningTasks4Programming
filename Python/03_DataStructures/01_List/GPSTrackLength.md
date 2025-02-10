@@ -103,6 +103,8 @@ while       :
 print('Total distance:',length,'km')         # finally: print total track length
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | problem solving using lists and index operation | conventional task | 3 - high     | 
