@@ -28,6 +28,8 @@ while month < 12:                              # run for 12 months
 print('Outcome per year [EUR]:', total)
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | loop to repeat code sections                   | conventional task | 1 - low      |  
