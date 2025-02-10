@@ -38,6 +38,8 @@ currencies.append(rate)         # third add the exchange rate
 print(currencies)
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | add data to a list data structure              | completion task | 1 - low        |  
