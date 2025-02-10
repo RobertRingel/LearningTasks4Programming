@@ -77,6 +77,8 @@ while True:
 				todos.pop(index)                           # remove task from task list
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | definition of dictionary to store lists        | completion task | 3 - high       |  
