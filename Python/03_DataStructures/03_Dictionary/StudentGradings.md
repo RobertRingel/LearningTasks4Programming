@@ -31,6 +31,8 @@ The program is used to calculate the average student grading based on the list o
 Write a Python program to calculate the average student grading based on the list of exam marks for each student. Use a dictionary data structure to store the lecture names and the exam marks as a list related to every student's name.
 Use the following print statement to print just two decimals for the calculated average grading: print("%.2f " % avg)
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | iterate a dictionary based on the keys-view    | reverse task    | 2 - normal     |  
