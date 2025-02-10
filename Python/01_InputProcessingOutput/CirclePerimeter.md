@@ -33,6 +33,8 @@ p = pi * d    # calculation of the perimeter in variable p
 ...
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | Understanding of variables, calculation and result printing | worked out example | 1 - low     |  
