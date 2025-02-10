@@ -21,6 +21,8 @@ Implement the program, test it and explain it to another student.
 
 ... potentially any Python program similar to the ones given in this section of the task pool.
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | loop to repeat code sections                   | non-specific goal task | 1 - low |  
