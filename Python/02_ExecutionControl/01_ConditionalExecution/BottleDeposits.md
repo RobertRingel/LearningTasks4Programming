@@ -46,6 +46,8 @@ else:
 	print('Invalid user input')
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | test and branch using if-else in combination with and-conjunction | completion task | 1 - low     |  
