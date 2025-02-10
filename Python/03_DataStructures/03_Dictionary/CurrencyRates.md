@@ -64,6 +64,8 @@ while True:
 print('Bye bye.')
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | access data in dictionary, concept of combined dictionary key | worked-out example | 3 - high       |  
