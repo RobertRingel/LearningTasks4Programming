@@ -47,6 +47,8 @@ else:
 	print('Invalid input data.')
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | test and branch using if-else including conjunction | imitation task | 1 - low    |  
