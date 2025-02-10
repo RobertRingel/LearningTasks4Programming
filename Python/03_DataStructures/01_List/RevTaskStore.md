@@ -33,6 +33,8 @@ The program is used to calculate the individual store item values as well as the
 Write a Python program to calculate the value of a store. The program shall print all store items, the number of pieces, the price and the resulting value.  
 Finally the program shall print the overall store value.
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | list item access by index                      | reverse task    | 2 - normal     |  
