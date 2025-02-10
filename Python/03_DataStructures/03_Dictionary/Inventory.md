@@ -77,6 +77,8 @@ while True:
 
 ![](Inventory.png)
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | access list data stored in a dictionary        | imitation task  | 3 - high       |  
