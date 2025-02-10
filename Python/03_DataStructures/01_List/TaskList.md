@@ -31,6 +31,8 @@ while act != '0':                       # loop as long as user will do something
 print('program ended')
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | basic list data structure operations           | conventional task | 2 - normal     |  
