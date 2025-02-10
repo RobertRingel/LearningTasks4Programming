@@ -74,6 +74,8 @@ print('total   :',sum_rec_money-sum_spent_money,'EUR')
 
 ![](NobleMetalDealing.png)
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | get data out of a tuple using the index        | imitation task  | 2 - normal     |  
