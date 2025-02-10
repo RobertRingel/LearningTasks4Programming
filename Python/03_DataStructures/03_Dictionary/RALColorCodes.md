@@ -34,6 +34,8 @@ for r in ral_sort:                   # iterate all RAL codes
 	print(r, '-', ral_colors[r])     # print RAL code and color name
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | store and access data using a dictionary       | conventional task | 4 - complex  |  
