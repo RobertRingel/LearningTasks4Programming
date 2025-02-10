@@ -67,6 +67,8 @@ print('Result for date check:', date_check)
 print(message)
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | test and branch using if-elif                  | completion task | 1 - low        |  
