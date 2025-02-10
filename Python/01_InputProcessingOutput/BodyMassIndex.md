@@ -22,6 +22,8 @@ bmi = weight/height**2
 print('Your bmi:',bmi)
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | understanding variables, calculation and result printing | conventional task | 1 - low |  
