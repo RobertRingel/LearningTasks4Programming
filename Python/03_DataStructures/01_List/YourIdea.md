@@ -20,6 +20,8 @@ Implement the program, test it and explain it to another student.
 
 ... potentially any Python program similar to the ones given in this section of the task pool.
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | basic list implementation based on index       | non-specific goal task | 2 - normal     |  
