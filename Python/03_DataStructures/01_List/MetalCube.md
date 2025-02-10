@@ -62,6 +62,8 @@ while index<n:                             # loop of all list items
 print('end of programm')
 ```
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | basic list data structure operations           | worked-out example | 2 - normal     |  
