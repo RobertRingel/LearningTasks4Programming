@@ -35,6 +35,8 @@ The program is used as a task list for prioritized tasks. It can add and remove 
 *Programming task*  
 Write a Python program to implement a prioritized task list. The user shall be able to add a task to the list or to remove a task from top of the list. After such an action, the program shall print the priority-ranked list of tasks. A task is just a string representing a ToDo-note, where the first character is a digit that stands for the task's priority.
 
+---------------------------------------
+
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
 | basic list data structure operations           | reverse task    | 2 - normal     |  
