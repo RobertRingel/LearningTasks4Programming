@@ -1,4 +1,4 @@
-Topic: Functions
+Topic: functions
 
 ## Learning Task: GPS distance
 
