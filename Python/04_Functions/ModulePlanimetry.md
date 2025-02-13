@@ -132,6 +132,10 @@ print(perim_circ)
 
 ---------------------------------------
 
+| **Learning objective**                         | **Task type**   | **Complexity** |
+| ---------------------------------------------- | --------------- | -------------- |
+| write functions in a module                    | imitation task  | 1 - low        |  
+
 #### Previous Knowledge
 
 vcp-1: print, variable  
