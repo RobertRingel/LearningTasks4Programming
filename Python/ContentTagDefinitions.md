@@ -40,6 +40,45 @@
 | 2-list   | list of records, slicing, index, pop, find, insert, remove                               |
 | 3-list   | lists of lists and other objects                                                         |
 
+### Tuple data structures
+
+| **Tag**  | **related learning content**                                                             |
+| -------- | ---------------------------------------------------------------------------------------- |
+| 1-tuple  | basic tuple and operations: len, max, min, sum; for-iteration, index access              |
+| 2-tuple  | extract tuple content in one line                                                        |
+| 3-tuple  | tuple of lists and other objects                                                         |
+
+### Dictionary data structures
+
+| **Tag**  | **related learning content**                                                             |
+| -------- | ---------------------------------------------------------------------------------------- |
+| 1-dict   | define a dictionary, access values by key, store new items into dictionary               |
+| 2-dict   | get all keys, get all values, get all items, for-iteration, remove items                 |
+| 3-dict   | dictionary stores lists or tuples                                                        |
+
+### Functions
+
+| **Tag**  | **related learning content**                                                             |
+| -------- | ---------------------------------------------------------------------------------------- |
+| 1-func   | basic function definition and function calls                                             |
+| 2-func   | named arguments, default arguments, multi-return-parameters                              |
+| 3-func   | import modules, write modules, recursion, **kargs, *args                                 |
+
+### Text files
+
+| **Tag**  | **related learning content**                                                             |
+| -------- | ---------------------------------------------------------------------------------------- |
+| 1-file   | read and write text files                                                                |
+| 2-file   | read and write text files using data structures                                          |
+| 3-file   | append to file                                                                           |
+
+### Exception handling
+
+| **Tag**  | **related learning content**                                                             |
+| -------- | ---------------------------------------------------------------------------------------- |
+| 1-excp   | basic try-except-else                                                                    |
+| 2-excp   | raise exceptions                                                                         |
+| 3-excp   | handle different types of exceptions                                                     |
 
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD - University of Applied Sciences  
 Version: 02/2025         
