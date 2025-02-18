@@ -1,6 +1,6 @@
-##Tag definitions used to classify learning content
+## Tag definitions used to classify learning content
 
-###Variable, calculations, printing
+### Variable, calculations, printing
 
 | **Tag**  | **related learning content**                                          |
 | -------- | --------------------------------------------------------------------- |
