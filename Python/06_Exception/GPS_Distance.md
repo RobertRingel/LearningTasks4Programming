@@ -13,13 +13,13 @@ Demonstrate your program to an other student and explain it!
 print("*** Distance between two GPS coordinates ***")
 
 def get_coordinates():
-	lon1 = float(input("Point 1 - Longitude: "))
-	lat1 = float(input("Point 1 - Latitude : "))
+    lon1 = float(input("Point 1 - Longitude: "))
+    lat1 = float(input("Point 1 - Latitude : "))
 
-	lon2 = float(input("Point 2 - Longitude: "))
-	lat2 = float(input("Point 2 - Latitude:  "))
+    lon2 = float(input("Point 2 - Longitude: "))
+    lat2 = float(input("Point 2 - Latitude:  "))
 
-	return lat1, lon1, lat2, lon2
+    return lat1, lon1, lat2, lon2
 
 
 LON_WIDTH = 71.5     # average [km] width of 1° longitude in Germany
@@ -39,20 +39,20 @@ print("Distance [km]: ",distance)
 
 ``` python
 def get_coordinates():
-	try:                     # protect risky type conversion to float                         
-		lon1 = float(input("Point 1 - Longitude: "))
-		lat1 = float(input("Point 1 - Latitude : "))
+    try:                     # protect risky type conversion to float                         
+        lon1 = float(input("Point 1 - Longitude: "))
+        lat1 = float(input("Point 1 - Latitude : "))
 
-		lon2 = float(input("Point 2 - Longitude: "))
-		lat2 = float(input("Point 2 - Latitude:  "))
-	except:                  # catch type conversion errors
-		raise RuntimeError('Entered data is not numeric!')   # raise an exception
+        lon2 = float(input("Point 2 - Longitude: "))
+        lat2 = float(input("Point 2 - Latitude:  "))
+    except:                  # catch type conversion errors
+        raise RuntimeError('Entered data is not numeric!')   # raise an exception
 
-	# raise an exception in case the co-ordinates are not close to each other
-	if abs(lon1-lon2) > 2.0 or abs(lat1-lat2) > 2.0:
-		raise RuntimeError('Distance between GPS-points is too large to use this calculation approach')
+    # raise an exception in case the co-ordinates are not close to each other
+    if abs(lon1-lon2) > 2.0 or abs(lat1-lat2) > 2.0:
+        raise RuntimeError('Distance between GPS-points is too large to use this calculation approach')
 
-	return lat1, lon1, lat2, lon2
+    return lat1, lon1, lat2, lon2
 
 
 print("*** Distance between two GPS coordinates ***")
@@ -61,15 +61,15 @@ LON_WIDTH = 71.5     # average [km] width of 1° longitude in Germany
 LAT_WIDTH = 111.3    # average [km] width of 1° latitude in Germany
 
 try:                                            # protect risky user input
-	lat1, lon1, lat2, lon2 = get_coordinates()
+    lat1, lon1, lat2, lon2 = get_coordinates()
 except Exception as err:                        # catch error and print message
-	print('There is an error:')
-	print(err)
+    print('There is an error:')
+    print(err)
 else:
-	dx = LON_WIDTH * (lon1 - lon2)
-	dy = LAT_WIDTH * (lat1 - lat2)
-	distance = (dx * dx + dy * dy) ** 0.5
-	print("Distance [km]: ",distance)
+    dx = LON_WIDTH * (lon1 - lon2)
+    dy = LAT_WIDTH * (lat1 - lat2)
+    distance = (dx * dx + dy * dy) ** 0.5
+    print("Distance [km]: ",distance)
 ```
 
 ---------------------------------------
