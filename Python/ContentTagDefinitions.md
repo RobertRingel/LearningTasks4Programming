@@ -21,8 +21,17 @@
 | **Tag**  | **related learning content**                                          |
 | -------- | --------------------------------------------------------------------- |
 | 1-branch | basic if-statement                                                    |
-| 2-branch | noolean expression, boolean data type, conjunction, if-elif-else      |
+| 2-branch | boolean expression, boolean data type, conjunction, if-elif-else      |
 | 3-branch | nested if-statements                                                  |
+
+### Loops
+
+| **Tag**  | **related learning content**                                          |
+| -------- | --------------------------------------------------------------------- |
+| 1-loop   | basic while-loop                                                      |
+| 2-loop   | infinite loop, break                                                  |
+| 3-loop   | nested loops, continue-statement                                      |
+
 
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD - University of Applied Sciences  
 Version: 02/2025         
