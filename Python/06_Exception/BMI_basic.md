@@ -9,13 +9,13 @@ Make notes to explain the program behaviour in case of incorrect user input.
 # Calculation of the body-mass-index
 
 try:
-	weight = int(input('Your weight [kg]:'))
-	height = float(input('Your height [m]:'))
+    weight = int(input('Your weight [kg]:'))
+    height = float(input('Your height [m]:'))
 except:
-	print('Illegal input - your input was not a number')
+    print('Illegal input - your input was not a number')
 else:
-	bmi = weight/height**2
-	print('Your bmi:',bmi)
+    bmi = weight/height**2
+    print('Your bmi:',bmi)
 ```
 
 ---------------------------------------
