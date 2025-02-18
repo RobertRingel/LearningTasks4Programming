@@ -13,36 +13,36 @@ Python program for anonther use case - e.g. get and store birthday data.
 # --- program to store appointment data ---
 
 def get_appointment():
-	name = input('Name or Pupose:')
-	if name == '':                                     # valid name?
-		raise ValueError('Missing name information.')  # no: raise error
+    name = input('Name or Pupose:')
+    if name == '':                                     # valid name?
+        raise ValueError('Missing name information.')  # no: raise error
 
-	date = input('Date dd.mm.yyyy:')
-	tokens = date.split('.')
-	if len(tokens) != 3:                               # vaild date?
-		raise ValueError('Invalid date:'+date)         # no: raise error
+    date = input('Date dd.mm.yyyy:')
+    tokens = date.split('.')
+    if len(tokens) != 3:                               # vaild date?
+        raise ValueError('Invalid date:'+date)         # no: raise error
 
-	time = input('Time hh:mm:')
-	tokens = time.split(':')
-	if len(tokens) != 2:                               # vaild time?
-		raise ValueError('Invalid date:'+time)         # no: raise error
+    time = input('Time hh:mm:')
+    tokens = time.split(':')
+    if len(tokens) != 2:                               # vaild time?
+        raise ValueError('Invalid date:'+time)         # no: raise error
 
-	loc = input('Location:')
-	if loc == '':                                      # valid location?
-		raise ValueError('Missing location.')          # no: raise error
+    loc = input('Location:')
+    if loc == '':                                      # valid location?
+        raise ValueError('Missing location.')          # no: raise error
 
-	record = (name, date, time, loc)                   # create record
-	return record                                      # return record
+    record = (name, date, time, loc)                   # create record
+    return record                                      # return record
 
 appointments = []
 while len(appointments) < 3:             # get 3 Appointments
-	try:                                 # try
-		info = get_appointment()         #   ... risky function call
-	except Exception as e:               # catch potential exceptions
-		print('There was an error!')
-		print(e)
-	else:
-		appointments.append(info)        # store valid data
+    try:                                 # try
+        info = get_appointment()         #   ... risky function call
+    except Exception as e:               # catch potential exceptions
+        print('There was an error!')
+        print(e)
+    else:
+        appointments.append(info)        # store valid data
 
 print(appointments)
 ```
@@ -58,27 +58,27 @@ numeric time and date data. A professional approach would use regular expression
 # --- program to store birthday data ---
 
 def get_birthday():
-	name = input('Name:')
-	if name == '':                                     # valid name?
-		raise ValueError('Missing name information.')  # no: raise error
+    name = input('Name:')
+    if name == '':                                     # valid name?
+        raise ValueError('Missing name information.')  # no: raise error
 
-	date = input('Birthday dd.mm.yyyy:')
-	tokens = date.split('.')
-	if len(tokens) != 3:                               # vaild date?
-		raise ValueError('Invalid date:'+date)         # no: raise error
+    date = input('Birthday dd.mm.yyyy:')
+    tokens = date.split('.')
+    if len(tokens) != 3:                               # vaild date?
+        raise ValueError('Invalid date:'+date)         # no: raise error
 
-	record = (name, date)                              # create record
-	return record                                      # return record
+    record = (name, date)                              # create record
+    return record                                      # return record
 
 bdays = []
 while len(bdays) < 3:                    # get 3 birthdays
-	try:                                 # try
-		info = get_birthday()            #   ... risky function call
-	except Exception as e:               # catch potential exceptions
-		print('There was an error!')
-		print(e)
-	else:
-		bdays.append(info)               # store valid data
+    try:                                 # try
+        info = get_birthday()            #   ... risky function call
+    except Exception as e:               # catch potential exceptions
+        print('There was an error!')
+        print(e)
+    else:
+        bdays.append(info)               # store valid data
 
 print(bdays)
 ```
