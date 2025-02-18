@@ -61,7 +61,7 @@ vcp-1, vcp-2: print, input, variable
 str-1: basic string operation  
 branch-1: basic if  
 loop-2: while-break loop  
-file-1: basic file writing
+file-1: basic file writing  
 excp-1: try-except
   
 #### Learning Activities
