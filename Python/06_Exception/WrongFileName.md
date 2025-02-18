@@ -27,11 +27,11 @@ rates_file.close()                   # close text file
 file_name = 'ExchangeRateS.txt'              # the file name
 error = False                                # error state variable
 try:
-	rates_file = open(file_name, 'r')        # open file for reading
+    rates_file = open(file_name, 'r')        # open file for reading
 except Exception as e:
-	print('Error opening file:'+file_name)   # print error message
-	print(e)
-	error = True                             # set the error state
+    print('Error opening file:'+file_name)   # print error message
+    print(e)
+    error = True                             # set the error state
 
 while not error:                             # no error: read file line by line
     line = rates_file.readline()             #   read one line from the file
@@ -40,7 +40,7 @@ while not error:                             # no error: read file line by line
     print(line)                              #   print line
 
 if not error:                                # no error:
-	rates_file.close()                       #    close text file
+    rates_file.close()                       #    close text file
 ```
 
 ---------------------------------------
