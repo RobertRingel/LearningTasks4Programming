@@ -10,16 +10,16 @@ Explain your understanding to another student.
 # Calculation of the body-mass-index
 
 try:
-	weight = int(input('Your weight [kg]:'))
-	height = float(input('Your height [m]:'))
-	bmi = weight/height**2
-	if bmi < 0.0:
-		raise RunTimeError('Negative result is invalid!')
-	print('Your bmi:',bmi)
+    weight = int(input('Your weight [kg]:'))
+    height = float(input('Your height [m]:'))
+    bmi = weight/height**2
+    if bmi < 0.0:
+        raise RunTimeError('Negative result is invalid!')
+    print('Your bmi:',bmi)
 except ValueError:
-	print('Illegal input - your input was not a number')
+    print('Illegal input - your input was not a number')
 except RunTimeError as err:
-	print('Error:', err)
+    print('Error:', err)
 ```
 
 ---------------------------------------
@@ -30,16 +30,16 @@ except RunTimeError as err:
 # Calculation of the body-mass-index
 
 try:                               # begin of a risky section
-	weight = int(input('Your weight [kg]:'))
-	height = float(input('Your height [m]:'))
-	bmi = weight/height**2
-	if bmi < 0.0:                  # negative BMI -> raise error
-		raise RunTimeError('Negative result is invalid!')
-	print('Your bmi:',bmi)
+    weight = int(input('Your weight [kg]:'))
+    height = float(input('Your height [m]:'))
+    bmi = weight/height**2
+    if bmi < 0.0:                  # negative BMI -> raise error
+        raise RunTimeError('Negative result is invalid!')
+    print('Your bmi:',bmi)
 except ValueError:                 # handle ValueError caused by type conversion
-	print('Illegal input - your input was not a number')
+    print('Illegal input - your input was not a number')
 except RunTimeError as err:        # handle RuntimeError caused by negative BMI
-	print('Error:', err)
+    print('Error:', err)
 ```
 
 ---------------------------------------
