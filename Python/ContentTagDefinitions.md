@@ -32,6 +32,14 @@
 | 2-loop   | infinite loop, break                                                  |
 | 3-loop   | nested loops, continue-statement                                      |
 
+### List data structures
+
+| **Tag**  | **related learning content**                                                             |
+| -------- | ---------------------------------------------------------------------------------------- |
+| 1-list   | basic list and operations: append, sort, len, max, min, sum; for-iteration, index access |
+| 2-list   | list of records, slicing, index, pop, find, insert, remove                               |
+| 3-list   | lists of lists and other objects                                                         |
+
 
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD - University of Applied Sciences  
 Version: 02/2025         
