@@ -11,36 +11,36 @@ Add another exception to be raised in case the entered nation is not among the o
 # --- record competition data for long jump ---
 
 def get_data():
-	name = input('Name:')
-	if name == 'END':
-		return None
+    name = input('Name:')
+    if name == 'END':
+        return None
 
-	nat = input('Nation:')		
+    nat = input('Nation:')        
 
-	distance = -1.0
-	try:
-		distance = float(input('Distance [m]:'))
-	except ValueError as verr:
-		raise verr
+    distance = -1.0
+    try:
+        distance = float(input('Distance [m]:'))
+    except ValueError as verr:
+        raise verr
 
-	if distance>10.0:
-		raise ValueError('Suspicious distance value:'+str(distance))
+    if distance>10.0:
+        raise ValueError('Suspicious distance value:'+str(distance))
 
-	record = (name,distance,nat)
-	return record
+    record = (name,distance,nat)
+    return record
 
 
 results = []
 nations = ['SUI','AUS','RSA','GER','CAN','FIN']
 
 while True:
-	try:
-		record = get_data()
-		if record == None:
-			break	
-		results.append(record)
-	except Exception as err:
-		print('There was a problem:', err)
+    try:
+        record = get_data()
+        if record == None:
+            break    
+        results.append(record)
+    except Exception as err:
+        print('There was a problem:', err)
 
 print('---------------------------------------------------------------------')
 print('All the data:')
@@ -55,38 +55,38 @@ print(results)
 # --- record competition data for long jump ---
 
 def get_data():
-	name = input('Name:')
-	if name == 'END':
-		return None
+    name = input('Name:')
+    if name == 'END':
+        return None
 
-	nat = input('Nation:')		
-	if nat not in nations:			               # check for registered nation
-		raise RuntimeError('Unknown Nation:'+nat)  # trigger an error
+    nat = input('Nation:')        
+    if nat not in nations:                         # check for registered nation
+        raise RuntimeError('Unknown Nation:'+nat)  # trigger an error
 
-	distance = -1.0
-	try:                                           # cover risky type conversion
-		distance = float(input('Distance [m]:'))
-	except ValueError as verr:                     # catch the error
-		raise verr                                 # forward it to function output
+    distance = -1.0
+    try:                                           # cover risky type conversion
+        distance = float(input('Distance [m]:'))
+    except ValueError as verr:                     # catch the error
+        raise verr                                 # forward it to function output
 
-	if distance>10.0:                              # check for valid distance
-		raise ValueError('Suspicious distance value:'+str(distance)) # trigger error
+    if distance>10.0:                              # check for valid distance
+        raise ValueError('Suspicious distance value:'+str(distance)) # trigger error
 
-	record = (name,distance,nat)
-	return record
+    record = (name,distance,nat)
+    return record
 
 
 results = []
 nations = ['SUI','AUS','RSA','GER','CAN','FIN']
 
 while True:
-	try:                                           # secure data recording
-		record = get_data()
-		if record == None:
-			break	
-		results.append(record)
-	except Exception as err:                       # catch errors
-		print('There was a problem:', err)         # show error messages
+    try:                                           # secure data recording
+        record = get_data()
+        if record == None:
+            break    
+        results.append(record)
+    except Exception as err:                       # catch errors
+        print('There was a problem:', err)         # show error messages
 
 print('---------------------------------------------------------------------')
 print('All the data:')
