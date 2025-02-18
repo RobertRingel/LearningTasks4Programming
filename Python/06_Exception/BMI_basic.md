@@ -36,7 +36,7 @@ else:
 #### Previous Knowledge
 
 vcp-1, vcp-2: print, input, variable, data types  
-excp-X: xxxxxxxx
+excp-1: try-except
   
 #### Learning Activities
 
