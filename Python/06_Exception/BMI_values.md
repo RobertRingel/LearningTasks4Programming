@@ -10,7 +10,7 @@ weight = int(input('Your weight [kg]:'))
 height = float(input('Your height [m]:'))
 
 if weight < 15 or weight > 150 or height < 1.0 or height > 2.0:
-	raise ValueError('Input for weight or height is invalid to calculate the BMI')
+    raise ValueError('Input for weight or height is invalid to calculate the BMI')
 
 bmi = weight/height**2
 print('Your bmi:',bmi)
