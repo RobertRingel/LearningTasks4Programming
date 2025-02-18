@@ -13,12 +13,12 @@ DELIMITER = ','
 grades_file = open(file_name, 'w')    
 
 while True:
-	name = input('Name:')
-	if name == 'END':
-		break
-	score = input('Score:')
-	line = name + DELIMITER + score + '\n'
-	grades_file.write(line)
+    name = input('Name:')
+    if name == 'END':
+        break
+    score = input('Score:')
+    line = name + DELIMITER + score + '\n'
+    grades_file.write(line)
 
 grades_file.close()                    
 
@@ -33,21 +33,20 @@ file_name = '/media/robert/3BD1-CAA4/exam_marks.txt'              # the file nam
 DELIMITER = ','
 
 try:
+    grades_file = open(file_name, 'w')     
+    while True:
+        name = input('Name:')
+        if name == 'END':
+            break
+        score = input('Score:')
+        line = name + DELIMITER + score + '\n'
+        grades_file.write(line)
 
-	grades_file = open(file_name, 'w')     
-	while True:
-		name = input('Name:')
-		if name == 'END':
-			break
-		score = input('Score:')
-		line = name + DELIMITER + score + '\n'
-		grades_file.write(line)
-
-	grades_file.close()                   
+    grades_file.close()                   
 
 except IOError as err:
-	print('Error by file operation:',err)
-	print('The data was not stored!')
+    print('Error by file operation:',err)
+    print('The data was not stored!')
 ```
 
 ---------------------------------------
