@@ -12,12 +12,12 @@ sum_marks = 0
 n = 0
 avg = -1
 while True:
-	name = input('Name:')
-	mark = int(input('Mark (1..5):'))
-	if name=='' or mark<1 or mark>5:
-		break
-	sum_marks = sum_marks + mark
-	n = n +1
+    name = input('Name:')
+    mark = int(input('Mark (1..5):'))
+    if name=='' or mark<1 or mark>5:
+        break
+    sum_marks = sum_marks + mark
+    n = n +1
 
 # >>>> Protect these two lines by exception handling <<<<
 avg = sum_marks / n
@@ -35,18 +35,18 @@ sum_marks = 0
 n = 0
 avg = -1
 while True:
-	name = input('Name:')
-	mark = int(input('Mark (1..5):'))
-	if name=='' or mark<1 or mark>5:
-		break
-	sum_marks = sum_marks + mark
-	n = n +1
+    name = input('Name:')
+    mark = int(input('Mark (1..5):'))
+    if name=='' or mark<1 or mark>5:
+        break
+    sum_marks = sum_marks + mark
+    n = n +1
 
 try:
-	avg = sum_marks / n
-	print('Avg. grading level:',avg)
+    avg = sum_marks / n
+    print('Avg. grading level:',avg)
 except ZeroDivisionError:
-	print('Error during calculation')
+    print('Error during calculation')
 
 print('end.')
 ```
