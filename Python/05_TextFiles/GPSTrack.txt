@@ -1,0 +1,4 @@
+Airport;13.7652;51.1306
+Main Station;13.7303;51.0408
+University;13.7351;51.0372
+Blue Wonder;13.8095;51.0533
