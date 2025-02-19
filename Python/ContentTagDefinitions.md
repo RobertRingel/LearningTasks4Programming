@@ -1,5 +1,7 @@
 ## Tag definitions used to classify learning content
 
+This classification schema will be used to list required previous knowledge for the individual learning tasks.
+
 ### Variable, calculations, printing
 
 | **Tag**  | **related learning content**                                          |
