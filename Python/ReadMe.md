@@ -13,7 +13,8 @@ The content of the task pool currently covers the following topics:
 This image illustrates the inted learning sequence of the task repository:
 ![](LearningSequence.png)
 
-Each learning task has some required previous knowledge. It is listed in the task description based on the classification schema described in this files: ContentTagDefinitions.md
+Each learning task has some required previous knowledge. It is listed in the task description based on the classification schema described in this file: 
+[ContentTagDefinitions.md](ContentTagDefinitions.md) 
 
 Feel free to design more learning tasks inpired by the ones shown here. Do not hesitate to contact me in case of questions or
 contribute to this repository by sending my your learning tasks to be added to this collection.
