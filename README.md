@@ -15,7 +15,7 @@ I would like to invite you to contribute to this collection of learning tasks - 
 Do not heasitate to give me feed-back regarding this task repository or share your experiences using these tasks.
 
 Robert Ringel,  
-Dresden, October 2024  
+Dresden, February 2025  
 contact: robert.ringel@htw-dresden.de
 
 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
