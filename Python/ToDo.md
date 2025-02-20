@@ -3,7 +3,7 @@
 - add tasks for set datastructure
 - add tasks for object-oriented programming
 
-### tasks for explicit competency development
+### Tasks for explicit competency development
 
 Competency is a complex construct of conceptual understanding, procedural fluency, problem solving, 
 transfer and productive disposition. To foster its explicit development it might be beneficitial to add tasks
