@@ -4,7 +4,7 @@ to start from very basic topics towards the more and more advanced ones.
 
 The content of the task pool currently covers the following topics:
 - Input Processing Output  
-- Execution Control (Braches, Loops)
+- Execution Control (Branches, Loops)
 - Data Structures (List, Tupel, Dictionary)
 - Functions and Modules  
 - Processing text files
