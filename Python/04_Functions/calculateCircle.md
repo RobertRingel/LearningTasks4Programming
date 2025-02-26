@@ -70,7 +70,7 @@ func-1, func-2: basic function call and implementation, multiple return values
 
 #### Learning Activities
 
-1) read the given Python  function documentation
+1) read the given Python function documentation
 2) implement the function as specified in the documentation
 3) run the program in order to test it
 4) explain the program to another student
