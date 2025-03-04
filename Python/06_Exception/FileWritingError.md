@@ -1,4 +1,4 @@
-Task type: completion task
+Topic: exceptions
 
 ## Learning Task: File-Writing Error
 
