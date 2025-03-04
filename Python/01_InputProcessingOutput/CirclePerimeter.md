@@ -12,7 +12,7 @@ pi = 3.14     # ...
 p = pi * d    # ...
 print("Diameter  d:", d)
 print("Perimeter p:", p)
-print("----- Datentypen -----")
+print("----- data types -----")
 print("d: ", d, "data type:", type(d))
 print("pi:", pi, "data type:", type(pi))
 print("p :", p, "data type:", type(p))
@@ -35,9 +35,9 @@ p = pi * d    # calculation of the perimeter in variable p
 
 ---------------------------------------
 
-| **Learning objective**                         | **Task type**   | **Complexity** |
-| ---------------------------------------------- | --------------- | -------------- |
-| Understanding of variables, calculation and result printing | worked out example | 1 - low     |  
+| **Learning objective**                                             | **Task type**      | **Complexity** |
+| ------------------------------------------------------------------ | ------------------ | -------------- |
+| vcp-1: Understanding of variables, calculation and result printing | worked out example | 1 - low        |  
 
 #### Previous Knowledge
 
@@ -65,3 +65,14 @@ Kapitel 2, Seiten 23-27
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD - University of Applied Sciences  
 Version: 02/2025  
 Lizenz: CC BY-SA 4.0
+
+[//]: # "OB:vcp-1"
+[//]: # "LO:Understanding of variables, calculation and result printing"
+[//]: # "TT:worked out example"
+[//]: # "CP:1-low"
+[//]: # "PK:vcp-1 "
+[//]: # "TP:Calculation of a circle perimeter"
+[//]: # "TY:learning task"
+[//]: # "AT:Robert Ringel"
+[//]: # "LI:CC BY-SA 4.0"
+[//]: # "SU:variables, calculations, printing"
