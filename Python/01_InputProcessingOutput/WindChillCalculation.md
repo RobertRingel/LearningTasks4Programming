@@ -88,4 +88,4 @@ Kapitel 2, Seiten 23-27 und Kapitel 3, Seiten 37-39
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 02/2025  
-Lizenz: CC BY-SA 4.0
+License: CC BY-SA 4.0
