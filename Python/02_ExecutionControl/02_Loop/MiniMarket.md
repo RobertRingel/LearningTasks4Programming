@@ -13,8 +13,8 @@ sum_vat = 0.0        # total VAT
 # ---- loop to enter user data and cumulate values -----
 while True:
     name = input("Product: ")                 # enter product name as string
-    if name =="":
-        break
+    if name == "":                            # check for product name
+        break                                 # break loop if no product name is given
     
     price = float(input("Price  : "))         # enter price as float
     pcs = int(input("Pieces : "))             # enter pieces as integer
