@@ -49,7 +49,7 @@ A constructor is a special method of each Java class. It will be performed whene
 #### Previous Knowledge
 
 - variables and data types,  
-- Box 1: Example of a Java class shown in the Basic Java Poster (JavaPoster_HK_engl.pdf)  
+- Box 1: Example of a Java class shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
 #### Learning Activities
 
@@ -60,7 +60,7 @@ A constructor is a special method of each Java class. It will be performed whene
 
 #### Supporting information
 
-Basic Java-Poster: Box 1 ... Weblink
+[Basic Java Poster](00_JavaPoster_HK_engl.pdf): Box 1
 
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
