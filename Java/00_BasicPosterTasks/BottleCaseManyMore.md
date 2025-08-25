@@ -68,7 +68,7 @@ The user must be able to enter the desired number of bottle cases before the arr
 #### Previous Knowledge
 
 - variables and data types,  
-- Box 5: Conditional execution shown in the Basic Java Poster (JavaPoster_HK_engl.pdf)  
+- Box 5: Conditional execution shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
 #### Learning Activities
 
@@ -78,7 +78,7 @@ The user must be able to enter the desired number of bottle cases before the arr
 
 #### Supporting information
 
-Basic Java-Poster: Box 5 ... Weblink
+[Basic Java Poster](00_JavaPoster_HK_engl.pdf): Box 5
 
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
