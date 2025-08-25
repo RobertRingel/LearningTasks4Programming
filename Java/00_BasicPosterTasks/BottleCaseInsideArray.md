@@ -68,7 +68,7 @@ The values of cases[i] are the Java-internal references to the BottleCase-class 
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
-| understand the use of arrays                     | worked-out example | 1 - low     |  
+| understand the use of arrays                     | completion task | 1 - low     |  
 
 #### Previous Knowledge
 
