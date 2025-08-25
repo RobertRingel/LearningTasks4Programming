@@ -1,6 +1,6 @@
 ## Task Pool Basic Poster Tasks
 
-All these learning tasks are related to the content of the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
+All these learning tasks are related to the content of the [Basic Java Poster](00_JavaPoster_HK_engl.pdf). 
 
 ### Topic: basic Java programming
 
