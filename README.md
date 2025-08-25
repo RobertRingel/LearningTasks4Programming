@@ -18,6 +18,8 @@ Robert Ringel,
 Dresden, February 2025  
 contact: robert.ringel@htw-dresden.de
 
+Update august 2025: a new repository for Java learning tasks is work-in-progress
+
 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 Related literature:  
 
