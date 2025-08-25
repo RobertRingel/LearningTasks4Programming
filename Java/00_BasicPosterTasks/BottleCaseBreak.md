@@ -52,12 +52,12 @@ will perform the break-statement to exit the loop.
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
-| understand the use of a break statement          | worked-out example | 1 - low        |  
+| understand the use of a break statement          | worked-out example | 1 - low     |  
 
 #### Previous Knowledge
 
 - variables and data types,  
-- Box 4: Loops shown in the Basic Java Poster (JavaPoster_HK_engl.pdf)  
+- Box 4: Loops shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
 #### Learning Activities
 
@@ -67,8 +67,7 @@ will perform the break-statement to exit the loop.
 
 #### Supporting information
 
-Basic Java-Poster: Box 4 ... Weblink
-
+[Basic Java Poster](00_JavaPoster_HK_engl.pdf): Box 4
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 08/2025            
