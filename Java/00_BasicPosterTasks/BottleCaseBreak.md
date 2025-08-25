@@ -66,8 +66,8 @@ will perform the break-statement to exit the loop.
 3) write a brief note to explain the given loop-implementation
 
 #### Supporting information
-
 [Basic Java Poster](00_JavaPoster_HK_engl.pdf) : Box 4
+
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 08/2025            
