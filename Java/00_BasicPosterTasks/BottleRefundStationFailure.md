@@ -88,7 +88,7 @@ public class RefundStation {
 #### Previous Knowledge
 
 - variables and data types,  
-- Box 6: Make use of objects shown in the Basic Java Poster (JavaPoster_HK_engl.pdf)  
+- Box 6: Make use of objects shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
 #### Learning Activities
 
@@ -98,7 +98,7 @@ public class RefundStation {
 
 #### Supporting information
 
-Basic Java-Poster: Box 6 ... Weblink
+[Basic Java Poster](00_JavaPoster_HK_engl.pdf): Box 6 
 
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
