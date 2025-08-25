@@ -49,7 +49,7 @@ This class models a bottle case to collect bottles for refund. The case has a de
 #### Previous Knowledge
 
 - variables and data types,  
-- Box 1: Example of a Java class shown in the Basic Java Poster (JavaPoster_HK_engl.pdf)  
+- Box 1: Example of a Java class shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
 #### Learning Activities
 
@@ -60,7 +60,7 @@ This class models a bottle case to collect bottles for refund. The case has a de
 
 #### Supporting information
 
-Basic Java-Poster: Box 1 ... Weblink
+[Basic Java Poster](00_JavaPoster_HK_engl.pdf)
 
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
