@@ -45,7 +45,7 @@ The new addMore method will really add bottles to the bottle case. Because only 
 #### Previous Knowledge
 
 - variables and data types,  
-- Box 3: Conditional execution shown in the Basic Java Poster (JavaPoster_HK_engl.pdf)  
+- Box 3: Conditional execution shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
 #### Learning Activities
 
@@ -54,8 +54,7 @@ The new addMore method will really add bottles to the bottle case. Because only 
 3) write a brief explanation of the code functionality
 
 #### Supporting information
-
-Basic Java-Poster: Box 3 ... Weblink
+[Basic Java Poster](00_JavaPoster_HK_engl.pdf): Box 3 
 
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
