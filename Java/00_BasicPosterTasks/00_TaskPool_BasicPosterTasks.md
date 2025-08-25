@@ -9,11 +9,11 @@ All these learning tasks are related to the content of the [Basic Java Poster](0
 | ------------------------------------------------ | --------------------------------- | ----------------------------------------------------------- | -------------- | ---------------------- |
 | [UnderstandBottleCase](UnderstandBottleCase.md)  | Understand the BottleCase class   | describe the functionality of a basic Java class            | 1 - low        | worked out example     |
 | [UnderstandBottleCaseConstructor](UnderstandBottleCaseConstructor.md) | Understand the BottleCase constructor | describe the function of a constructor | 1 - low    | worked out example     |
-| [BottleCaseAvailCap](BottleCaseAvailCap.md)      | New method for class BottleCase   | implement a new method into a basic Java class              | 1 - low        | worked out example     |
-| [BottleCaseMain](BottleCaseMain.md)              | Extend the main-method for class BottleCase | code some basic Java statements for a class       | 1 - low        | worked out example     |
+| [BottleCaseAvailCap](BottleCaseAvailCap.md)      | New method for class BottleCase   | implement a new method into a basic Java class              | 1 - low        | completion task        |
+| [BottleCaseMain](BottleCaseMain.md)              | Extend the main-method for class BottleCase | code some basic Java statements for a class       | 1 - low        | completion task        |
 | [BottleCaseReview](BottleCaseReview.md)          | Review the BottleCase class       | read and critical review given code                         | 1 - low        | worked out example     |
 | [BottleCaseConsole](BottleCaseConsole.md)        | Understand console input          | understand console input                                    | 1 - low        | worked out example     |
-| [BottleCaseCapacity](BottleCaseCapacity.md)      | User-defined capacity limit       | code an integer console input                               | 1 - low        | worked out example     |
+| [BottleCaseCapacity](BottleCaseCapacity.md)      | User-defined capacity limit       | code an integer console input                               | 1 - low        | completion task        |
 | [BottleCaseAdd3more](BottleCaseAdd3more.md)      | Write some console inputs         | code an integer console input                               | 1 - low        | completion task        |
 | [BottleCaseIfElse](BottleCaseIfElse.md)          | Understand conditional execution  | understand the use of if-else-statements                    | 1 - low        | worked out example     |
 | [BottleCaseCapaCheck](BottleCaseCapaCheck.md)    | Implement Capacity Check          | make use of if-else-statements                              | 1 - low        | completion task        |
