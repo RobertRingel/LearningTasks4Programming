@@ -60,7 +60,7 @@ This class models a bottle case to collect bottles for refund. The case has a de
 
 #### Supporting information
 
-[Basic Java Poster](00_JavaPoster_HK_engl.pdf)
+[Basic Java Poster](00_JavaPoster_HK_engl.pdf): Box 1
 
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
