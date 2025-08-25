@@ -22,7 +22,7 @@ All these learning tasks are related to the content of the [Basic Java Poster](0
 | [BottleCaseLoopProblem](BottleCaseLoopProblem.md) | There is a problem with loop     | understand the implementation of a while-loop               | 1 - low        | worked out example     |
 | [BottleCaseBreak](BottleCaseBreak.md)            | Breaking the loop                 | understand the use of a break statement                     | 1 - low        | worked out example     |
 | [BottleCaseArray](BottleCaseArray.md)            | Use arrays to store data          | understand the use of arrays                                | 1 - low        | worked out example     |
-| [BottleCaseInsideArray](BottleCaseInsideArray.md) | Dig into the array               | understand the use of arrays                                | 1 - low        | worked out example     |
+| [BottleCaseInsideArray](BottleCaseInsideArray.md) | Dig into the array               | understand the use of arrays                                | 1 - low        | completion task        |
 | [BottleCaseManyMore](BottleCaseManyMore.md)      | Lots of Bottle Cases              | understand the declaration of arrays                        | 1 - low        | completion task        |
 | [BottleRefundDemo](BottleRefundDemo.md)          | Make Use of Objects               | understand the use and interaction of objects               | 2 - normal     | worked out example     |
 | [BottleRefundDemoObjects](BottleRefundDemoObjects.md) | Identifying Objects          | understand the use and interaction of objects               | 1 - low        | worked out example     |
