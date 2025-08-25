@@ -84,7 +84,7 @@ public class BottleCase {
 #### Previous Knowledge
 
 - variables and data types,  
-- Box 2: Console input shown in the Basic Java Poster (JavaPoster_HK_engl.pdf)  
+- Box 2: Console input shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
 #### Learning Activities
 
@@ -94,7 +94,7 @@ public class BottleCase {
 
 #### Supporting information
 
-Basic Java-Poster: Box 2 ... Weblink
+[Basic Java Poster](00_JavaPoster_HK_engl.pdf): Box 2
 
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
