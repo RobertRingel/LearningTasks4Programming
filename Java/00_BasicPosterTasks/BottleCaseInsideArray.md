@@ -73,7 +73,7 @@ The values of cases[i] are the Java-internal references to the BottleCase-class 
 #### Previous Knowledge
 
 - variables and data types,  
-- Box 5: Conditional execution shown in the Basic Java Poster (JavaPoster_HK_engl.pdf)  
+- Box 5: Conditional execution shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
 #### Learning Activities
 
@@ -83,7 +83,7 @@ The values of cases[i] are the Java-internal references to the BottleCase-class 
 
 #### Supporting information
 
-Basic Java-Poster: Box 5 ... Weblink
+[Basic Java Poster](00_JavaPoster_HK_engl.pdf): Box 5 
 
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
