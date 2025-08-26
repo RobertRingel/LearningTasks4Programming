@@ -67,7 +67,7 @@ The checkAmount method is private, because it is a kind of class internal servic
 
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
-| classes are used to encapsulate data, modifieres are used to control access | worked-out example | 1 - low |  
+| classes encapsulate data, modifiers control access | worked-out example | 1 - low |  
 
 #### Previous Knowledge
 
@@ -76,20 +76,15 @@ bcm-1: basics of classes, public/private modifieres
 #### Learning Activities
 
 1) read the Java code
-2) understand the different methods
+2) understand the different attributes and methods
 3) describe the functionality of the class
-4) answer the two questions
+4) write brief answers to the questions
 
 #### Supporting information
 
 Java-OOP-Poster: Box 1, 2
 
 [tutorialspoint.com: Java - Classes and Objects](https://www.tutorialspoint.com/java/java_object_classes.htm)  
-
-ToDo: Matthes, E. (2019). Python crash course a hands-on, project-based introduction to programming (2nd edition). No Starch Press.:  
-Chapter 2, pages 15-32, Chapter 7, pages 114-116  
-
-
 
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
