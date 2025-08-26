@@ -70,8 +70,10 @@ import java.lang.Math;
 
 public class Account {
     
-    // limit can only be set once e.g. in the constructor
+    // final: limit can only be set once e.g. in the constructor
     private final double limit;  
+
+...
 
 public static void main(String[] args) {
         Account a = new Account("Robert", "123-R");
@@ -105,7 +107,7 @@ bcm-1: basics of classes, static modifier
 1) read the Java code
 2) understand the different methods
 3) implement an instance of the class
-4) run the code and review it for potential problem
+4) run the code and review it for potential problems
 5) implement and test a static modifier
 
 #### Supporting information
@@ -113,10 +115,6 @@ bcm-1: basics of classes, static modifier
 Java-OOP-Poster: Box 1, 2
 
 [tutorialspoint.com: Java - Classes and Objects](https://www.tutorialspoint.com/java/java_object_classes.htm)  
-
-ToDo: Matthes, E. (2019). Python crash course a hands-on, project-based introduction to programming (2nd edition). No Starch Press.:  
-Chapter 2, pages 15-32, Chapter 7, pages 114-116  
-
 
 
 ---------------------------------------
