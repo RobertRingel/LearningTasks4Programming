@@ -82,7 +82,7 @@ bcm-1: basics of classes, public/private modifieres
 
 #### Supporting information
 
-[Java-OOP-Poster](../JavaPosterOOP_engl.pdf):: Box 1, 2
+[Java-OOP-Poster](../JavaPosterOOP_engl.pdf): Box 1, 2
 
 [tutorialspoint.com: Java - Classes and Objects](https://www.tutorialspoint.com/java/java_object_classes.htm)  
 
