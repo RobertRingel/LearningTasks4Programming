@@ -99,7 +99,7 @@ public class Voucher {
 
 #### Previous Knowledge
 
-bcm-1: basics of classes, static modifier  
+bcm-1: basics of classes and modifiers  
 
 #### Learning Activities
 
