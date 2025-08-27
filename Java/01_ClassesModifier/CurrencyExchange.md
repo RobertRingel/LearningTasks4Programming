@@ -86,7 +86,7 @@ bcm-1: basics of classes and modifiers
 #### Learning Activities
 
 1) understand the task
-2) develop an idea to solve the task - identify class name, attributs, methods
+2) develop an idea to solve the task - identify class name, attributes, methods
 3) implement the class in Java code
 4) implement the main-method to test the class
 5) run the code and test it
