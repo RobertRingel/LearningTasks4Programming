@@ -5,7 +5,7 @@ Topic: classes, modifiers
 The code below represents the basic implementation of a voucher class. However the code is incomplete. All modifiers are missing. Add all modifiers to complete the Java code to make it runnable. Argument your decision for the choosen modifiers by comments in the code.
 
 ``` java
-package org.htwd;
+package org.htwd.pool.o1;
 
 public class Voucher {
     double DEFAULT_VALUE = 100.0;
@@ -47,7 +47,7 @@ public class Voucher {
 ### Solution
 
 ``` java
-package org.htwd;
+package org.htwd.pool.o1;
 
 public class Voucher {
     // a constant class variable visible inside the package
