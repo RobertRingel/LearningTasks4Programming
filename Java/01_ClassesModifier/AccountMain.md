@@ -108,7 +108,7 @@ bcm-1: basics of classes, static modifier
 2) understand the different methods
 3) implement an instance of the class
 4) run the code and review it for potential problems
-5) implement and test a static modifier
+5) implement and test the static main method
 
 #### Supporting information
 
