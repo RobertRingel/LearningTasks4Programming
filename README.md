@@ -6,7 +6,7 @@ This task repository aims the following goals:
 - source of inspiration to other teachers for designing own learning tasks
 - pool of ready to use learning tasks for Python beginners classes
 - source of samples for the six basic programming task typs proposed by Merriënboer and Kirschner (2018, p. 72)
-- sharpen the sense for potential learning activities in learning programming (there is much more then wrting code)
+- sharpen the sense for potential learning activities in learning programming (there is much more then *wrting* code)
 - providing a range of potential real live topics to learn basic programming (there is much more then classic math tasks)
 - example for the design and documentation of learning tasks
 
@@ -18,7 +18,9 @@ Robert Ringel,
 Dresden, February 2025  
 contact: robert.ringel@htw-dresden.de
 
-Update august 2025: a new repository for Java learning tasks is work-in-progress
+Update August 2025: 
+- German paper related to this task repository was published by Hochschuldidaktik Sachsen:[Lernaufgaben digital dokumentieren, sammeln und veröffentlichen ](https://jfhead.publia.org/jfhead/article/view/74/70)
+- started working on a new repository for Java learning tasks 
 
 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 Related literature:  
@@ -31,5 +33,6 @@ Ringel, R. (2024a). Jupyter Notebook – Einsatz als digitale Lehr-Lern-Umgebung
 
 Ringel, R. (2024b). Entwicklung und Evaluierung eines Rahmenkonzepts zum Programmierenlernen an Hochschulen, Dissertationsschrift, https://nbn-resolving.org/urn:nbn:de:bsz:520-qucosa2-933983
 
-Stephenson, B. (2014). The Python workbook a brief introduction with exercises and solutions. In Computer science. Springer. 
+Ringel, R. (2025). Lernaufgaben digital dokumentieren, sammeln und veröffentlichen. Perspektiven auf Lehre. Journal for Higher Education and Academic Development, 4(1), 27-36.DOI: 10.55310/jfhead.74
 
+Stephenson, B. (2014). The Python workbook a brief introduction with exercises and solutions. In Computer science. Springer. 
