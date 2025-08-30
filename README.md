@@ -19,7 +19,7 @@ Dresden, February 2025
 contact: robert.ringel@htw-dresden.de
 
 Update August 2025: 
-- German paper related to this task repository was published by Hochschuldidaktik Sachsen:[Lernaufgaben digital dokumentieren, sammeln und veröffentlichen ](https://jfhead.publia.org/jfhead/article/view/74/70)
+- German paper related to this task repository was published by Hochschuldidaktik Sachsen: [Lernaufgaben digital dokumentieren, sammeln und veröffentlichen ](https://jfhead.publia.org/jfhead/article/view/74/70)
 - started working on a new repository for Java learning tasks 
 
 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
@@ -33,6 +33,6 @@ Ringel, R. (2024a). Jupyter Notebook – Einsatz als digitale Lehr-Lern-Umgebung
 
 Ringel, R. (2024b). Entwicklung und Evaluierung eines Rahmenkonzepts zum Programmierenlernen an Hochschulen, Dissertationsschrift, https://nbn-resolving.org/urn:nbn:de:bsz:520-qucosa2-933983
 
-Ringel, R. (2025). Lernaufgaben digital dokumentieren, sammeln und veröffentlichen. Perspektiven auf Lehre. Journal for Higher Education and Academic Development, 4(1), 27-36.[DOI: 10.55310/jfhead.74](https://jfhead.publia.org/jfhead/article/view/74/70)
+Ringel, R. (2025). Lernaufgaben digital dokumentieren, sammeln und veröffentlichen. Perspektiven auf Lehre. Journal for Higher Education and Academic Development, 4(1), 27-36.[doi:10.55310/jfhead.74](https://jfhead.publia.org/jfhead/article/view/74/70)
 
 Stephenson, B. (2014). The Python workbook a brief introduction with exercises and solutions. In Computer science. Springer. 
