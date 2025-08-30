@@ -73,6 +73,7 @@ public class CurrencyExchange {
         ce.setRate(-170.01);
         System.out.println(ce);
     }
+}
 ```
 
 | **Learning objective**                         | **Task type**     | **Complexity** |
