@@ -29,10 +29,10 @@ Astleitner, H. (2006). Aufgaben-Sets und Lernen. Instruktionspsychologische Grun
 
 Merriënboer, J. & Kirschner, P. A. (2018). Ten steps to complex learning a systematic approach to four-component instructional design (3. Auflage). New York, Routledge, Taylor & Francis Group.
 
-Ringel, R. (2024a). Jupyter Notebook – Einsatz als digitale Lehr-Lern-Umgebung für aufgabenbasiertes Lernen am Beispiel eines Programmierkurses. Perspektiven auf Lehre. Journal for Higher Education and Academic Development, 1–12. doi:10.55310/jfhead.45
+Ringel, R. (2024a). Jupyter Notebook – Einsatz als digitale Lehr-Lern-Umgebung für aufgabenbasiertes Lernen am Beispiel eines Programmierkurses. Perspektiven auf Lehre. Journal for Higher Education and Academic Development, 1–12. [doi:10.55310/jfhead.45](https://jfhead.publia.org/jfhead/article/view/45/52)
 
 Ringel, R. (2024b). Entwicklung und Evaluierung eines Rahmenkonzepts zum Programmierenlernen an Hochschulen, Dissertationsschrift, https://nbn-resolving.org/urn:nbn:de:bsz:520-qucosa2-933983
 
-Ringel, R. (2025). Lernaufgaben digital dokumentieren, sammeln und veröffentlichen. Perspektiven auf Lehre. Journal for Higher Education and Academic Development, 4(1), 27-36.DOI: 10.55310/jfhead.74
+Ringel, R. (2025). Lernaufgaben digital dokumentieren, sammeln und veröffentlichen. Perspektiven auf Lehre. Journal for Higher Education and Academic Development, 4(1), 27-36.[DOI: 10.55310/jfhead.74](https://jfhead.publia.org/jfhead/article/view/74/70)
 
 Stephenson, B. (2014). The Python workbook a brief introduction with exercises and solutions. In Computer science. Springer. 
