@@ -78,22 +78,22 @@ package org.htwd.pool.o1;
 
 public class CinemaVoucher {
     public static final String COMPANY = "Cinemas United International Ltd.";
-    private double Value;
+    private double value;
 
     public static final double SPECIAL_PRICE = 5.0;
     public static final double STD_SEAT_PRICE = 7.0;
 
     public CinemaVoucher(double value){
-        this.Value = value;
+        this.value = value;
     }
 
     public double getValue() {
-        return this.Value;
+        return this.value;
     }
 
     public void paySpecialPrice() {
-        if (this.Value >= CinemaVoucher.SPECIAL_PRICE)
-            this.Value = this.Value - CinemaVoucher.SPECIAL_PRICE;
+        if (this.value >= CinemaVoucher.SPECIAL_PRICE)
+            this.value = this.value - CinemaVoucher.SPECIAL_PRICE;
         else {
             System.out.println("There is not enough money on the voucher");
             System.out.println(this.toString());
@@ -101,8 +101,8 @@ public class CinemaVoucher {
     }
 
     public void payStandardPrice() {
-        if (this.Value >= CinemaVoucher.STD_SEAT_PRICE)
-            this.Value = this.Value - CinemaVoucher.STD_SEAT_PRICE;
+        if (this.value >= CinemaVoucher.STD_SEAT_PRICE)
+            this.value = this.value - CinemaVoucher.STD_SEAT_PRICE;
         else {
             System.out.println("There is not enough money on the voucher");
             System.out.println(this.toString());
@@ -112,7 +112,7 @@ public class CinemaVoucher {
     public String toString() {
         StringBuilder sb = new StringBuilder(CinemaVoucher.COMPANY);
         sb.append(" : ");
-        sb.append(this.Value);
+        sb.append(this.value);
         sb.append(" EUR");
         return sb.toString();
     }
@@ -139,7 +139,7 @@ bcm-1: basics of classes and modifiers
 2) get an idea for the adaptation towards a similar cinema voucher
 3) implement the program
 4) run and test the new program
-5) compare the solution with an other student
+5) compare the solution with another student
 
 #### Supporting information
 
