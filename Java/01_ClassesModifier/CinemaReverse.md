@@ -64,7 +64,7 @@ public class CinemaVoucher {
 This class models a very basic and straightforward cinema voucher.
 The appropriate programming task might be formulated as:
 
-Implemeent a Java class to model a basic cinema voucher. The primary attribute is the value of the voucher, that will be defined by the constructor. There shall be a class attribute to store the company name that issues these vouchers. The voucher shall be used to pay a  ticket for a standard seat price or a special price. It shall be possible to get the current remaining value of the voucher and to get a string information of the voucher.
+Implement a Java class to model a basic cinema voucher. The primary attribute is the value of the voucher, that will be defined by the constructor. There shall be a class attribute to store the company name that issues these vouchers. The voucher shall be used to pay a  ticket for a standard seat price or a special price. It shall be possible to get the current remaining value of the voucher and to get a string information of the voucher.
 Implement the appropriate methods and a main-method to demonstrate the class usage.
 
 | **Learning objective**                         | **Task type**     | **Complexity** |
