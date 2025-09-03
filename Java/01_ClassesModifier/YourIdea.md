@@ -30,7 +30,7 @@ bcm-1: basics of classes and modifiers
 
 #### Learning Activities
 
-1) thinking of potential useful class
+1) thinking of a potential useful class
 2) writing and running Java code
 3) explaining Java code to other people
 
