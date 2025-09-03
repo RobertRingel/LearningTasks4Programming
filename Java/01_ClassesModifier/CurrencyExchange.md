@@ -10,7 +10,7 @@ Implement the class and test it with help of a main-method.
 
 ### Solution
 
-The basis idea to solve this task states:  
+The basic idea to solve this task is:  
 **Class name:**  
 CurrencyExchange  
 
