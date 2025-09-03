@@ -1,6 +1,6 @@
 Topic: classes, modifiers
 
-## Learning Task: Understand the Account class
+## Learning Task: Extend the Account class
 
 The Java code below implements a basic bank account. Add the following features to the code.  
 - BIC (Bank Identifier Code) as a constant class attribute  
