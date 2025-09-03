@@ -36,7 +36,7 @@ public class TicketGenerator {
 
 ### Solution
 
-The TicketGenerator is used to simulate the generation of unique strings that may serve as event tickets. The class constructor takes a string that names the event that tickets are made for. The class has an internal counter to count the number of generated tickets. The getTicket-method generates a string that contains the event name and the ticket number as well as the name of the company that created the ticket.
+The TicketGenerator is used to simulate the generation of unique strings that may serve as event tickets. The class constructor takes a string that names the event the tickets are made for. The class has an internal counter to count the number of generated tickets. The getTicket-method generates a string that contains the event name and the ticket number as well as the name of the company that created the ticket.
 
 The sample implementation of a main-method is shown below - as well as argumentation of the attribute modifiers.
 
