@@ -4,7 +4,7 @@ Topic: classes, modifiers
 
 Implement a Java class to model currency exchange. The class shall be dedicated to a pair of a home currency and a foreign currency. It shall hold a price for buying the foreign currency and a price for selling it. These two prices shall be updated by appropriate methods. A toString-method is also required as well as a main-method to demonstrate the features of this class.
 
-Compare your implementation with an other student and may be with the sample solution.
+Compare your implementation with another student and may be with the sample solution.
 
 ---------------------------------------
 
@@ -15,48 +15,48 @@ package org.htwd.pool.o1;
 
 public class CurrencyExchange {
 
-    private final String HomeCurrency;
-    private final String ForeignCurrency;
-    private double BuyRate;
-    private double SellRate;
+    private final String homeCurrency;
+    private final String foreignCurrency;
+    private double buyRate;
+    private double sellRate;
 
     public CurrencyExchange(String home, String foreign, double buy, double sell) {
-        this.HomeCurrency = home;
-        this.ForeignCurrency = foreign;
-        this.BuyRate = buy;
-        this.SellRate = sell;
+        this.homeCurrency = home;
+        this.foreignCurrency = foreign;
+        this.buyRate = buy;
+        this.sellRate = sell;
     }
 
     public double buyForeign(double amount) {
-        return this.BuyRate * amount;
+        return this.buyRate * amount;
     }
 
     public double sellForeign(double amount) {
-        return this.SellRate * amount;
+        return this.sellRate * amount;
     }
 
     public boolean setBuyRate(double r) {
         if (r <= 0.0)
             return false;
-        this.BuyRate = r;
+        this.buyRate = r;
         return true;
     }
 
     public boolean setSellRate(double r) {
         if (r <= 0.0)
             return false;
-        this.SellRate = r;
+        this.sellRate = r;
         return true;
     }
 
     public String toString() {
-        StringBuilder sb = new StringBuilder(this.HomeCurrency);
+        StringBuilder sb = new StringBuilder(this.homeCurrency);
         sb.append(" > ");
-        sb.append(this.ForeignCurrency);
+        sb.append(this.foreignCurrency);
         sb.append(": buy: ");
-        sb.append(this.BuyRate);
+        sb.append(this.buyRate);
         sb.append(": sell: ");
-        sb.append(this.SellRate);
+        sb.append(this.sellRate);
         return sb.toString();
     }
 
@@ -73,7 +73,7 @@ public class CurrencyExchange {
 
 | **Learning objective**                         | **Task type**     | **Complexity** |
 | ---------------------------------------------- | ----------------- | -------------- |
-| classes encapsulate data, modifiers control access | conventional task | 1 - low       |  
+| design, implement, test a basic Java class     | conventional task | 1 - low        |  
 
 #### Previous Knowledge
 
@@ -85,7 +85,7 @@ bcm-1: basics of classes and modifiers
 2) identify class attributes and class methods
 3) implement the class including main-mathod
 4) run and test the program
-5) compare the solution with an other student and may be with the sample solution
+5) compare the solution with another student and may be with the sample solution
 
 #### Supporting information
 
