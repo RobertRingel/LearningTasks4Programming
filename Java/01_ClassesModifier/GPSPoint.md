@@ -2,7 +2,7 @@ Topic: classes, modifiers
 
 ## Learning Task: GPS distance calculation
 
-The Java code below models a GPS point located in Germany. Read the code and understand it. Implement the calculateDistance-method to calculate the distance to an other nearby GPS point based on the theorem of Pythagoras. Print a warning, in case the calculated distance violated the defined warning limit. Return -1.0 and print an error message in case one of the GPS points is not located in Germany.
+The Java code below models a GPS point located in Germany. Read the code and understand it. Implement the calculateDistance-method to calculate the distance to an other nearby GPS point based on the theorem of Pythagoras. Print a warning, in case the calculated distance violates the defined warning limit. Return -1.0 and print an error message in case one of the GPS points is not located in Germany.
 
 Test your implementation by writing an appropriate main-method.
 
