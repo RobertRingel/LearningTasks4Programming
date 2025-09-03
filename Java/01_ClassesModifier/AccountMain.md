@@ -89,7 +89,7 @@ public static void main(String[] args) {
 }
 ```
 
-Declare the limit-attribute final, will make it unchangeable after the initial value is set in the constructor.
+Declare the limit-attribute final, will make it unchangeable after the initial value is set within the constructor.
 
 Problem in this implementation: double number accuracy is not usable for finacial tasks. BigDecimal instead of double would be used in professional financial programms.
 
