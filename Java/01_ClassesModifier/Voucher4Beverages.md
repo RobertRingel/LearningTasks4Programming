@@ -8,7 +8,7 @@ Implement a Java class for voucher of your own to be used for buying beverages l
 
 ### Solution
 
-The solution should be a basic Java class. Foucus is on basic class features like attribute, methods and modifiers.
+The solution should be a basic Java class. Focus is on basic class features like attribute, methods and modifiers.
 
 The following Java program shows a potential demo solution as inspiration.
 
