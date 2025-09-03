@@ -77,7 +77,7 @@ The sample solution shown here is very similar to the class "VoucherBeverages". 
 package org.htwd.pool.o1;
 
 public class CinemaVoucher {
-    public static final String COMPANY = "Cinemas United Internation Ltd.";
+    public static final String COMPANY = "Cinemas United International Ltd.";
     private double Value;
 
     public static final double SPECIAL_PRICE = 5.0;
@@ -136,7 +136,7 @@ bcm-1: basics of classes and modifiers
 #### Learning Activities
 
 1) get an understanding of the problem
-2) get an idea for the adaptation toward a similar cinema voucher
+2) get an idea for the adaptation towards a similar cinema voucher
 3) implement the program
 4) run and test the new program
 5) compare the solution with an other student
