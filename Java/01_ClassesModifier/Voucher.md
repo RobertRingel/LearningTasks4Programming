@@ -53,7 +53,7 @@ public class Voucher {
     // a constant class variable visible inside the package
     static protected final double DEFAULT_VALUE = 100.0;
     
-    // class internal an unchangable
+    // class internal and unchangable
     private final String ID;
     
     // class internal but changable
