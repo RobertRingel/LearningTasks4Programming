@@ -58,22 +58,12 @@ public class CinemaVoucher extends Voucher {
         super(name);
     }
 
-    public void reload20() { // implementieren
-        this.addMoney(20.0);
-    }
-
     public boolean buySpecialTicket() {
         return this.consume(CinemaVoucher.SPECIAL_PRICE);
     }
 
     public boolean buyStandardTicket() {
         return this.consume(CinemaVoucher.STD_PRICE);
-    }
-
-    public String toString() { // implementieren
-        StringBuilder sb = new StringBuilder("CinemaVoucher: ");
-        sb.append(super.toString());
-        return sb.toString();
     }
 
 }
