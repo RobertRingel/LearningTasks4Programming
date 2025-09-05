@@ -133,7 +133,7 @@ exi-1: basics of class extension
 
 #### Supporting information
 
-Java-OOP-Poster: Box 3
+[Java-OOP-Poster](../JavaPosterOOP_engl.pdf): Box 3
 
 [tutorialspoint.com: Java - Inheritance](https://www.tutorialspoint.com/java/java_inheritance.htm)  
 
