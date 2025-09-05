@@ -77,7 +77,7 @@ Given is the source code of the GPSPoint-class. Develop a class named "GPSLocati
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
-| apply basic features of inheritance in Java      | reverse task  | 1 - low        |
+| understand basic features of inheritance in Java | reverse task    | 1 - low        |
 
 #### Previous Knowledge
 
@@ -92,7 +92,7 @@ exi-1: basics of class extension
 
 #### Supporting information
 
-Java-OOP-Poster: Box 3
+[Java-OOP-Poster](../JavaPosterOOP_engl.pdf): Box 3
 
 [tutorialspoint.com: Java - Inheritance](https://www.tutorialspoint.com/java/java_inheritance.htm)  
 
