@@ -2,7 +2,7 @@ Topic: extension, interface
 
 ## Learning Task: A GPS location point
 
-The code below shows two Java classes. The firt class GPSPoint was given - the second class GPSLocation was to be developed. Read and run the code to obtain an understanding. 
+The code below shows two Java classes. The first class GPSPoint was given - the second class GPSLocation shall be developed. Read and run the code to obtain an understanding. 
 
 Write the text of a programming task that requests to develop the class GPSPoint.
 
@@ -73,7 +73,7 @@ public class GPSLocation extends GPSPoint {
 
 The text of the programming task:
 
-Given is the source code of the GPSPoint-class. Develop a class named "GPSLocation" as extension of the GPSPoint-class. The new class shall contain an attribute to name the location. This attribute shall be unchangable after it was set be the constructor. A toString-method is also requested for the new class. Its implementation shall use the super.toString-method and it shall also provide the location name. Code a very short main-method to demonmstrate the class GPSLocation.
+Given is the source code of the GPSPoint-class. Develop a class named "GPSLocation" as extension of the GPSPoint-class. The new class shall contain an attribute to name the location. This attribute shall be unchangable after it was set by the constructor. A toString-method is also requested for the new class. Its implementation shall use the super.toString-method and it shall also provide the location name. Code a very short main-method to demonstrate the class GPSLocation.
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
