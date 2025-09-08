@@ -73,29 +73,7 @@ package org.htwd.pool.o2;
 
 public class GPSTrackPoint implements Trackable {
 
-    private double latitude;
-    private double longitude;
-
-    public GPSTrackPoint(double lat, double lon) {
-        this.update(lat, lon);
-    }
-
-    public boolean update(double lat, double lon) {
-        if (lat >= -90.0 && lat<= 90.0 && lon>=-180.0 && lon<=180.0) {
-            this.latitude = lat;
-            this.longitude = lon;
-            return true;
-        }
-        return false;
-    }
-
-    public String toString() {
-        StringBuilder sb = new StringBuilder("Lat:");
-        sb.append(this.latitude);
-        sb.append(" : Lon:");
-        sb.append(this.longitude);
-        return sb.toString();
-    }
+    ...
 
     public String currentLocationString() {
         return this.toString();
