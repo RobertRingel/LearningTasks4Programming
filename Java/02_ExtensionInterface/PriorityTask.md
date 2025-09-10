@@ -86,7 +86,7 @@ public class PriorityTask extends Task {
 #### Previous Knowledge
 
 bcm-1: basics of classes, public/private/final modifieres  
-exi-2: basics of class extension 
+exi-1: basics of class extension 
 
 #### Learning Activities
 
