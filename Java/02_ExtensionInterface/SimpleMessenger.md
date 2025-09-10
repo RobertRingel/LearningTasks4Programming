@@ -80,7 +80,7 @@ public class Messenger implements MessageXChange {
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
-| deinition of an interface out of a Java class implementation | completion task | 1 - low        |
+| definition of an interface out of a Java class implementation | completion task | 1 - low        |
 
 #### Previous Knowledge
 
