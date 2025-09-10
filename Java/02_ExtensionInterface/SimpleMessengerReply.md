@@ -107,7 +107,7 @@ public class Messenger implements MessageXChange {
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
-| deinition and implementation of an interface     | completion task | 1 - low        |
+| definition and implementation of an interface     | completion task | 1 - low        |
 
 #### Previous Knowledge
 
