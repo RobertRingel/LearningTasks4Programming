@@ -44,8 +44,6 @@ public class Task {
 ``` java
 package org.htwd.pool.o2;
 
-import java.util.Arrays;
-
 public class PriorityTask extends Task {
     private int priority;
 
