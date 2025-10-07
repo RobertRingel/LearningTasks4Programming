@@ -38,7 +38,7 @@ public class Person {
 
 ### Solution
 
- ![a basic UML class diagram](PersonClass.png)
+ ![a basic UML class diagram](PersonUML.png)
 
 
 
