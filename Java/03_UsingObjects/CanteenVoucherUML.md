@@ -97,11 +97,12 @@ public class CanteenVoucher implements Reloadable, Consumable {
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
-| relate Java source code to an UML class diagram  | conventional task | 1 - low      |
+| relate Java source code to an UML class diagram  | conventional task | 2 - normal   |
 
 #### Previous Knowledge
 
 bcm-1: basics of classes, public/private/final modifieres  
+exi-2: basics of class interfaces  
 uml-2: basics of UML class diagrams including interface classes
 
 #### Learning Activities
