@@ -107,9 +107,9 @@ public class RatedBook extends Book implements Comparable<RatedBook> {
 #### Previous Knowledge
 
 bcm-1: basics of classes, public/private/final modifieres  
-exi-1: basics of class extension
-exi-2: basics of class interfaces
-uml-2: basics of UML class diagrams including extension and interface classes
+exi-1: basics of class extension  
+exi-2: basics of class interfaces  
+uml-2: basics of UML class diagrams including extension and interface classes  
 
 #### Learning Activities
 
