@@ -86,11 +86,12 @@ public class PriorityTask extends Task {
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
-| relate Java source code to an UML class diagram  | conventional task | 1 - low      |
+| relate Java source code to an UML class diagram  | conventional task | 2 - normal   |
 
 #### Previous Knowledge
 
 bcm-1: basics of classes, public/private/final modifieres  
+exi-1: basics of class extension  
 uml-2: basics of UML class diagrams including class extension
 
 #### Learning Activities
