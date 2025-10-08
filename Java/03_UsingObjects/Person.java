@@ -2,15 +2,15 @@ package org.htwd.pool.o3;
 
 public class Person {
     private String name;
-    private final String birthDay;
+    private final String BIRTH_DAY;
 
     public Person(String name, String bday) {
         this.name = name;
-        this.birthDay = bday;
+        this.BIRTH_DAY = bday;
     }
 
     public String getName() { return this.name; }
-    public String getBirthDay() { return this.birthDay; }
+    public String getBirthDay() { return this.BIRTH_DAY; }
 
     public String toString() {
         StringBuilder sb = new StringBuilder(this.getName());
