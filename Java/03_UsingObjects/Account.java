@@ -1,19 +1,13 @@
 package org.htwd.pool.o3;
 
 public class Account {
-    private final String iban;
+    private final String IBAN;
     private Person person;
     private double balance;
 
     public Account(String iban, Person person) {
-        this.iban = iban;
+        this.IBAN = iban;
         this.person = person;
-        this.balance = 0.0;
-    }
-
-    public Account(String iban, String name, String bday) {
-        this.iban = iban;
-        this.person = new Person(name, bday);
         this.balance = 0.0;
     }
 
@@ -26,7 +20,7 @@ public class Account {
     }
 
     public String toString() {
-        StringBuilder sb = new StringBuilder(this.iban);
+        StringBuilder sb = new StringBuilder(this.IBAN);
         sb.append(" : ");
         sb.append(this.person);
         sb.append(" : EUR:");
