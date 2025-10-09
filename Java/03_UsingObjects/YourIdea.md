@@ -17,7 +17,7 @@ An UML class diagram and the related implementation similar to the sample code g
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
-| understand concepts of using objects incl. aggregation / composition | non-specific goal task  | 2 - normal  |  
+| apply concepts of using objects incl. aggregation / composition | non-specific goal task  | 2 - normal  |  
 
 #### Previous Knowledge
 
