@@ -102,7 +102,7 @@ public class CreditCard {
     }
 
     public void balanceAccount() {
-        this.account.account(this.currentCredit);
+        this.account.account(-1.0*this.currentCredit);
         this.currentCredit = 0.0;
     }
 
