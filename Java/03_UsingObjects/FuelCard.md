@@ -104,7 +104,7 @@ public class FuelCard {
     public boolean pay(double amount) {
         if (amount <= 0.0)
             return false;
-        this.account.account(amount);
+        this.account.account(-1.0*amount);
         return true;
     }
 
