@@ -13,10 +13,10 @@ All these learning tasks are related to the content of the [Java-OOP-Poster](../
 | [PersonUML](PersonUML.md)                        | The Person-class UML class diagram | relate Java source code to an UML class diagram            | 1 - low        | conventional task      |
 | [PriorityTaskUML](PriorityTaskUML.md)            | Tasks need priorities - UML class diagram | relate Java source code to an UML class diagram  	 | 2 - normal     | conventional task      |
 | [RatingBooksUML](RatingBooksUML.md)              | Rating favourite books - UML class diagram | relate Java source code to an UML class diagram    | 2 - normal     | conventional task      |
+| [CanteenVoucherUML](CanteenVoucherUML.md)        | The Canteen Voucher UML class diagram | relate Java source code to an UML class diagram         | 2 - normal     | conventional task      |
 | [Employee](Employee.md)                          | The Employee class                | understand concepts of using objects                        | 2 - normal     | imitation task         |
 | [FuelCard](FuelCard.md)                          | Not a credit card but a fuel card | understand concepts of using objects                        | 2 - normal     | imitation task         |
 | [NoCreditCardWithoutAccount](NoCreditCardWithoutAccount.md) | No credit card without account | understand concepts of using objects                | 2 - normal     | completion task        |
-| [CanteenVoucherUML](CanteenVoucherUML.md)        | The Canteen Voucher UML class diagram | relate Java source code to an UML class diagram         | 2 - normal     | conventional task      |
 | [CanteenVoucherCard](CanteenVoucherCard.md)      | The canteen voucher card          | understand concepts of using objects                        | 2 - normal     | conventional task      |
 
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
