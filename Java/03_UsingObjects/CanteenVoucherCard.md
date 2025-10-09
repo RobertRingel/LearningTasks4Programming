@@ -63,7 +63,7 @@ public class CanteenVoucherCard {
 
     public void load(double amount) {
         account.account(-1.0*amount);
-        this.value = this.value + amount;
+        this.value += amount;
     }
 
     public boolean pay(double amount) {
