@@ -2,7 +2,7 @@
 
 All these learning tasks are related to the content of the [Java-OOP-Poster](../JavaPosterOOP_engl.pdf) box 5. 
 
-### Topic: basics of extension and interfaces
+### Topic: basics of using objects
 
 
 | **Task Name**                                    | **Title**                         | **Learning objective**                                      | **Complexity** | **Task type**          |
