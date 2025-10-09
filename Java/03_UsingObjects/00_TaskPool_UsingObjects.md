@@ -16,6 +16,7 @@ All these learning tasks are related to the content of the [Java-OOP-Poster](../
 | [CanteenVoucherUML](CanteenVoucherUML.md)        | The Canteen Voucher UML class diagram | relate Java source code to an UML class diagram         | 2 - normal     | conventional task      |
 | [Employee](Employee.md)                          | The Employee class                | understand concepts of using objects                        | 2 - normal     | imitation task         |
 | [FuelCard](FuelCard.md)                          | Not a credit card but a fuel card | understand concepts of using objects                        | 2 - normal     | imitation task         |
+| [YourIdea](YourIdea.md)                          | Your Idea                         | apply concepts of using objects incl. aggregation / composition | 2 - normal | non-specific goal task |
 | [NoCreditCardWithoutAccount](NoCreditCardWithoutAccount.md) | No credit card without account | understand concepts of using objects                | 2 - normal     | completion task        |
 | [CanteenVoucherCard](CanteenVoucherCard.md)      | The canteen voucher card          | understand concepts of using objects                        | 2 - normal     | conventional task      |
 
