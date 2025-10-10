@@ -6,7 +6,7 @@ Given is the UML class diagram below. It shows the relation between the classes 
 
 ![the task related UML class diagram](NoCreditCardWithoutAccount.png)
 
-Complete the given Java code of the CreditCard-class that is shown below. Implement a main-method to demonstrate the usage of this class.
+Complete the given Java code of the CreditCard-class that is shown below in a way that it matches the given UML diagram. Implement a main-method to demonstrate the usage of this class.
 
 **The CreditCard class:**
 ``` java
