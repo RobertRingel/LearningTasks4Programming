@@ -141,7 +141,7 @@ uob-1: basics of creating and using objects
 
 #### Learning Activities
 
-1) read the Java code
+1) read the Java of the Person and Account-class code
 2) develop ideas of a Voucher-class
 3) implement the Voucher-class similar to the Account-class
 4) test the code with help of a main-method
@@ -151,7 +151,7 @@ uob-1: basics of creating and using objects
 [Java-OOP-Poster](../JavaPosterOOP_engl.pdf): Box 5
 
 [tutorialspoint.com: Java - Classes and objects](https://www.tutorialspoint.com/java/java_object_classes.htm)  
-[tutorialspoint.com: Java - Aggregation](https://www.tutorialspoint.com/java/java_aggregation.htm)  
+[tutorialspoint.com: Java - Composition](https://www.tutorialspoint.com/association-composition-and-aggregation-in-java)  
 
 ToDo: Matthes, E. (2019). Python crash course a hands-on, project-based introduction to programming (2nd edition). No Starch Press.:  
 Chapter 2, pages 15-32, Chapter 7, pages 114-116  
