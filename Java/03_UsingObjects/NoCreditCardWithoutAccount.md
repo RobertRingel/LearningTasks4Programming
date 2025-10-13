@@ -140,7 +140,7 @@ public class CreditCard {
 
 bcm-1: basics of classes, public/private modifieres  
 uob-1: basics of creating and using objects  
-uml-2: basics of UML class diagrams including class aggregation
+uml-2: basics of UML class diagrams including class aggregation and composition
 
 #### Learning Activities
 
@@ -156,6 +156,7 @@ uml-2: basics of UML class diagrams including class aggregation
 
 [tutorialspoint.com: Java - Classes and objects](https://www.tutorialspoint.com/java/java_object_classes.htm)  
 [tutorialspoint.com: Java - Aggregation](https://www.tutorialspoint.com/java/java_aggregation.htm)  
+[tutorialspoint.com: Java - Composition](https://www.tutorialspoint.com/association-composition-and-aggregation-in-java)  
 
 ToDo: Matthes, E. (2019). Python crash course a hands-on, project-based introduction to programming (2nd edition). No Starch Press.:  
 Chapter 2, pages 15-32, Chapter 7, pages 114-116  
