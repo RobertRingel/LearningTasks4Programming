@@ -66,7 +66,7 @@ public class CreditCard {
 
 ### Solution
 
-The solution requires to add the attributes person and accout and the related functionality for these attributes in the constructor, the balanceAccount and toString methods. Furthermore the main method needs to be implemented.
+The solution requires to add the attributes person and accout and the related functionality for these attributes in the constructor, as well as in the balanceAccount and toString methods. Furthermore the main method needs to be implemented.
 
 ``` java
 package org.htwd.pool.o3; 
