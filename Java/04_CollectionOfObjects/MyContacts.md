@@ -2,7 +2,7 @@ Topic: storing objects in collections
 
 ## Learning Task: My Contacts
 
-Given is the code of the two Java classes ContactInfo and ContactStore, whereas ContactInfo is an extension of the already known class [Person](../Person.java).
+Given is the code of the two Java classes ContactInfo and ContactStore, whereas ContactInfo is an extension of the already known class [Person](../03_UsingObjects/Person.java).
 
 Read the given code and discuss it with another studen before you write a brief explanation of it.
 Proof your understanding by implementing an appropriate main-method to show the usage of the class ContactStore.
