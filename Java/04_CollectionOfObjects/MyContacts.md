@@ -7,10 +7,6 @@ Given is the code of the two Java classes ContactInfo and ContactStore, whereas 
 Read the given code and discuss it with another studen before you write a brief explanation of it.
 Proof your understanding by implementing an appropriate main-method to show the usage of the class ContactStore.
 
-Code lesen und beschreiben
-main implementieren
-getByIndex implementieren ... 2. Aufgabe
-
 **The ContactInfo class:**
 ``` java
 package org.htwd.pool.o4; 
