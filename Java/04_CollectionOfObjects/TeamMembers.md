@@ -5,7 +5,7 @@ Topic: storing objects in collections
 Given is the following Java class FamilyMembers. Read and run the code to obtain an understanding.  
 
 Use this class as a blueprint to design and implement a class TeamMembers to store objects of class [Employee](../03_UsingObjects/Employee_1.png).  
-Test your implementation with help o an appropriate main-method.
+Test your implementation with help of an appropriate main-method.
 
 ``` java
 package org.htwd.pool.o4;
