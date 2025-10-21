@@ -89,10 +89,8 @@ col-1: basics of HashMap and ArrayList classes
 
 #### Supporting information
 
-[Java-OOP-Poster](../JavaPosterOOP_engl.pdf): Box 5
-
+[Java-OOP-Poster](../JavaPosterOOP_engl.pdf): Box 5  
 [tutorialspoint.com: Java - HashMap](https://www.tutorialspoint.com/java/util/java_util_hashmap.htm)  
-
 [tutorialspoint.com: Java - ArrayList](https://www.tutorialspoint.com/java/util/java_util_arraylist.htm)  
 
 ToDo: Matthes, E. (2019). Python crash course a hands-on, project-based introduction to programming (2nd edition). No Starch Press.:  
