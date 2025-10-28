@@ -100,7 +100,7 @@ public class GPSTrack {
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
-| understand the use of an ArrayList collection class | conventional task   | 1 - low |  
+| practise the use of an ArrayList collection class | conventional task   | 1 - low   |  
 
 #### Previous Knowledge
 
