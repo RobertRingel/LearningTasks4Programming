@@ -17,9 +17,9 @@ All these learning tasks are related to the content of the [Java-OOP-Poster](../
 | [FamilyMembers](FamilyMembers.md)                | The family members                | understand the use of HashMap and ArrayList collection classes | 1 - low     | worked-out example     |
 | [GPSLocations](GPSLocations.md)                  | GPS locations                     | understand the use of HashMap and ArrayList collection classes | 1 - low     | reverse task 	       |
 | [StockPortfolio](StockPortfolio.md)              | The stock portfolio               | practise the use of HashMap and ArrayList collection classes | 2 - normal    | imitation task         |
-| [BasicLibrary](BasicLibrary.md)                | A basic library                   | practise the use of ArrayList and HashMap collection classes | 2 - normal    | completion task        | 
 | [TeamMembers](TeamMembers.md)                    | Team members                      | practise the use of the HashMap and ArrayList collection classes | 2 - normal | imitation task        |
-| ...                                              | ...                               | ...                                                              | ...        | conventional task     |
+| [BasicLibrary](BasicLibrary.md)                  | A basic library                   | practise the use of ArrayList and HashMap collection classes | 2 - normal    | completion task        | 
+| ...                                              | ...                               | ...                                                          | ...           | conventional task      |
 
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 10/2025  
