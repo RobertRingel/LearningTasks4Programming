@@ -8,7 +8,7 @@ The class shall provide methods to:
 - add a number to the guess  
 - check whether a certain number is already part of the guess  
 - print the guess  
-- count the number of common number compared to another guess (count number of hits)
+- count the number of common numbers compared to another guess (count number of hits)
 
 Use an ArrayList to store the numbers of the guess.
 
