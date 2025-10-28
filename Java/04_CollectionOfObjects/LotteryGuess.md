@@ -121,7 +121,7 @@ public class LotteryGuess {
 ```
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
-| practise the use of the ArrayList collection classes | conventional task | 2 - normal | 
+| practise the use of the ArrayList collection class | conventional task | 2 - normal | 
 
 #### Previous Knowledge
 
@@ -133,7 +133,7 @@ col-1: basics of the ArrayList class
 
 1) understand the requested features of the task
 2) design and implement the class
-3) run and test the implementation baseds on an appropriate main-method
+3) run and test the implementation based on the given main-method
 4) compare the program with the solution of another student
 
 #### Supporting information
