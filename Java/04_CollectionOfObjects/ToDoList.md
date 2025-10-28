@@ -4,7 +4,8 @@ Topic: storing objects in collections
 
 Given is the following Java class GPSTrack. Read and run the code to obtain an understanding.  
 
-Use this code as a blueprint to implement the class TaskList to store [PriorityTask-objects](../02_ExtensionInterface/PriorityTask.md) using an ArrayList. Design, implement and test the Java TaskList-class.
+Use this code as a blueprint to implement the class TaskList to store [PriorityTask-objects](../02_ExtensionInterface/PriorityTask.md) using an ArrayList.  
+Design, implement and test the Java TaskList-class.
 
 Add-on feature: Adding a new task shall be implemented in a way, to keep the task list ranked by the tasks priority.
 
