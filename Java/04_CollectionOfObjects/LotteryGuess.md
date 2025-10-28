@@ -15,6 +15,34 @@ Use an ArrayList to store the numbers of the guess.
 Test your implementation with help of the given main-method.  
 Compare your Java code with the one of another student.
 
+``` java
+package org.htwd.pool.o4;
+
+import java.util.ArrayList;
+
+public class LotteryGuess {
+    ...
+    public static void main(String[] args) {
+        LotteryGuess guess = new LotteryGuess(1, 35,5);
+        guess.addNumber(1);
+        guess.addNumber(1);
+        guess.addNumber(2);
+        guess.addNumber(3);
+        guess.addNumber(4);
+        guess.addNumber(5);
+        guess.addNumber(6);
+        System.out.println(guess);
+        System.out.println(guess.containsNumber(Integer.valueOf(3)));
+
+        LotteryGuess numbers = new LotteryGuess(1, 35,5);
+        numbers.addNumber(2);
+        numbers.addNumber(10);
+        numbers.addNumber(11);
+        numbers.addNumber(12);
+        numbers.addNumber(13);
+        System.out.println(guess.countHits(numbers));
+    }
+}
 ---------------------------------------
 
 ### Solution
