@@ -43,9 +43,10 @@ public class LotteryGuess {
         System.out.println(guess.countHits(numbers));
     }
 }
+```
 ---------------------------------------
 
-###Solution
+### Solution
 
 ``` java
 package org.htwd.pool.o4;
