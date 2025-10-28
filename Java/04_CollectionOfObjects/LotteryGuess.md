@@ -45,7 +45,7 @@ public class LotteryGuess {
 }
 ---------------------------------------
 
-### Solution
+###Solution
 
 ``` java
 package org.htwd.pool.o4;
