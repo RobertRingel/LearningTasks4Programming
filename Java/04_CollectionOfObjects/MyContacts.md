@@ -4,7 +4,7 @@ Topic: storing objects in collections
 
 Given is the code of the two Java classes ContactInfo and ContactStore, whereas ContactInfo is an extension of the already known class [Person](../03_UsingObjects/Person.java).
 
-Read the given code and discuss it with another studen before you write a brief explanation of it.
+Read the given code and discuss it with another student before you write a brief explanation of it.
 Proof your understanding by implementing an appropriate main-method to show the usage of the class ContactStore.
 
 **The ContactInfo class:**
@@ -78,7 +78,7 @@ The class ContactInfo is an extension of the class Person. It is used to store b
 
 The class ContactStore uses an ArrayList to store ContactInfo objects in a list like fashion. The addContactInfo-method is available to add data to the store. To obtain data from the store one can use the getByName-method. In case the given name yields a contact in the store the related ContactInfo-object will be returned - otherwise null will be returned. The removeByName-method can be used to delete a contact from the store. The object will be looked up by the given name of a person. In case of successful removal the method will return true.
 
-The implementation of the below main-method demonstrates these features of the class.  Test and run the Java program.
+The implementation of the below main-method demonstrates these features of the class.  
 
 ``` java
 package org.htwd.pool.o4;
