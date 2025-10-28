@@ -11,7 +11,7 @@ All these learning tasks are related to the content of the [Java-OOP-Poster](../
 | [MyContacts2](MyContacts2.md)                    | My contacts II                    | understand the use of an ArrayList collection class         | 1 - low        | completion task        |
 | [ToDoList](ToDoList.md)                          | The todo-List                     | practise the use of the ArrayList collection clas           | 2 - normal     | imitation task         |
 | [LibraryAccount](LibraryAccount.md)              | The library account               | practise the use of the ArrayList collection classes        | 2 - normal     | completion task        |
-| [GPSTrack](GPSTrack.md)                          | The GPS track                     | *understand/prectise?* the use of an ArrayList collection class         | 1- low         | conventional task      |
+| [GPSTrack](GPSTrack.md)                          | The GPS track                     | practise the use of an ArrayList collection class           | 1- low         | conventional task      |
 | [LotteryGuess](LotteryGuess.md)                  | The lottery guess                 | practise the use of the ArrayList collection classes        | 2 - normal     | conventional task      |
 | [YourIdea](YourIdea.md)                          | Your idea                         | practise the use of the collection classes                  | 2 - normal     | non-specific goal task |
 | [FamilyMembers](FamilyMembers.md)                | The family members                | understand the use of HashMap and ArrayList collection classes | 1 - low     | worked-out example     |
