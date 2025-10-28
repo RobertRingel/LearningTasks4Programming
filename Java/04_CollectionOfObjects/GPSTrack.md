@@ -4,7 +4,7 @@ Topic: storing objects in collections
 
 Given is the class GPSPoint. Based on this class you should design and implement the class of a GPS track. This class shall store GPSPoint objects using an ArrayList. It should provide functionality to add, remove and get GPSPoints. The remove and get operations shall work based on the GPSPoint index number.
 
-Implement this class in Java and demonstrate its functionality with a main-method implementation.
+Implement this class in Java and demonstrate its functionality by a main-method implementation.
 
 **The GPSPoint class:**
 ``` java
