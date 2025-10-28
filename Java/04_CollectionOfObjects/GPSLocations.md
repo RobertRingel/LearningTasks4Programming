@@ -68,7 +68,7 @@ public class GPSLocations {
 ### Solution
 
 **Text of the programming task**   
-Design and implement the Java class GPSLocations. The class shall be used to store GPSPoint objects in a HashMap to be accessed by the name of location related to the GPSPoint. The class shall provide methods to add a new GPSPoint and its name, to remove a GPSPoint by its name and to get a stored the GPSPoint by its related name. A method named 'getAllLocationNames' shall provide a list of all the names of the stored GPSPoints. Implement a main method to demonstrate the functionality of this class.
+Design and implement the Java class GPSLocations. The class shall be used to store GPSPoint objects in a HashMap to be accessed by the name of a location related to the GPSPoint. The class shall provide methods to add a new GPSPoint and its name, to remove a GPSPoint by its name and to get a stored the GPSPoint by its related name. A method named 'getAllLocationNames' shall provide a list of all the names of the stored GPSPoints. Implement a main method to demonstrate the functionality of this class.
 
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
