@@ -8,7 +8,7 @@ Complete or change the implementation of this class to meet the following requir
 
 - the printBookList-method shall print every book that is currently stored in the user's checked-out book list.  
 
-- the checkOut-method shall guarantee that the Book b is not null and that the user can never have checked-out more than a certain number of books (LIMIT value). In such a situation the method shall return false and the book will not be checked-out. Otherwise the book will be checked-out and the method will reurn true.  
+- the checkOut-method shall guarantee that the Book b is not null and that the user can never have checked-out more than a certain number of books (LIMIT value). In such a situation the method shall return false and the book will not be checked-out. Otherwise the book will be checked-out and the method will return true.  
 
 - the bringBack-method shall check whether the name and the author of the given book are equal to one of the books the user has checked-out. This will ensure the given book was really checked-out by the user. Only if the name-and-author-check is performed successful, the book will be removed from the user's checked-out book list. In this case the method will return true.  
 
