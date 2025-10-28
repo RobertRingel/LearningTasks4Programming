@@ -4,7 +4,7 @@ Topic: storing objects in collections
 
 Given is the following Java class GPSLocations. Read and run the code to obtain an understanding.  
 
-Use this code as a blueprint to implement the class StockPortfolio to store [StockItem-objects](StockItem.java) using a HashMap. Design, implement and test the Java StockItem-class.
+Use this code as a blueprint to implement the class StockPortfolio to store [StockItem-objects](StockItem.java) using a HashMap. Design, implement and test the StockItem-class.
 
 ``` java
 package org.htwd.pool.o4;
