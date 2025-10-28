@@ -26,7 +26,7 @@ col-1: basics of the ArrayList and HashMap classes
 #### Learning Activities
 
 1) think of a potential useful class
-2) explain the idea of the new classto another student  
+2) explain the idea of the new class to another student  
 3) implement the Java code of the new class
 4) run the program to test it
 
