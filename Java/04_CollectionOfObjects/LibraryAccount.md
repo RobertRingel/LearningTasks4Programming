@@ -4,7 +4,7 @@ Topic: storing objects in collections
 
 Given is the following Java class LibraryAccount. The related [class Book](../02_ExtensionInterface/Book.java) is available in this task repository.  Read and run the code to obtain an understanding.  
 
-Complete or change the implementation of this class in the following to meet the following requirements:  
+Complete or change the implementation of this class to meet the following requirements:  
 
 - the printBookList-method shall print every book that is currently stored in the user's checked-out book list.  
 
