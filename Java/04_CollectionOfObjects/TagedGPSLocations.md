@@ -11,7 +11,7 @@ The new class shall provide functionality to:
 Implement a main-method to demonstrate the functionality of the new class. 
 Finally explain you code to another student.
 
-Potential GPS locations a related tags are:  
+Potential GPS locations and related tags are:  
 - tag: Dresden: 52.05, 13.81, Blue Wonder Bridge; 51.04, 13.73, University of Applied Sciences  
 - tag: History: 52.05, 13.81, Blue Wonder Bridge
 
