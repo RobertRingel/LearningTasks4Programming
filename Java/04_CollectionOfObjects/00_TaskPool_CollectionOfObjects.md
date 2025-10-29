@@ -1,8 +1,8 @@
-## Task Pool Using Objects
+## Task Pool Collection of Objects
 
 All these learning tasks are related to the content of the [Java-OOP-Poster](../JavaPosterOOP_engl.pdf) box 5. 
 
-### Topic: basics of using objects
+### Topic: basics of storing objects in collections
 
 
 | **Task Name**                                    | **Title**                         | **Learning objective**                                      | **Complexity** | **Task type**          |
