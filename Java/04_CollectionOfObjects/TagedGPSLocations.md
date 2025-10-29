@@ -2,8 +2,7 @@ Topic: storing objects in collections
 
 ## Learning Task: Your Idea
 
-Design, implement and test a Java class (name TaggedLocations.java) that can be used to store various GPS locations under certain tags. The implementation shall be based on a HashMap to store GPSLocation objects. The related classes GPSPoint and GPSLocation are available in this task pool task: [GPSLocation](../02_ExtensionInterface
-/GPSLocation.md).  
+Design, implement and test a Java class (name TaggedLocations.java) that can be used to store various GPS locations under certain tags. The implementation shall be based on a HashMap to store GPSLocation objects. The related classes GPSPoint and GPSLocation are available in this task pool task: [GPSLocation.md](../02_ExtensionInterface/GPSLocation.md).  
 The new class shall provide functionality to:  
 - add a location by a certain tag
 - get a list of all locations stored under a certain tag
