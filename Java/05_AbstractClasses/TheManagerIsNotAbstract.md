@@ -111,7 +111,7 @@ The class Manager is a sub-class of AbstractEmployee. It implements the updateSa
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
-| understand the idea of abstract classes          | worked-out example | 1 - low     | 
+| understand the idea of abstract methods and classes | worked-out example | 1 - low  | 
 
 #### Previous Knowledge
 
