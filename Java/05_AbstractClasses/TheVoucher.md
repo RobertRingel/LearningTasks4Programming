@@ -15,7 +15,7 @@ public class Voucher {
     
     private final String ID;
     
-    private double currentValue;
+    protected double currentValue;
 
     public Voucher(String id) {
         this.currentValue = Voucher.DEFAULT_VALUE;
