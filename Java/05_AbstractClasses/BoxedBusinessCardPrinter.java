@@ -28,17 +28,6 @@ public class BoxedBusinessCardPrinter extends AbstractBusinessCard {
         return centeredText;
     }
 
-    @Override
-    public void printCard() {
-        int width = 4 + maxLineLength();
-        printLine(width);
-
-        for (String l : this.lines) {
-            String text = "|" + BoxedBusinessCardPrinter.getCenteredText(width,l) + "|";
-            System.out.println(text);
-        }
-        printLine(width);
-    }
 
     public static void main(String[] args) {
         BoxedBusinessCardPrinter prt = new BoxedBusinessCardPrinter();
