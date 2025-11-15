@@ -128,8 +128,8 @@ abs-1: basics of abstract classes
 
 1) read the code of the TradeObject class  
 2) design the abstract class for the trading services    
-3) design and implement the e-Trading class  
-4) implement a main-method to test and demonstrate the e-Trading functionality  
+3) design and implement the eTrading-class  
+4) implement a main-method to test and demonstrate the eTrading-functionality  
 
 #### Supporting information
 
