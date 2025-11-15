@@ -85,7 +85,7 @@ abs-1: basics of abstract classes
 
 1) read the given Java code
 2) implement the new class CookieVoucher   
-3) implement a main-Method to demonstrate the CookieVoucher  
+3) implement a main-method to demonstrate the CookieVoucher  
 
 #### Supporting information
 
