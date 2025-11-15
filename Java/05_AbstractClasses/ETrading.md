@@ -8,7 +8,7 @@ Develop and implement an e-Trading demo application that provides services to se
 - register as a named buyer  
 - register as a named seller
 
-The items to be traded here are modelled  in the [TradeObject-class](TradeObject.java). The ETrading class will stored these TradeObject instances by their names. The class will implement the trading services defined by the abstract class. And it would be benefitial if it could print a list of all sold items upon request.
+The items to be traded here are modelled  in the [TradeObject-class](TradeObject.java). The ETrading class will store these TradeObject instances by their names. The class will implement the trading services defined by the abstract class. And it would be benefitial if it could print a list of all sold items upon request.
 
  
 
