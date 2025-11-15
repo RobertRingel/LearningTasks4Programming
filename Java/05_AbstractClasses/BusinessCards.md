@@ -123,6 +123,7 @@ public class BoxedBusinessCardPrinter extends AbstractBusinessCard {
 
 bcm-1: basics of classes, public/protected/private modifieres  
 exi-1: basics of class extension  
+col-1: basics of an ArrayList class  
 abs-1: basics of abstract classes
 
 #### Learning Activities
