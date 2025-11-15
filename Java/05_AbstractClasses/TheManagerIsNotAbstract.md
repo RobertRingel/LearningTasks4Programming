@@ -2,7 +2,7 @@ Topic: abstract classes
 
 ## Learning Task: The manager is not abstract
 
-Read the given Java code of the class AbstractEmployee and Manager. Run the Manager class. Talk about the given code with another student inorder to obtain an understanding.
+Read the given Java code of the class AbstractEmployee and Manager. Run the Manager class. Talk about the given code with another student in order to obtain an understanding.
 
 Express your understaning in a written a brief description of the two classes.
 
