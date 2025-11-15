@@ -130,7 +130,7 @@ abs-1: basics of abstract classes
 
 1) read the given Java code   
 2) adapt the implementation of AbstractBusinessCard to make it an abstract class       
-3) implement the CapitalBusinessCardPrinter to print capital letter business clards    
+3) implement the CapitalBusinessCardPrinter to print capital letter business cards    
 4) implement a main-method to test and demonstrate the functionality  
 5) add-on task: implement and test a box-bound business card printer or any other special card printer  
 
