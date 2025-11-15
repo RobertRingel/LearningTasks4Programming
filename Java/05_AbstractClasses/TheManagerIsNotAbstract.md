@@ -116,7 +116,7 @@ The class Manager is a sub-class of AbstractEmployee. It implements the updateSa
 #### Previous Knowledge
 
 bcm-1: basics of classes, public/protected/private modifieres  
-exi-1: basics of class extension 
+exi-1: basics of class extension  
 abs-1: basics of abstract classes
 
 #### Learning Activities
