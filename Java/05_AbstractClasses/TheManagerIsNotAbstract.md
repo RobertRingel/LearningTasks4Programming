@@ -107,7 +107,7 @@ public class Manager extends AbstractEmployee {
 ### Solution
 
 The class AbstractEmployee provides the basic functionality of an employee object by implementing primary attributes, the related getter-, setter-methods and a toString-method. The updateSalary-method however is abstract. So it is not possible to create objects of the class AbstractEmployee - the class is labelled "abstract". Any sub-class of this class needs to implement the updateSalary-method. This can be used to implement necessary safety checks when changing an employee's salary.  
-The class Manager is a sub-class of AbstractEmployee. It implements the updateSalary-method including a manager-related-safety check!  Furthermore the Manager-class re-implements the setJob-Method in a way, to ensure a Manager-relqated job title. Last but not least the Manager class provides a method to print a business card. The main-method demonstrates some key features of this class.
+The class Manager is a sub-class of AbstractEmployee. It implements the updateSalary-method including a manager-related-safety check!  Furthermore the Manager-class re-implements the setJob-method in a way, to ensure a Manager-related job title. Last but not least the Manager class provides a method to print a business card. The main-method demonstrates some key features of this class.
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
