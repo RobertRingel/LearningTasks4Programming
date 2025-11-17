@@ -1,3 +1,4 @@
 - review and refine the knowledge identifyer tokens
 - review assignment of the knowledge identifyer tokens as prev. knowledge of the learning tasks
 - add Java book and related pages to all of the learning tasks  
+- JavaPosterOOP_engl.pdf check for typos and fix them!
