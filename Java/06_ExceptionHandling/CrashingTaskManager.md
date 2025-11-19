@@ -90,7 +90,7 @@ exc-1: basics of exception-handling
 
 1) read and run the given Java code
 2) identify the root-cause of the crash  
-3) fix the problem withe help of a try-catch-block   
+3) fix the problem with help of a try-catch-block   
 
 #### Supporting information
 
