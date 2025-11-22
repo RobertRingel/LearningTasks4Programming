@@ -66,7 +66,7 @@ public class BankAccount {
 
 The withdraw-method can throw an IllegalArgumentException in case one tries to withdraw a negative amount. Or it may throw a general Exception in case one will run into an insufficient funds situation.
 The general Exception is the base class of all checked exceptions so it needs to be handled in a try-catch-block. The IllegalArgumentException is an unchecked exception, so there is no need to implement a try-catch-block for this exception.  
-In case both exceptions shall be handled, the catch for the IllegalArgumentException must be implemented before the catch of the general Exception, otherwise the general Exception will also catch the IllegalArgumentException.
+In both cases exceptions shall be handled, the catch for the IllegalArgumentException must be implemented before the catch of the general Exception, otherwise the general Exception will also catch the IllegalArgumentException.
 
 Consequently this implementation would also work:
 ``` java
