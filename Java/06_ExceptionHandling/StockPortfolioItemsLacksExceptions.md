@@ -3,7 +3,7 @@ Topic: exception handling
 ## Learning Task: This class lacks exceptions
 
 The StockPortfolioItem-class can be used to buy and sell stock items. The class is ready to run. However its code is not safe regarding invalid method call parameters. Read the code and run it in order to identify these weaknesses.  
-Improve the implementation buy throwing unchecked exceptions in case the methods are called by invalid parameter values. Test your implementation by appropriate main-methods calls to the related methods of the StockPortfolioItem-class.
+Improve the implementation by throwing unchecked exceptions in case the methods are called by invalid parameter values. Test your implementation by appropriate main-methods calls to the related methods of the StockPortfolioItem-class.
 
 ``` java
 package org.htwd.pool.o6;
