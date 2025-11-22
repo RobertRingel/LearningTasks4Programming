@@ -4,7 +4,7 @@ Topic: exception handling
 
 The given Java code represents a basic TaskManager that can be used to store tasks and an overall time budget. The implementation is done with help of the [Task-class](Task.java). However, when you run the programm it runs into a crash.  
 
-Read the given code, run it and identify the root cause of the crash. The fix the problem with help of a try-catch-block. 
+Read the given code, run it and identify the root cause of the crash. Finally fix the problem with help of a try-catch-block. 
 
 ``` java
 package org.htwd.pool.o6;
