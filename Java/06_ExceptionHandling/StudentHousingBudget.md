@@ -2,7 +2,7 @@ Topic: exception handling
 
 ## Learning Task: The student housing budget
 
-Implement a Java program that can be used as a student housing budget calculator. The program shall get the overall monthly budget initially. Then it shall be possible to add different monthly budget items such as electricity, gas, water, food, donotions and the related monetary values to be stored in a HashMap. Out of this the program shall be able to print a budget overview and it shall be able to calculate the current saldo.  
+Implement a Java program that can be used as a student housing budget calculator. The program shall get the overall monthly budget initially. Then it shall be possible to add different monthly budget items such as electricity, gas, water, food, donotions and the related monetary values to be stored in a HashMap. The program shall be able to print a budget overview and it shall be able to calculate the current saldo.  
 
 When implementing this program make sure to store only valid budget items as well as a valid overall monthly initial budget value.
 
