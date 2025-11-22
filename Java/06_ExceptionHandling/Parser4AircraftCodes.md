@@ -6,7 +6,7 @@ The given Java program represents a custom exception class that shall be thrown 
 The German aircraft codes can be described by the followin regular expression: D-[A-Z]{4}  
 So they always start with "D-" followed by 4 capital letters.  
 
-Implement a Java class that works as a parser for German aircraft codes. The class shall provide a static parse method that will throw an AircraftCodeParseException in case of a non matching aircraft code.  
+Implement a Java class that works as a parser for German aircraft codes. The class shall provide a static parse method that will throw an AircraftCodeParseException in case of a non-matching aircraft code.  
 Test your implementation with help of a main-method implementation.
 
 ``` java
