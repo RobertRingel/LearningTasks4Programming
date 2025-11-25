@@ -101,7 +101,7 @@ public class GPSTrack {
 
 bcm-1: basics of classes, public/protected/private modifieres  
 exc-1: basics of exception-handling  
-txt-1: basics of text file reading  
+txt-1: basics of text file writing  
 
 #### Learning Activities
 
