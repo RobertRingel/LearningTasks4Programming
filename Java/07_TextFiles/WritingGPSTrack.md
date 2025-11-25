@@ -95,7 +95,7 @@ public class GPSTrack {
 
 | **Learning objective**                           | **Task type**     | **Complexity** |
 | ------------------------------------------------ | ----------------- | -------------- |
-| understand text file reading                     | worked-out example | 1 - low       |
+| understand text file writing                     | worked-out example | 1 - low       |
 
 #### Previous Knowledge
 
