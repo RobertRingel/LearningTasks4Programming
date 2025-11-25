@@ -1,4 +1,4 @@
-package org.htwd.pool.o2;
+package org.htwd.pool.o7;
 
 public class GPSPoint {
     private double lon;
