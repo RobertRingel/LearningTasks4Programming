@@ -2,7 +2,7 @@ Topic: classes, modifiers
 
 ## Learning Task: Printing tickets
 
-The Java code below implements a ticket generator. Read the code to obtain an understandig. Describe the functionality provided by this class and argument the different types of attribute modifiers.
+The Java code below implements a ticket generator. Read the code to obtain understandig. Describe the functionality provided by this class and argument the different types of attribute modifiers.
 
 Write a main-method to demonstrate the use of this class.
 
