@@ -26,23 +26,22 @@ public class GPSTrack {
 
     public void loadFromFile(String filename) {
         String line;
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(filename));
+        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
             while ((line = br.readLine()) != null) {
                 String[] token = line.split(DELIMITER);
                 if (token.length != 2)
-                    throw new RuntimeException("corrupt line:"+line);
+                    throw new RuntimeException("corrupt line:" + line);
                 double lat = Double.parseDouble(token[0].strip());
                 double lon = Double.parseDouble(token[1].strip());
                 this.addPoint(lat, lon);
             }
             br.close();
         } catch (FileNotFoundException e) {
-            System.out.println("File not found:"+filename);
+            System.out.println("File not found:" + filename);
         } catch (IOException e) {
             throw new RuntimeException(e);
         } catch (RuntimeException e) {
-            System.out.println("Error while reading a file:"+e.getMessage());
+            System.out.println("Error while reading a file:" + e.getMessage());
         }
     }
 
@@ -90,22 +89,21 @@ public class GPSTrack {
 ``` java
     public void loadFromFile(String filename) {
         String line;
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(filename));  // create a text file reader object
-            while ((line = br.readLine()) != null) {                           // read all the file line by line   
-                String[] token = line.split(DELIMITER);                        // split line based on DELIMITER
-                if (token.length != 2)                                         // illegal number of line items?
-                    throw new RuntimeException("corrupt line:"+line);          // throw exception show the corrupt line 
-                double lat = Double.parseDouble(token[0].strip());             // convert line item to double as latitude
-                double lon = Double.parseDouble(token[1].strip());             // convert line item to double as longitude 
-                this.addPoint(lat, lon);                                       // add new track point 
+        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {  // create a text file reader object
+            while ((line = br.readLine()) != null) {                              // read all the file line by line   
+                String[] token = line.split(DELIMITER);                           // split line based on DELIMITER
+                if (token.length != 2)                                            // illegal number of line items?
+                    throw new RuntimeException("corrupt line:"+line);             // throw exception show the corrupt line 
+                double lat = Double.parseDouble(token[0].strip());                // convert line item to double as latitude
+                double lon = Double.parseDouble(token[1].strip());                // convert line item to double as longitude 
+                this.addPoint(lat, lon);                                          // add new track point 
             }
-            br.close();                                                        // close file reader
-        } catch (FileNotFoundException e) {                                    // catch and handle file not found
+            br.close();                                                           // close file reader
+        } catch (FileNotFoundException e) {                                       // catch and handle file not found
             System.out.println("File not found:"+filename);
-        } catch (IOException e) {                                              // catch and handle IOException
+        } catch (IOException e) {                                                 // catch and handle IOException
             throw new RuntimeException(e);
-        } catch (RuntimeException e) {                                         // catch and handle RunTimeException
+        } catch (RuntimeException e) {                                            // catch and handle RunTimeException
             System.out.println("Error while reading a file:"+e.getMessage());
         }
     }
