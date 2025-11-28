@@ -147,7 +147,7 @@ exc-1: basics of exception-handling
 [Java-OOP-Poster](../JavaPosterOOP_engl.pdf): Box 7  
 [tutorialspoint.com: Java - Exceptions](https://www.tutorialspoint.com/java/java_exceptions.htm)  
 
-Loy, M., Niemeyer, P. and Leuck, D. (2023). Learning Java (6th edition). O'Reilly Media, Inc.:  
+Loy, M., Niemeyer, P. and Leuck, D. (2023). Learning Java (6th edition). O'Reilly Media, Inc.: 
 Chapter 5, pages 135-156 
 
 ---------------------------------------
