@@ -56,6 +56,9 @@ The new addMore method will really add bottles to the bottle case. Because only 
 #### Supporting information
 [Basic Java Poster](00_JavaPoster_HK_engl.pdf): Box 3 
 
+Loy, M., Niemeyer, P. and Leuck, D. (2023). Learning Java (6th edition). O'Reilly Media, Inc.: 
+Chapter 4, pages 104/105
+
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 08/2025            
