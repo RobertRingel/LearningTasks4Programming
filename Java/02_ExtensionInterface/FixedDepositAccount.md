@@ -124,7 +124,7 @@ exi-1: basics of class extension and over-writing
 [tutorialspoint.com: Java - Inheritance](https://www.tutorialspoint.com/java/java_inheritance.htm)  
 
 Loy, M., Niemeyer, P. and Leuck, D. (2023). Learning Java (6th edition). O'Reilly Media, Inc.: 
-Chapter 5, pages 167-171, 174-176
+Chapter 5, pages 167-171
 
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
