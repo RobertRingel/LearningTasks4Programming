@@ -1,6 +1,6 @@
-## Task Pool Classes and Modifier Tasks
+## Task Pool Class extension and interfaces
 
-All these learning tasks are related to the content of the [Java-OOP-Poster](../JavaPosterOOP_engl.pdf) boxes 1 and 2. 
+All these learning tasks are related to the content of the [Java-OOP-Poster](../JavaPosterOOP_engl.pdf) boxes 3 and 4. 
 
 ### Topic: basics of extension and interfaces
 
