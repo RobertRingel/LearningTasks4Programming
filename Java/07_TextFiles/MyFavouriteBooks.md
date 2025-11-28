@@ -29,23 +29,24 @@ public class GPSTrack {
 
     public void loadFromFile(String filename) {
         String line;
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(filename));
+
+        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
             while ((line = br.readLine()) != null) {
                 String[] token = line.split(DELIMITER);
                 if (token.length != 2)
-                    throw new RuntimeException("corrupt line:"+line);
+                    throw new RuntimeException("corrupt line:" + line);
                 double lat = Double.parseDouble(token[0].strip());
                 double lon = Double.parseDouble(token[1].strip());
                 this.addPoint(lat, lon);
             }
             br.close();
+
         } catch (FileNotFoundException e) {
-            System.out.println("File not found:"+filename);
+            System.out.println("File not found:" + filename);
         } catch (IOException e) {
             throw new RuntimeException(e);
         } catch (RuntimeException e) {
-            System.out.println("Error while reading a file:"+e.getMessage());
+            System.out.println("Error while reading a file:" + e.getMessage());
         }
     }
 
@@ -122,12 +123,11 @@ public class BestBooks {
 
     public void loadFromFile(String filename) {
         String line;
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(filename));
+        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
             while ((line = br.readLine()) != null) {
                 String[] token = line.split(DELIMITER);
                 if (token.length != 4 && token.length != 2)
-                    throw new RuntimeException("corrupt line:"+line);
+                    throw new RuntimeException("corrupt line:" + line);
                 String author = token[0].strip();
                 String title = token[1].strip();
                 int rate = -1;
@@ -137,15 +137,15 @@ public class BestBooks {
                     rate = stars.length();
                     rating = token[3].strip();
                 }
-                this.add(author,title,rating,rate);
+                this.add(author, title, rating, rate);
             }
             br.close();
         } catch (FileNotFoundException e) {
-            System.out.println("File not found:"+filename);
+            System.out.println("File not found:" + filename);
         } catch (IOException e) {
             throw new RuntimeException(e);
         } catch (RuntimeException e) {
-            System.out.println("Error while reading a file:"+e.getMessage());
+            System.out.println("Error while reading a file:" + e.getMessage());
         }
     }
 
