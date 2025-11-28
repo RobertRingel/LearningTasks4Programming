@@ -106,10 +106,6 @@ uml-2: basics of UML class diagrams including class extension
 [tutorialspoint.com: UML - Basic Notations: Class Notation](https://www.tutorialspoint.com/uml/uml_basic_notations.htm)  
 [tutorialspoint.com: UML - Class Diagram](https://www.tutorialspoint.com/uml/uml_class_diagram.htm) 
 
-ToDo: Matthes, E. (2019). Python crash course a hands-on, project-based introduction to programming (2nd edition). No Starch Press.:  
-Chapter 2, pages 15-32, Chapter 7, pages 114-116  
-
-
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 10/2025            
