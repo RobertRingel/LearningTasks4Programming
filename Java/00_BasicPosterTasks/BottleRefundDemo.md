@@ -120,9 +120,6 @@ public class BottleRefundDemo {
 - variables and data types,  
 - Box 6: Make use of objects shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
-Loy, M., Niemeyer, P. and Leuck, D. (2023). Learning Java (6th edition). O'Reilly Media, Inc.: 
-Chapter 4, pages 116/117
-
 #### Learning Activities
 
 1) read the code
@@ -132,6 +129,9 @@ Chapter 4, pages 116/117
 #### Supporting information
 
 [Basic Java Poster](00_JavaPoster_HK_engl.pdf): Box 6 
+
+Loy, M., Niemeyer, P. and Leuck, D. (2023). Learning Java (6th edition). O'Reilly Media, Inc.: 
+Chapter 4, pages 116/117
 
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
