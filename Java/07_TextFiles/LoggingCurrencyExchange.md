@@ -75,7 +75,6 @@ public class CurrencyExchange {
 package org.htwd.pool.o7;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 
