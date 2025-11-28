@@ -115,6 +115,9 @@ public class RefundStation {
 
 [Basic Java Poster](00_JavaPoster_HK_engl.pdf): Box 6 
 
+Loy, M., Niemeyer, P. and Leuck, D. (2023). Learning Java (6th edition). O'Reilly Media, Inc.: 
+Chapter 4, pages 116/117
+
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 08/2025            
