@@ -83,7 +83,7 @@ The second while-lopp is implemented similarly to iterate the array-variable cas
 #### Previous Knowledge
 
 - variables and data types,  
-- Box 5: Conditional execution shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
+- Box 5: Arrays to store data shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
 #### Learning Activities
 
@@ -95,6 +95,9 @@ The second while-lopp is implemented similarly to iterate the array-variable cas
 #### Supporting information
 
 [Basic Java Poster](00_JavaPoster_HK_engl.pdf): Box 5
+
+Loy, M., Niemeyer, P. and Leuck, D. (2023). Learning Java (6th edition). O'Reilly Media, Inc.: 
+Chapter 4, pages 120-130
 
 ---------------------------------------
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
