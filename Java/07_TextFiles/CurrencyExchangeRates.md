@@ -86,27 +86,26 @@ public class CurrencyRates {
         this.loadFromFile();
     }
 
-    private void loadFromFile() {
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(FILENAME));
+   private void loadFromFile() {
+        try (BufferedReader br = new BufferedReader(new FileReader(FILENAME))) {
             String line;
             while ((line = br.readLine()) != null) {
-                // line format: EUR > YEN 174.05
+                // EUR > YEN: 174.05
                 String[] token = line.split(" ");
                 if (token.length != 4)
-                    throw new RuntimeException("corrupt line:"+line);
+                    throw new RuntimeException("corrupt line:" + line);
                 String from = token[0];
                 String to = token[2];
                 double rate = Double.parseDouble(token[3]);
-                String k = from+">"+to;
+                String k = from + ">" + to;
                 this.rates.put(k, Double.valueOf(rate));
             }
         } catch (FileNotFoundException e) {
-            System.out.println("File not found:"+FILENAME);
+            System.out.println("File not found:" + FILENAME);
         } catch (IOException e) {
-            System.out.println("Error while reading file:"+FILENAME);
+            System.out.println("Error while reading file:" + FILENAME);
         } catch (RuntimeException e) {
-            System.out.println("Error while reading a file:"+e.getMessage());
+            System.out.println("Error while reading a file:" + e.getMessage());
         }
     }
 
