@@ -102,21 +102,21 @@ public void saveToFile(String fileName) {
     public void loadFromFile(String fileName) {
         String line;
         this.budget.clear();
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(fileName));
+
+        try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
             line = br.readLine();
             this.BUDGET = Double.parseDouble(line);
             while ((line = br.readLine()) != null) {
                 String[] token = line.split(DELIMITER);
                 if (token.length != 2)
-                    throw new RuntimeException("corrupt line:"+line);
+                    throw new RuntimeException("corrupt line:" + line);
                 String item = token[1].strip();
                 double value = Double.parseDouble(token[0].strip());
-                this.storeBudgetItem(item,value);
+                this.storeBudgetItem(item, value);
             }
             br.close();
         } catch (FileNotFoundException e) {
-            System.out.println("File not found:"+fileName);
+            System.out.println("File not found:" + fileName);
         } catch (IOException e) {
             throw new RuntimeException(e);
         } catch (RuntimeException e) {
