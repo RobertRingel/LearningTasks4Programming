@@ -10,7 +10,7 @@ USD > GBP 1.02
 ```
 
 Read the given Java program to understand its functionality and the related implementation.  
-Implement the method loadFromFile to support reading the above text file.
+Implement the loadFromFile-method to support reading the above text file.
 Finally test your implementation under various error cases - make sure your program can handle corrupt text file input lines.
 
 ``` java
