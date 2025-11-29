@@ -5,7 +5,7 @@ Topic: text files
 Design and implement a new class of your own that is able to read or write text files.
 
 Develop an idea of a new class or add the text file writing or rading functionality to an existing class.  
-Then implement the new class and demonstrate and test it within a main-method.
+Then implement the new class, demonstrate and test it within a main-method.
 
 ---------------------------------------
 
