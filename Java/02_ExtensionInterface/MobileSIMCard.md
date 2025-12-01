@@ -171,7 +171,8 @@ public class PrePaidSimCard extends BasicVoucher {
 #### Previous Knowledge
 
 bcm-1: basics of classes, public/private/final modifieres  
-exi-2: basics of interface definition and implementation 
+exi-1: basics of class extension  
+exi-2: basics of interface definition and implementation  
 
 #### Learning Activities
 
