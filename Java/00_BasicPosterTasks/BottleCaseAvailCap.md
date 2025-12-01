@@ -75,8 +75,9 @@ public class BottleCase {
 
 #### Previous Knowledge
 
-- variables and data types,  
-- Box 1: Example of a Java class shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
+- variables and data types  
+- Box 1: Example of a Java class shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)
+- bcm-1: basics of classes, public/private modifieres
 
 #### Learning Activities
 
