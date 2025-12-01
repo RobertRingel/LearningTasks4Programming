@@ -51,7 +51,9 @@ So as long as the number of people is greater zero, it will read the number of b
 
 #### Previous Knowledge
 
-- variables and data types,  
+- variables and data types  
+- reading console input
+- bcm-1: basics of classes, public/private modifieres  
 - Box 4: Loops shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
 #### Learning Activities
