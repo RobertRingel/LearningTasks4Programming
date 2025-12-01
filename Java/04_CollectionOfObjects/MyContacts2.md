@@ -133,8 +133,9 @@ public class ContactStore {
 #### Previous Knowledge
 
 bcm-1: basics of classes, public/private modifieres  
+exi-1: basics of class extension  
 uob-1: basics of creating and using objects  
-col-1: basics of an ArrayList class
+col-1: basics of an ArrayList class  
 
 #### Learning Activities
 
