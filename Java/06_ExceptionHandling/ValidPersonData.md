@@ -63,6 +63,7 @@ In any case the program will end in a regular way.
 #### Previous Knowledge
 
 bcm-1: basics of classes, public/protected/private modifieres  
+uob-1: basics of creating and using objects  
 exc-1: basics of exception-handling
 
 #### Learning Activities
