@@ -77,6 +77,7 @@ Design and implement a second class that is an extension of the AbstractGPSLogge
 #### Previous Knowledge
 
 bcm-1: basics of classes, public/protected/private modifieres  
+col-1: basics of an ArrayList class  
 exi-1: basics of class extension  
 abs-1: basics of abstract classes
 
