@@ -78,11 +78,14 @@ The second while-lopp is implemented similarly to iterate the array-variable cas
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
-| understand the use of arrays                     | worked-out example | 1 - low     |  
+| understand the use of arrays                     | worked-out example | 2 - normal  |  
 
 #### Previous Knowledge
 
-- variables and data types,  
+- variables and data types,
+- loops,
+- console input,
+- bcm-1: basics of classes, public/private modifieres,  
 - Box 5: Arrays to store data shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
 #### Learning Activities
