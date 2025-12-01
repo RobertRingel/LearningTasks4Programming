@@ -121,8 +121,9 @@ public class ETrading extends AbstractTradingService {
 
 bcm-1: basics of classes, public/protected/private modifieres  
 exi-1: basics of class extension  
-col-1: basics of the HashMap and ArrayList classes  
-abs-1: basics of abstract classes
+col-1: basics of the ArrayList class  
+col-2: basics of the HashMap class  
+abs-1: basics of abstract classes  
 
 #### Learning Activities
 
