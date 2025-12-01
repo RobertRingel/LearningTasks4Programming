@@ -108,7 +108,7 @@ Finally note the implementation of the toString-method in both of the classes. T
 #### Previous Knowledge
 
 bcm-1: basics of classes, public/private modifieres  
-exi-1: basics of class extension and over-writing
+ext-1: basics of class extension and over-writing
 
 #### Learning Activities
 
