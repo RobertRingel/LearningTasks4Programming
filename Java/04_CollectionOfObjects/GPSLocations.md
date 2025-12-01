@@ -79,7 +79,8 @@ Design and implement the Java class GPSLocations. The class shall be used to sto
 
 bcm-1: basics of classes, public/private modifieres  
 uob-1: basics of creating and using objects  
-col-1: basics of HashMap and ArrayList classes
+col-1: basics of the ArrayList class  
+col-2: basics of the HashMap class  
 
 #### Learning Activities
 
