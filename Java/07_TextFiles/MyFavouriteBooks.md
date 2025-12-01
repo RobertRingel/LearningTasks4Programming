@@ -164,7 +164,6 @@ public class BestBooks {
 #### Previous Knowledge
 
 bcm-1: basics of classes, public/protected/private modifieres  
-exi-1: basics of class extension  
 uob-1: basics of creating and using objects  
 col-1: basics of an ArrayList class  
 exc-1: basics of exception-handling  
