@@ -133,7 +133,7 @@ public class LoggedCurrencyExchange extends CurrencyExchange {
 bcm-1: basics of classes, public/protected/private modifieres  
 exi-1: basics of class extension  
 exc-1: basics of exception-handling  
-txt-1: basics of text file reading and writing  
+txt-1: basics of text file writing  
 
 #### Learning Activities
 
