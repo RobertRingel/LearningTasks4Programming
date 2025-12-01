@@ -74,8 +74,9 @@ The aphorism sample file is ["aphorism.txt"](aphorism.txt).
 #### Previous Knowledge
 
 bcm-1: basics of classes, public/protected/private modifieres  
+col-1: basics of an ArrayList class  
 exc-1: basics of exception-handling  
-txt-1: basics of text file reading  
+txt-2: basics of text file reading  
 
 #### Learning Activities
 
