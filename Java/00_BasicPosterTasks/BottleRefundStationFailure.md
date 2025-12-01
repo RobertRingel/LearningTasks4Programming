@@ -88,6 +88,8 @@ public class RefundStation {
 #### Previous Knowledge
 
 - variables and data types,  
+- if-else-branches,  
+- bcm-1: basics of classes, public/private modifieres,  
 - Box 6: Make use of objects shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
 #### Learning Activities
