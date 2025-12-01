@@ -80,6 +80,7 @@ public class PriorityTask extends Task implements Comparable<PriorityTask> {
 #### Previous Knowledge
 
 bcm-1: basics of classes, public/private/final modifieres  
+exi-1: basics of class extension  
 exi-2: basics of class interfaces 
 
 #### Learning Activities
