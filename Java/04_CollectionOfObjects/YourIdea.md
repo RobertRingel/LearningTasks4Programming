@@ -21,7 +21,7 @@ Any Java class similar to the classes shown in this series of the task repositor
 
 bcm-1: basics of classes, public/private modifieres  
 uob-1: basics of creating and using objects  
-col-1: basics of the ArrayList and HashMap classes
+col-1, col-2: basics of the ArrayList and HashMap classes
 
 #### Learning Activities
 
