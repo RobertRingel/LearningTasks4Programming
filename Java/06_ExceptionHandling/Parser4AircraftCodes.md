@@ -51,7 +51,7 @@ public class AircraftCodeParser {
 #### Previous Knowledge
 
 bcm-1: basics of classes, public/protected/private modifieres  
-exc-1: basics of exception-handling  
+exc-2: design a new exception class  
 basic regualar expression pattern matching as shown in task [TightenYourClass](TightenYourClass.md)  
 
 #### Learning Activities
