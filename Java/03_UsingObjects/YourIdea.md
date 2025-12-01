@@ -23,7 +23,7 @@ An UML class diagram and the related implementation similar to the sample code g
 
 bcm-1: basics of classes, public/private modifieres  
 uob-1: basics of creating and using objects  
-uml-2: basics of UML class diagrams including class composition, aggregation
+uml-3: basics of UML class diagrams including class composition, aggregation
 
 #### Learning Activities
 
