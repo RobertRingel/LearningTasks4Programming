@@ -57,7 +57,8 @@ public class BottleCase {
 
 #### Previous Knowledge
 
-- variables and data types,  
+- variables and data types  
+- bcm-1: basics of classes, public/private modifieres  
 - Box 3: Conditional execution shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
 #### Learning Activities
