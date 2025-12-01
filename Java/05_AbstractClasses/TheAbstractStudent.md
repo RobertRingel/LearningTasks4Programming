@@ -3,7 +3,7 @@ Topic: abstract classes
 ## Learning Task: The abstract student
 
 Read the given Java code of the class AbstractStudent. 
-Develop a new class of a non-abstract Student based on the given class. First implement a minimum version of the new Student class that can be used to create student objects. And a main-method to the class to demonstrate the creation of student objects.  
+Develop a new class of a non-abstract Student based on the given class. First implement a minimum version of the new Student class that can be used to create student objects. Add a main-method to the class to demonstrate the creation of student objects.  
 Finally feel free to add some additional functionality of your choice to the new student class.  
 
 ***Note:*** the AbstractStudent is an extension of the class [Person](../03_UsingObjects/Person.java) from this task repository.
