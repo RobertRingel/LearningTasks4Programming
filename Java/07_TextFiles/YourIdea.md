@@ -21,7 +21,8 @@ Any Java class similar to the classes shown in this series of the task repositor
 
 bcm-1: basics of classes, public/protected/private modifieres  
 exc-1: basics of exception-handling  
-txt-1: basics of text file reading or writing  
+txt-1: basics of text file writing  
+txt-2: basics of text file reading  
 
 #### Learning Activities
 
