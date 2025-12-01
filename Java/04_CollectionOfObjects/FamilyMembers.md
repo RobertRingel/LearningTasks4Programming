@@ -70,7 +70,8 @@ The main-method shows the functionality of this class.
 
 bcm-1: basics of classes, public/private modifieres  
 uob-1: basics of creating and using objects  
-col-1: basics of the HashMap and ArrayList classes
+col-1: basics of the ArrayList class  
+col-2: basics of the HashMap class  
 
 #### Learning Activities
 
