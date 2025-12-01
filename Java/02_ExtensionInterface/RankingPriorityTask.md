@@ -62,7 +62,7 @@ package org.htwd.pool.o2;
 
 import java.util.Arrays;
 
-public class PriorityTask extends Task {
+public class PriorityTask extends Task implements Comparable<PriorityTask> {
     private int priority;
 
     ...
