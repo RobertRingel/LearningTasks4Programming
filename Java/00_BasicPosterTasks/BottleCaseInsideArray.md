@@ -68,11 +68,14 @@ The values of cases[i] are the Java-internal references to the BottleCase-class 
 
 | **Learning objective**                           | **Task type**   | **Complexity** |
 | ------------------------------------------------ | --------------- | -------------- |
-| understand the use of arrays                     | completion task | 1 - low     |  
+| understand the use of arrays                     | completion task | 2 - normal     |  
 
 #### Previous Knowledge
 
-- variables and data types,  
+- variables and data types,
+- loops,
+- console input,
+- bcm-1: basics of classes, public/private modifieres, 
 - Box 5: Arrays to store data shown in the [Basic Java Poster](00_JavaPoster_HK_engl.pdf)  
 
 #### Learning Activities
