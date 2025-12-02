@@ -1,5 +1,3 @@
-- review and refine the knowledge identifyer tokens
-- review assignment of the knowledge identifyer tokens as prev. knowledge of the learning tasks
 bcm-1: basics of classes, public/private modifieres  
 exi-1: basics of class extension and over-writing  
 exi-2: basics of interface definition and implementation
