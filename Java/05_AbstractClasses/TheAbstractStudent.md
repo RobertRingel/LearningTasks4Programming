@@ -14,7 +14,7 @@ package org.htwd.pool.o5;
 import org.htwd.pool.o3.Person;
 import java.util.ArrayList;
 
-public class AbstractStudent extends Person {
+public abstract class AbstractStudent extends Person {
 
     private final String studentID;
     private final String DELIMITER = ":";
