@@ -1,4 +1,4 @@
-Topic: data structures - list
+Topic: List data structures 
 
 ## Learning Task: Remove currency exchange data
 
@@ -37,7 +37,7 @@ if src_idx >= 0 and dest == currencies[src_idx+1]:      # check the dest. curren
 	currencies.pop(src_idx)                             # delete exchange rate
 	print(currencies)
 else:
-	print(src,'is not a source currency.')
+	print(src, 'and/or', dest, 'not listed as currency.')
 
 ```
 ---------------------------------------
