@@ -21,7 +21,7 @@ contact: robert.ringel@htw-dresden.de
 Update August 2025: 
 - German paper related to this task repository was published by Hochschuldidaktik Sachsen: [Lernaufgaben digital dokumentieren, sammeln und veröffentlichen ](https://jfhead.publia.org/jfhead/article/view/74/70)
 
-Update Dezember 2025:
+Update December 2025:
 - initial repository for Java learning tasks is available
 
 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
