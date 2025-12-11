@@ -2,7 +2,7 @@ This task pool provides a set of learning tasks for learning Python programming.
 The numbering schema of the different task sets is related to their content. Following the sequence of numbers results in a task sequence
 to start from very basic topics towards the more and more advanced ones.
 
-The content of the task pool currently covers the following topics:
+The content of the task pool currently covers the following topics:  
 - Input Processing Output  
 - Execution Control (Branches, Loops)
 - Data Structures (List, Tupel, Dictionary)
