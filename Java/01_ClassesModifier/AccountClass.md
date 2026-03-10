@@ -62,7 +62,7 @@ This class models a basic bank account related to a named person. It is possible
 
 The constructor is used to create account objects. Therefore a name and an account number must be given. The constructor sets the initial balance to zero and the transaction limit is set to 1000.0.
 
-The checkAmount method is private, because it is a kind of class internal service method, a not a public service of the account class.
+The checkAmount method is private, because it is a kind of class internal service method, and not a public service of the account class.
 
 
 | **Learning objective**                         | **Task type**   | **Complexity** |
