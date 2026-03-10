@@ -19,7 +19,7 @@ All these learning tasks are related to the content of the [Java-OOP-Poster](../
 | [GPSPoint](GPSPoint.md)                          | GPS distance calculation          | make use of static methods and attributes                   | 1 - low        | completion task        |
 | [CurrencyExchange](CurrencyExchange.md)          | Currency exchange calculation     | design, implement, test a basic Java class                  | 1 - low        | conventional task      |
 | [CurrencyExchange_2](CurrencyExchange_2.md)      | Java class to model currency exchange | design, implement, test a basic Java class              | 1 - low        | conventional task      |
-| [StockPortfolio](StockPortfolio.md)              | Java class to model a stock portfolio | cdesign, implement, test a basic Java class             | 1 - low        | conventional task      |
+| [StockPortfolio](StockPortfolio.md)              | Java class to model a stock portfolio | design, implement, test a basic Java class              | 1 - low        | conventional task      |
 
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 08/2025  
