@@ -1,6 +1,6 @@
 Topic: using objects
 
-## Learning Task: The canteen voucher card
+## Learning Task: The Canteen Voucher Card
 
 Design and implement a CanteenVoucherCard-class that provides the following features:  
 The canteen voucher card should use a bank account to get loaded with money by the user. The card can be used for canteen payments as long as it has enough value. If it has not enough value the user should load more money with help of the bank account.  
