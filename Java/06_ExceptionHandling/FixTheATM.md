@@ -12,22 +12,26 @@ import java.util.Scanner;
 
 public class ATMMachineDemo {
 
-    ATMMachine atm = new ATMMachine(0.0);
+    private ATMMachine atm = null;
+    private Scanner sc = null;
 
-    public ATMMachineDemo() { }
+    public ATMMachineDemo() { 
+        this.atm = new ATMMachine(0.0);
+        this.sc = new Scanner(System.in);
+    }
 
     public void run() {
         String cmd ="";
         double amount = 0.0;
-        Scanner sc = new Scanner(System.in);
+
         while (!cmd.equals("e")) {
             System.out.println("Balance, Deposit, Withdraw, End:");
-            cmd = sc.nextLine();
+            cmd = this.sc.nextLine();
             if (cmd.equals("b"))
                 System.out.println(this.atm.checkBalance());
             if (cmd.equals("d") || cmd.equals("w")) {
-                amount = sc.nextDouble();
-                sc.nextLine();
+                amount = this.sc.nextDouble();
+                this.sc.nextLine();
                 if (cmd.equals("d"))
                     this.atm.deposit(amount);
                 if (cmd.equals("w"))
@@ -35,7 +39,6 @@ public class ATMMachineDemo {
                 System.out.println("New balance:" + this.atm.checkBalance());
             }
         }
-        sc.close();
     }
 
     public static void main(String[] args) {
@@ -57,24 +60,28 @@ import java.util.Scanner;
 
 public class ATMMachineDemo {
 
-    ATMMachine atm = new ATMMachine(0.0);
+    private ATMMachine atm = null;
+    private Scanner sc = null;
 
-    public ATMMachineDemo() { }
+    public ATMMachineDemo() { 
+        this.atm = new ATMMachine(0.0);
+        this.sc = new Scanner(System.in);
+    }
 
     public void run() {
         String cmd ="";
         double amount = 0.0;
         boolean valid = false;
-        Scanner sc = new Scanner(System.in);
+
         while (!cmd.equals("e")) {
             System.out.println("Balance, Deposit, Withdraw, End:");
-            cmd = sc.nextLine();
+            cmd = this.sc.nextLine();
             if (cmd.equals("b"))
                 System.out.println(this.atm.checkBalance());
             if (cmd.equals("d") || cmd.equals("w")) {
                 System.out.println("amount:");
                 try {
-                    amount = sc.nextDouble();
+                    amount = this.sc.nextDouble();
                     valid = true;
                 } catch (InputMismatchException e) {
                     valid = false;
@@ -91,7 +98,6 @@ public class ATMMachineDemo {
             }
 
         }
-        sc.close();
     }
 
 ...
