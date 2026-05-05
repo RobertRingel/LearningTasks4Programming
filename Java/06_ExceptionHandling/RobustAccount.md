@@ -88,7 +88,7 @@ public class Account {
     public Account(String iban, String name, String bday) throws IllegalArgumentException {
         if (Pattern.matches("^DE\\d{20}$", iban) == false)
             throw new IllegalArgumentException("given IBAN is not a valid German IBAN");
-        if (name==null || name=="")
+        if (name==null || name.isEmpty())
             throw new IllegalArgumentException("name was found empty");
         if (bday == null || Pattern.matches("^\\d{2}[/-]\\d{2}[/-][012]\\d{3}$", bday) == false)
             throw new IllegalArgumentException("Invalid parameter for bday");
