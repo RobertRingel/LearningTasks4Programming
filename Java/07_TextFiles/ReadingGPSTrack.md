@@ -26,7 +26,8 @@ public class GPSTrack {
 
     public void loadFromFile(String filename) {
         String line;
-        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(filename)) 
             while ((line = br.readLine()) != null) {
                 String[] token = line.split(DELIMITER);
                 if (token.length != 2)
@@ -39,7 +40,8 @@ public class GPSTrack {
         } catch (FileNotFoundException e) {
             System.out.println("File not found:" + filename);
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println("I/O-Problem reading file:" + filename);
+            System.out.println(e.getMessage());
         } catch (RuntimeException e) {
             System.out.println("Error while reading a file:" + e.getMessage());
         }
@@ -89,7 +91,8 @@ public class GPSTrack {
 ``` java
     public void loadFromFile(String filename) {
         String line;
-        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {  // create a text file reader object
+        try {                                                                     // prepare exception handling
+            BufferedReader br = new BufferedReader(new FileReader(filename)) {    // create a text file reader object
             while ((line = br.readLine()) != null) {                              // read all the file line by line   
                 String[] token = line.split(DELIMITER);                           // split line based on DELIMITER
                 if (token.length != 2)                                            // illegal number of line items?
@@ -102,7 +105,8 @@ public class GPSTrack {
         } catch (FileNotFoundException e) {                                       // catch and handle file not found
             System.out.println("File not found:"+filename);
         } catch (IOException e) {                                                 // catch and handle IOException
-            throw new RuntimeException(e);
+            System.out.println("I/O-Problem reading file:" + filename);
+            System.out.println(e.getMessage());
         } catch (RuntimeException e) {                                            // catch and handle RunTimeException
             System.out.println("Error while reading a file:"+e.getMessage());
         }
