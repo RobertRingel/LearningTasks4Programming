@@ -87,7 +87,8 @@ public class CurrencyRates {
     }
 
    private void loadFromFile() {
-        try (BufferedReader br = new BufferedReader(new FileReader(FILENAME))) {
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(FILENAME)) 
             String line;
             while ((line = br.readLine()) != null) {
                 // EUR > YEN: 174.05
