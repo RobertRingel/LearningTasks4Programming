@@ -16,29 +16,29 @@ import java.util.HashMap;
 
 public class GPSLocations {
 
-    HashMap<String, GPSPoint> locations = new HashMap<String, GPSPoint>();
+    private HashMap<String, GPSPoint> locations = new HashMap<String, GPSPoint>();
 
     public GPSLocations() {}
 
     public void add(String name, GPSPoint point) {
-        locations.put(name, point);
+        this.locations.put(name, point);
     }
 
     public void add(String name, double lat, double lon) {
         GPSPoint p = new GPSPoint(lat, lon);
-        add(name, p);
+        this.add(name, p);
     }
 
     public GPSPoint get(String name) {
-        return locations.get(name);
+        return this.locations.get(name);
     }
 
     public void remove(String name) {
-        locations.remove(name);
+        this.locations.remove(name);
     }
 
     public ArrayList<String> getAllLocationNames() {
-        ArrayList<String> loc = new ArrayList<String>(locations.keySet());
+        ArrayList<String> loc = new ArrayList<String>(this.locations.keySet());
         return loc;
     }
 }
@@ -57,29 +57,29 @@ import java.util.HashMap;
 
 public class StockPortfolio {
 
-    HashMap<String,StockItem> portfolio = new HashMap<String,StockItem>();
+    private HashMap<String,StockItem> portfolio = new HashMap<String,StockItem>();
 
     public StockPortfolio() {}
 
     public void add(StockItem item) {
-        portfolio.put(item.getStockCode(), item);
+        this.portfolio.put(item.getStockCode(), item);
     }
 
     public void add(String code, double price, double pcs) {
         StockItem item = new StockItem(code, pcs, price);
-        add(item);
+        this.add(item);
     }
 
     public StockItem get(String code) {
-        return portfolio.get(code);
+        return this.portfolio.get(code);
     }
 
     public void remove(String code) {
-        portfolio.remove(code);
+        this.portfolio.remove(code);
     }
 
     public ArrayList<String> getAllItemCodes() {
-        ArrayList<String> codes = new ArrayList<String>(portfolio.keySet());
+        ArrayList<String> codes = new ArrayList<String>(this.portfolio.keySet());
         return codes;
     }
 
