@@ -4,7 +4,7 @@ Topic: controlling program execution - branch
 
 The following Python code can be used to perform currency exchange calculations.  
 
-Read the code and run the code to get an understandig of it. Add the missing lines of Python commands to perform all potential currency exchange calculations for the given currencies.
+Read the code and run the code to get an understanding of it. Add the missing lines of Python commands to perform all potential currency exchange calculations for the given currencies.
 
 Improve the indicated command in a way to prevent negative currency exchanges. 
 
@@ -61,7 +61,7 @@ elif currency1 == 'YEN' and currency2 == 'USD':
 	amount2 = amount1 / RATE_USD_2_YEN
 elif currency1 == 'EUR' and currency2 == 'YEN':
 	amount2 = amount1 * RATE_EUR_2_YEN
-elif currency1 == 'EUR' and currency2 == 'YEN':
+elif currency1 == 'YEN' and currency2 == 'EUR':
 	amount2 = amount1 / RATE_EUR_2_YEN
 
 if amount2 >= 0.0:
