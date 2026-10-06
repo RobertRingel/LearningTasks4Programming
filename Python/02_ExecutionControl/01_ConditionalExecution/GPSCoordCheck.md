@@ -59,7 +59,7 @@ if check_lon and check_lat:
 
 	print('Distance [km]: ',distance)
 	if distance > 200:
-		print('Warning: This distance is an approximation. For longer distances, the actual distance may be significantly greater due to Earth's curvature.')
+		print('Warning: This distance is an approximation. For longer distances, the actual distance may be significantly greater due to Earth curvature.')
 else:
 	print('The co-ordinates are outside of Germany. Calculation not possible.')
 ```
