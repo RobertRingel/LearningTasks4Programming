@@ -42,7 +42,7 @@ if valid:
 	if std>5:
 		std_rate = 0.3
 	price = kids*KIDS_PRICE*kids_rate + sen*SEN_PRICE + std*STD_PRICE*std_rate
-	print('Your total ticket pric is EUR:', price)
+	print('Your total ticket price is EUR:', price)
 else:
 	print('Invalid input data.')
 ```
