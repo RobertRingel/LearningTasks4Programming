@@ -23,7 +23,7 @@ thc35 = thc > 3.5
 
 if a21 and a05:
 	print('Do not drive!')
-elif a21 and thc35 and acl>0.0:
+elif a21 and thc35 and alc>0.0:
 	print('Do not drive - your Fee will be .... EUR') 
 elif a21 and thc35:
 	print('Do not drive - your Fee will be .... EUR')
