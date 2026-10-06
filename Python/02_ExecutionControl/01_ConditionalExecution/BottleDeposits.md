@@ -55,7 +55,7 @@ else:
 #### Previous Knowledge
 
 vcp-1, vcp-2: variable, calculations, print, input  
-brach-2: if-else-statement, and-conjunction of different comparisons
+branch-2: if-else-statement, and-conjunction of different comparisons
   
 #### Learning Activities
 
