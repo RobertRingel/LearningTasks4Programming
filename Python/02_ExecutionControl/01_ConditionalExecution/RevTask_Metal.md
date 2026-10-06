@@ -35,11 +35,11 @@ else:
 ### Solution
 
 *Purpose of the program:*  
-The program is used to calculate the monetary value for a given weight of Gold, Silver or Platinum.
+The program is used to calculate the monetary value for a given mass of Gold, Silver or Platinum.
 
 *Programming task*  
-Write a Python program to calculate the monetary value for a given weight of Gold, Silver or Platinum.
-The user shall enter the  kind of metal and the related weight and the programm shall calculate the according value. In case of an invalid input the programm shall print a message. Otherwise it will perform the calculation and print the result.
+Write a Python program to calculate the monetary value for a given mass of Gold, Silver or Platinum.
+The user shall enter the  kind of metal and the related weight and the program shall calculate the according value. In case of an invalid input the program shall print a message. Otherwise it will perform the calculation and print the result.
 
 ---------------------------------------
 
