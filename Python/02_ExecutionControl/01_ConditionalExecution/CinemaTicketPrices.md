@@ -41,7 +41,7 @@ if valid:
 	if std>5:
 		std_rate = 0.3
 	price = kids*KIDS_PRICE*kids_rate + sen*SEN_PRICE + std*STD_PRICE*std_rate
-	print('Your total ticket pric is EUR:', price)
+	print('Your total ticket price is EUR:', price)
 else:
 	print('Invalid input data.')
 ```
@@ -60,7 +60,7 @@ branch-2: if-else-statement including and or-conjunctions
 #### Learning Activities
 
 1) get an understanding of the problem
-2) develop a solution strategy - identifiy code sections
+2) develop a solution strategy - identify code sections
 3) implement the program
 4) run and test the new program
 5) compare the solution with an other student
