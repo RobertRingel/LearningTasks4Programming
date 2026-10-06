@@ -29,7 +29,7 @@ Implement the program, test it and explain it to another student.
 #### Previous Knowledge
 
 vcp-1, vcp-2: variables, calculations, print, type conversion for numeric input  
-branch-2: if-else-statement including and or-conjunctions
+branch-2: if-else-statement including and/or conjunctions
 
 #### Learning Activities
 
