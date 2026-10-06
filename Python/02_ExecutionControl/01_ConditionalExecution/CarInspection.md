@@ -12,12 +12,12 @@ INSPECTION_LIMIT = 30
 MILE_LIMIT = 20000
 
 months = int(input('Months since last vehicle inspection:'))
-milage = int(input('Miles since last oil change:'))
+mileage = int(input('Miles since last oil change:'))
 
 if months>INSPECTION_LIMIT:
 	print('recommended vehicle inspection!')
-elif milage>MILE_LIMIT:
-	print('recommended oli change!')
+elif mileage>MILE_LIMIT:
+	print('recommended oil change!')
 else:
 	print('no action required.')
 ```
@@ -27,7 +27,7 @@ else:
 ### Solution
 
 The above code will process negative numbers in the user input.
-In case the inspection limit is overdue, it will not check the milage limit.  
+In case the inspection limit is overdue, it will not check the mileage limit.  
 The code below fixes these problems.
 
 ``` python
@@ -35,17 +35,17 @@ INSPECTION_LIMIT = 30
 MILE_LIMIT = 20000
 
 months = int(input('Months since last vehicle inspection:'))
-milage = int(input('Miles since last oil change:'))
+mileage = int(input('Miles since last oil change:'))
 
 ok = True
-valid = months>0 and milage>0
+valid = months>0 and mileage>0
 
 if valid and months>INSPECTION_LIMIT:
 	print('recommended vehicle inspection!')
 	ok = False
 
-if valid and milage>MILE_LIMIT:
-	print('recommended oli change!')
+if valid and mileage>MILE_LIMIT:
+	print('recommended oil change!')
 	ok = False
 
 if not valid:
