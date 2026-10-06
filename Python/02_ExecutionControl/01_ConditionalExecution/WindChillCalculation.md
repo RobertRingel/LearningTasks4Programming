@@ -9,7 +9,7 @@ Add some lines of code, to make sure the calculation will only be performed in c
 
 ``` python
 # wind chill calculation 
-# for temperature in degree Fahrenheits and wind speed in miles per hour
+# for temperature in degree Fahrenheit and wind speed in miles per hour
 
 # calculation constants
 OFFSET = 35.74
@@ -30,7 +30,7 @@ print('Wind chill [°F]:', wc)
 
 ``` python
 # wind chill calculation 
-# for temperature in degree Fahrenheits and wind speed in miles per hour
+# for temperature in degree Fahrenheit and wind speed in miles per hour
 
 # calculation constants
 OFFSET = 35.74
@@ -51,14 +51,14 @@ else:
 
 ---------------------------------------
 
-| **Learning objective**                         | **Task type**   | **Complexity** |
-| ---------------------------------------------- | --------------- | -------------- |
-| Test and branch using if-else including conjunction | completion task | 1 - low     |  
+| **Learning objective**                              | **Task type**   | **Complexity** |
+| --------------------------------------------------- | --------------- | -------------- |
+| Test and branch using if-else including conjunction | completion task | 1 - low        |  
 
 #### Previous Knowledge
 
 vcp-1, vcp-2: variables, calculations, print, type conversion for numeric input  
-branch-2: if-else-statement including and conjunctions
+branch-2: if-else-statement including logical and conjunctions
 
 #### Learning Activities
 
