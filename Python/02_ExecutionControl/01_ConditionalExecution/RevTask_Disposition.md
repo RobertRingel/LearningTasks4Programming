@@ -2,12 +2,12 @@ Topic: controlling program execution - branch
 
 ## Learning Task: What is the purpose of the code?
 
-Read, analyse and run the given Python program. What is it's purpose?  
+Read, analyze and run the given Python program. What is it's purpose?  
 Write the text for a related programming task.
 
 ``` python
 print('Q1: Do you see any value in learning programming?')
-q1 = int(input('1-not at all  2-at little  3-some  4-really benefitial  :'))
+q1 = int(input('1-not at all  2-at little  3-some  4-really beneficial  :'))
 
 print('Q2: How much effort do you spend for learning programming?')
 q2 = int(input('1-almost none  2-at little  3-some  4-significant       :'))
@@ -31,7 +31,7 @@ if disposition != '':
 	print('Your disposition in learning programming is:',disposition)
 ```
 
----------------------------------------
+---------------------------------------disposition
 
 ### Solution
 
@@ -46,7 +46,7 @@ Q1: Do you see any value in learning programming?
 Q2: How much effort do you spend for learning programming?  
 Q3: Have you had already some success in learning programming?  
 
-The total disposition score is the sum of points for each question. The programm will print a final verbal statement related to the total score.
+The total disposition score is the sum of points for each question. The program will print a final verbal statement related to the total score.
 
 ---------------------------------------
 
