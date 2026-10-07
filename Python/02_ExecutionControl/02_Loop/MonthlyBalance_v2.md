@@ -13,7 +13,7 @@ Demonstrate your program to an other student and explain it!
 ``` python
 # Monthly Balance over the year
 
-total = 0.0      # cumulated total outcome
+total = 0.0      # accumulated total outcome
 month = 0        # month number
 
 while month < 12:                              # run for 12 months
@@ -21,7 +21,7 @@ while month < 12:                              # run for 12 months
 	print('Month:',month)
 	earn = float(input('Earnings [EUR]: '))
 	exp = float(input('Expenses [EUR]: '))
-	total = total + earn - exp                 # update the cumulated total
+	total = total + earn - exp                 # update the accumulated total
 
 print('Outcome per year [EUR]:', total)
 ```
@@ -33,7 +33,7 @@ print('Outcome per year [EUR]:', total)
 ``` python
 # Monthly Balance over the year
 
-total = 0.0      # cumulated total outcome
+total = 0.0      # accumulated total outcome
 month = 0        # month number
 
 while month < 12:                              # run for 12 months
@@ -46,7 +46,7 @@ while month < 12:                              # run for 12 months
 			break                          # yes:  exit the loop
 		else:                                  # no:
 			print('Correct your input!')   #     print message
-	total = total + earn - exp                     # update the cumulated total
+	total = total + earn - exp                     # update the accumulated total
 	print(total)
 
 print('Outcome per year [EUR]:', total)
@@ -56,7 +56,7 @@ print('Outcome per year [EUR]:', total)
 ``` python
 # Monthly Balance over the year
 
-total = 0.0      # cumulated total outcome
+total = 0.0      # accumulated total outcome
 month = 0        # month number
 
 while month < 12:                              # run for 12 months
@@ -69,7 +69,7 @@ while month < 12:                              # run for 12 months
 			...                            # yes:  exit the loop
 		else:                                  # no:
 			...                            #     print message
-	total = total + earn - exp                     # update the cumulated total
+	total = total + earn - exp                     # update the accumulated total
 	print(total)
 
 print('Outcome per year [EUR]:', total)
@@ -93,7 +93,7 @@ loop-2: while-loop including break-statement
 2) write appropriate Python code using a **nested infinite loop** and break
 3) add comments to the code
 4) test the Python program
-5) speek about the code with another student
+5) speak about the code with another student
 
 #### Supporting information
 
