@@ -76,7 +76,7 @@ loop-2: while-loop including break-statement
 1) read and run the Python code
 2) get an understanding of the code
 3) write comments to the code
-4) verbal explaination of the code
+4) verbal explanation of the code
 
 #### Supporting information
 
