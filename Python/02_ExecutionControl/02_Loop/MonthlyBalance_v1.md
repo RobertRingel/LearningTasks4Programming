@@ -4,7 +4,7 @@ Topic: controlling program execution - loop
 
 Implement a program to calculate the monthly balance of an account over the year.  
 The program will run for 12 months and the user will enter the monthly earnings and the monthly expanses. 
-The program will cumulate these values in order to print the outcome per year after 12 months.
+The program will accumulate these values in order to print the outcome per year after 12 months.
 
 Demonstrate your program to an other student and explain it!
 
@@ -15,7 +15,7 @@ Demonstrate your program to an other student and explain it!
 ``` python
 # Monthly Balance over the year
 
-total = 0.0      # cumulated total outcome
+total = 0.0      # accumulated total outcome
 month = 0        # month number
 
 while month < 12:                              # run for 12 months
@@ -23,7 +23,7 @@ while month < 12:                              # run for 12 months
 	print('Month:',month)
 	earn = float(input('Earnings [EUR]: '))
 	exp = float(input('Expenses [EUR]: '))
-	total = total + earn - exp                 # update the cumulated total
+	total = total + earn - exp                 # update the accumulated total
 
 print('Outcome per year [EUR]:', total)
 ```
@@ -44,7 +44,7 @@ loop-1: while-loop
 1) read the task and discuss the problem
 2) write appropriate Python code
 3) test the Python program
-4) speek about your code with another student - add comments to the code
+4) speak about your code with another student - add comments to the code
 
 #### Supporting information
 
