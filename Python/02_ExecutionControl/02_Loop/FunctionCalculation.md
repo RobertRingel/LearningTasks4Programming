@@ -2,7 +2,7 @@ Topic: controlling program execution - loop
 
 ## Learning Task: What is the purpose of the code?
 
-Read, analyse and run the given Python program. What is it's purpose?  
+Read, analyze and run the given Python program. What is it's purpose?  
 Write the text for a related programming task.
 
 ``` python
