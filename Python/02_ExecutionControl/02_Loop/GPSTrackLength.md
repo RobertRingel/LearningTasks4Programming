@@ -3,7 +3,7 @@ Topic: controlling program execution - loop
 ## Learning Task: Length of a GPS track
 
 Design and implement a Python program that can be used to calculate the length of a GPS track.  
-The user will enter a sequence of GPS co-ordinates and the program will calculate the distance between the individual track points and cumulate them to the length of the track.  
+The user will enter a sequence of GPS co-ordinates and the program will calculate the distance between the individual track points and accumulate them to the length of the track.  
 Demonstrate your program to an other student and explain it!
 
 Help: The following lines of code demonstrates the GPS distance calculation for two track points in Germany (AVG_LAT, AVG_LON).
@@ -117,7 +117,7 @@ loop-2: while-loop including break-statement
 2) develop an idea to solve the task
 3) write appropriate Python code
 4) test the Python program using known co-ordinates and distances
-5) speek about your code with another student - add comments to the code
+5) speak about your code with another student - add comments to the code
 
 #### Supporting information
 
