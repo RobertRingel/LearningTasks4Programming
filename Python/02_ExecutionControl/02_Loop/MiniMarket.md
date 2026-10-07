@@ -2,7 +2,7 @@ Topic: controlling program execution - loop
 
 ## Learning Task: What is the purpose of the code?
 
-Read, analyse and run the given Python program. What is it's purpose?  
+Read, analyze and run the given Python program. What is it's purpose?  
 Write the text for a related programming task.
 
 ``` python
@@ -10,7 +10,7 @@ Write the text for a related programming task.
 sum_price = 0.0      # total price
 sum_vat = 0.0        # total VAT
 
-# ---- loop to enter user data and cumulate values -----
+# ---- loop to enter user data and accumulate values -----
 while True:
     name = input("Product: ")                 # enter product name as string
     if name == "":                            # check for product name
@@ -20,10 +20,10 @@ while True:
     pcs = int(input("Pieces : "))             # enter pieces as integer
     vat = float(input("VAT %  : "))           # enter VAT as float
     
-    sum_price = sum_price + price*pcs         # cumulate prices
-    sum_vat = sum_vat + price*pcs*vat/100.0   # cumulate VAT
+    sum_price = sum_price + price*pcs         # accumulate prices
+    sum_vat = sum_vat + price*pcs*vat/100.0   # accumulate VAT
     
-    # print cumulated values
+    # print accumulated values
     print(sum_price, "EUR plus ", sum_vat, "EUR VAT \n")
 
 print("The end :-)")
