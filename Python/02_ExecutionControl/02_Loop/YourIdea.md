@@ -4,7 +4,7 @@ Topic: controlling program execution - loop
 
 Write a basic program, that uses a while-loop to repeat a series of Python statements for any calculation process.
 
-Do not forget to add any commentes to your code.
+Do not forget to add any comments to your code.
 
 Implement the program, test it and explain it to another student.
 
@@ -36,7 +36,7 @@ loop-2: while-loop
 
 1) thinking of potential useful calculations
 2) writing and running Python code
-3) wrting code comments
+3) writing code comments
 4) explaining Python code to other people
 
 #### Supporting information
