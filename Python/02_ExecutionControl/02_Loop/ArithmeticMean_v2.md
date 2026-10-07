@@ -4,7 +4,7 @@ Topic: controlling program execution - loop
 The following program shall calculate the arithmetic mean of the sequence of numbers entered by the user.
 
 Read the program and write comments to significant lines in the code.  
-Implement the missing statements to exit the loop, in case the users enters the number 0. Then run the programm and test it.
+Implement the missing statements to exit the loop, in case the users enters the number 0. Then run the program and test it.
 
 Add-on task: Adds some lines of code to print a message in case the user enters a negative number. 
 
