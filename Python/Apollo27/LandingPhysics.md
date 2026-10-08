@@ -12,3 +12,8 @@ We have 1 500 kg of rocket fuel on board. This allows us to decide every sec
 - the fall velocity  
 
 To do this we use the following program concept:
+
+![Physics](Apollo27Physics_1.png)
+
+
+
