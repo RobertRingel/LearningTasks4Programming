@@ -50,7 +50,7 @@ while h > 0.0:
         print("Fuel exhausted!!!")
         break
 
-print("Touch down ")
+print("Touch down.")
 v = 3.6 * v
 print("    ... speed:", v*3.6, "km/h")
 
@@ -112,7 +112,7 @@ while h > 0.0:           # one loop per second until touch down
         print("Fuel exhausted!!!")
         break
 
-print("Touch down ")
+print("Touch down.")
 v = 3.6 * v
 print("    ... speed:", v*3.6, "km/h")                  
 ```
