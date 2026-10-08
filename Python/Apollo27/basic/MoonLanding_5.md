@@ -1,6 +1,6 @@
 Topic: Loops and Branches
 
-## Learning Task: ...todo...
+## Learning Task: Understand and adapt the given Python program
 
 The following Python program is a simulation of the landing on the Moon. It implements the landing [physics using retrorockets](https://github.com/RobertRingel/LearningTasks4Programming/blob/main/Python/Apollo27/ReadMe.md).
 
@@ -116,7 +116,7 @@ print("    ... speed:", v*3.6, "km/h")
 ```
 
 **Landing score:** should be maximized depending on remaining fuel and touch down velocity.
-velocity should be less the 5 km/h and fuel should be 500 kg or more. This would yield a score around 100 according to the basic equation of: score = f/v
+Velocity should be less the 5 km/h and fuel should be 500 kg or more. This would yield a score around 100 according to the basic equation of: score = f/v
 
 ---------------------------------------
 
