@@ -2,4 +2,5 @@
 - provide template for individual learning tracking: PDF-Template   ... Lerntagebuch  
 - provide story to motivate people
 - connects physics, math, computer science and english
-- link to Python task collection  
+- link to Python task collection
+- Schulhaus-Poster deutsch/englisch
