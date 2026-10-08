@@ -8,10 +8,10 @@ Read and run the code. Discuss your understanding with another student. Solve on
 
 ``` python
 # -----------
-# Variant 5: Learning goal – loop / repetition with braking
+# Variant 5: Learning goal – loop / repetition
 # -----------
 
-print(">>> Moon landing with braking: <<< ")
+print(">>> Retrorockets Moon landing <<< ")
 print("    task 5")
 print()
 
@@ -60,7 +60,9 @@ print("    ... speed:", v*3.6, "km/h")
 - change the print-statement in a way to get the input right after the print-out and not at the next line  
 - develop a a landing score depending on the touch-down speed and the remaining fuel  
 - implement the landing score and print it at the very end of the program
-- write a manual to explain the code and to describe a strategy to land safely 
+- write a manual to explain the code and to describe a strategy to land safely
+
+... identify potential improvements of the program!
 
 ---------------------------------------
 
