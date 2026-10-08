@@ -1,7 +1,4 @@
-### todo: provide content
-... will be done soon ... hopefully
---- 
-Theory of the Moon Landing
+### Theory of landing of the Moon
 
 So far we can calculate the speed with which we will hit the surface after a given time t and the corresponding fall distance s.
 However, the landing does not work that way. For the landing we assume that we detach from the space station 1 000 m above the Moon’s surface and then fall down to the Moon – without a parachute, because the Moon has no atmosphere to provide braking.
@@ -16,4 +13,7 @@ To do this we use the following program concept:
 ![Physics](Apollo27Physics_1.png)
 
 
-
+---------------------------------------
+Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
+Version: 10/2026  
+License: CC BY-SA 4.0
