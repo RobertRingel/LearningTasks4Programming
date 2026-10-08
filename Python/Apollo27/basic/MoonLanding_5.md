@@ -2,7 +2,7 @@ Topic: Loops and Branches
 
 ## Learning Task: Understand and adapt the given Python program
 
-The following Python program is a simulation of the landing on the Moon. It implements the landing [physics using retrorockets](https://github.com/RobertRingel/LearningTasks4Programming/blob/main/Python/Apollo27/ReadMe.md).
+The following Python program is a simulation of the landing on the Moon. It implements the landing [physics using retrorockets](../LandingPhysics.md).
 
 Read and run the code. Discuss your understanding with another student. Solve one of the suggested learning tasks below or adapt the code as you like.
 
