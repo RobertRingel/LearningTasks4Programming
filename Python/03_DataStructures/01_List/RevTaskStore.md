@@ -2,7 +2,7 @@ Topic: data structures - list
 
 ## Learning Task: What is the purpose of the code?
 
-Read, analyse and run the given Python program. What is it's purpose?  
+Read, analyze and run the given Python program. What is it's purpose?  
 Write the text for a related programming task.
 
 ``` python
@@ -30,7 +30,8 @@ print('Total store value:',total,'EUR')
 The program is used to calculate the individual store item values as well as the overall store value.
 
 *Programming task*  
-Write a Python program to calculate the value of a store. The program shall print all store items, the number of pieces, the price and the resulting value.  
+Write a Python program that calculates the total value of a store's inventory based on a list of items, quantities, and prices.  
+The program shall print all store items, the number of pieces, the price and the resulting value.  
 Finally the program shall print the overall store value.
 
 ---------------------------------------
