@@ -39,7 +39,7 @@ src = input('From what currency:')
 dest = input('To what currency:')
 
 i=0     # list index
-# loop to loock up the required rate and to perform the calculation
+# loop to look up the required rate and to perform the calculation
 while i<len(currencies):
 	if src == currencies[i] and dest == currencies[i+1]:    # currencies found?
 		rate = currencies[i+2]                              # yes: get rate
