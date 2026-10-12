@@ -30,7 +30,10 @@ print('--- Change currency exchange rates ---')
 src = input('From what currency:')
 dest = input('To what currency:')
 
-src_idx = currencies.index(src)                      # get the source curr. index
+src_idx = -1
+if src in currencies:
+	src_idx = currencies.index(src)                     # get the source curr. index
+
 if src_idx >= 0 and dest == currencies[src_idx+1]:   # check the dest. currency
 	print('Current rate:', currencies[src_idx+2])    # print current exch. rate
 	rate = float(input('new exchange rate:'))        # ask for new exch. rate
