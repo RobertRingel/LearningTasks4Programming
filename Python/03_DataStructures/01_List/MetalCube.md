@@ -10,7 +10,7 @@ Read the code, run the program, understand it and write comments to the code.
 print('Calculation of a metal cubes weight')
 print('-----------------------------------')
 
-material = ['gold','silver','aluminium']
+material = ['gold','silver','aluminum']
 dens = [19.3, 10.5, 2.7]
 
 print('- Materials -')
@@ -29,7 +29,7 @@ while index<n:
 	weight = d*v
 	print(mat,'... weight:',weight,'g')
 	index = index+1
-print('end of programm')
+print('end of program')
 ```
 
 ---------------------------------------
@@ -40,7 +40,7 @@ print('end of programm')
 print('Calculation of a metal cubes weight')
 print('-----------------------------------')
 
-material = ['gold','silver','aluminium']   # list of materials
+material = ['gold','silver','aluminum']   # list of materials
 dens = [19.3, 10.5, 2.7]                   # list of material density values
 
 print('- Materials -')
@@ -59,7 +59,7 @@ while index<n:                             # loop of all list items
 	weight = d*v                           #    calculate the cubes weight
 	print(mat,'... weight:',weight,'g')    #    print the result
 	index = index+1                        #    increment index
-print('end of programm')
+print('end of program')
 ```
 
 ---------------------------------------
@@ -77,7 +77,7 @@ list-1: list and index, for-iteration
 #### Learning Activities
 
 1) read the code
-2) run and understand the programm 
+2) run and understand the program 
 3) write comments to the code
 
 #### Supporting information
