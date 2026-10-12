@@ -6,7 +6,7 @@ The following list data structure can be used as a basis for a currency exchange
 
 ![](CurrencyExchangeCalculator.png)
 
-Implement some lines of Python code to add a new source currency, a new destination currencie and the related exchange rate to the list.  
+Implement some lines of Python code to add a new source currency, a new destination currency and the related exchange rate to the list.  
 Finally print the new list of currencies.
 
 ``` python
