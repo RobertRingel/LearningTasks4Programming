@@ -25,7 +25,7 @@ currencies = ['EUR','USD',1.12,'USD','EUR',0.91,'YEN','GBP',0.0051]
 # data of currencies and rates
 currencies = ['EUR','USD',1.12,'USD','EUR',0.91,'YEN','GBP',0.0051]
 
-print('--- currency exhange rates ---')
+print('--- currency exchange rates ---')
 
 i=0                                # list index variable
 print('from','to','rate')
@@ -40,7 +40,7 @@ while i<len(currencies):           # loop over currencies
 # data of currencies and rates
 currencies = ['EUR','USD',1.12,'USD','EUR',0.91,'YEN','GBP',0.0051]
 
-print('--- currency exhange rates ---')
+print('--- currency exchange rates ---')
 
 i=0                                                         # list index variable
 print('from','to','rate')
