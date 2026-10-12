@@ -25,12 +25,14 @@ currencies = ['EUR','USD',1.12,'USD','EUR',0.91,'YEN','GBP',0.0051]
 # data of currencies and rates
 currencies = ['EUR','USD',1.12,'USD','EUR',0.91,'YEN','GBP',0.0051]
 
-print('--- Remove currency exhange data ---')
+print('--- Remove currency exchange data ---')
 
 src = input('source currency:')
 dest = input('destination currency:')
 
-src_idx = currencies.index(src)                         # get the source curr. index
+src_idx = -1
+if src in currencies:
+	src_idx = currencies.index(src)                     # get the source curr. index
 if src_idx >= 0 and dest == currencies[src_idx+1]:      # check the dest. currency
 	currencies.pop(src_idx)                             # delete source currency
 	currencies.pop(src_idx)                             # delete destination currency
