@@ -30,7 +30,9 @@ currencies = ['EUR','USD',1.12,'USD','EUR',0.91,'YEN','GBP',0.0051]
 src = input('From what currency:')
 dest = input('To what currency:')
 
-src_idx = currencies.index(src)                      # look-up the src. curr. index
+src_idx = -1
+if src in currencies:
+	src_idx = currencies.index(src)                     # get the source curr. index
 if src_idx >= 0 and dest == currencies[src_idx+1]:   # check dest. curr. index
 	print('related rate:', currencies[src_idx+2])    # print exchange rate
 else:
