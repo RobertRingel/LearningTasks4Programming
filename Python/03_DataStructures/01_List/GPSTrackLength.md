@@ -2,7 +2,7 @@ Topic: data structures - list
 
 ## Learning Task: GPS-Track length
 
-Write a Python program that has a list of GPS track points (name, longitude, latitude). The program shall process all the track points to calculate the distance from point to point. It shall print these distancces and finally the overall track length.
+Write a Python program that has a list of GPS track points (name, longitude, latitude). The program shall process all the track points to calculate the distance from point to point. It shall print these distances and finally the overall track length.
 
 Write the code, test the program and add comments to the code. Finally compare your solution with the one of another student.
 
@@ -121,7 +121,7 @@ list-1: list, index access
 2) develop an idea to solve the task
 3) write appropriate Python code
 4) test the Python program using known co-ordinates and distances
-5) speek about your code with another student - add comments to the code
+5) dicuss your code with another student - add comments to the code
 
 #### Supporting information
 
