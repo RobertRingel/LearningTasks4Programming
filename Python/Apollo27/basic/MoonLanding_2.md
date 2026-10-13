@@ -34,7 +34,7 @@ t = input("Fall time [s]: ")
 t = int(t)
 
 v = g * t * 3.6     # falling velocity [km/h]
-s = 0.5 * g * t*t   # # fallen distance [m]
+s = 0.5 * g * t*t   # fallen distance [m]
 
 print("Velocity:",v,"km/h")
 print("Distance:",s,"m")
