@@ -39,22 +39,22 @@ lat1 = track[pos*3+2]           # latitude of track point 1
 pos = pos+1
 
 while pos*3 < len(track):                    # loop over all track points
-	loc2 = track[pos*3]                      # name of next track point
-	lon2 = track[pos*3+1]                    # longitude of next track point
-	lat2 = track[pos*3+2]                    # latitude of next track point
+    loc2 = track[pos*3]                      # name of next track point
+    lon2 = track[pos*3+1]                    # longitude of next track point
+    lat2 = track[pos*3+2]                    # latitude of next track point
 
-	dx = LON_KM * (lon1 - lon2)
-	dy = LAT_KM * (lat1 - lat2)
-	distance = (dx*dx + dy*dy) **0.5         # distance between track point
+    dx = LON_KM * (lon1 - lon2)
+    dy = LAT_KM * (lat1 - lat2)
+    distance = (dx*dx + dy*dy) **0.5         # distance between track point
 	
-	length = length + distance               # total length
+    length = length + distance               # total length
 
-	print(loc1,'>', loc2,':',distance,'km')  # print track point names and distance
+    print(loc1,'>', loc2,':',distance,'km')  # print track point names and distance
 
-	pos = pos+1                              # increment index
-	loc1 = loc2                              # last location = current location
-	lon1 = lon2                              # last longitude = current longitude
-	lat1 = lat2                              # last latitude = current latitude
+    pos = pos+1                              # increment index
+    loc1 = loc2                              # last location = current location
+    lon1 = lon2                              # last longitude = current longitude
+    lat1 = lat2                              # last latitude = current latitude
 
 print('Total distance:',length,'km')         # finally: print total track length
 ```
@@ -80,12 +80,12 @@ pos = pos+1
 
 # --- loop over all track points ---
 while       :
-	# --- get all data for the next track point  ---	
-	loc2 = 
-	lon2 = 
-	lat2 = 
+    # --- get all data for the next track point  ---	
+    loc2 = 
+    lon2 = 
+    lat2 = 
 
-	# --- calculate distance between two track points
+    # --- calculate distance between two track points
 
 
 
@@ -95,10 +95,10 @@ while       :
 	                            # print track point names and distance
 
 	                            # increment index
-	# --- store last track point data
-	loc1 = 
-	lon1 = 
-	lat1 = 
+    # --- store last track point data
+    loc1 = 
+    lon1 = 
+    lat1 =
 
 print('Total distance:',length,'km')         # finally: print total track length
 ```
