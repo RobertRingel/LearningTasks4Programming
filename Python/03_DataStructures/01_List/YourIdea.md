@@ -3,7 +3,7 @@ Topic: data structures - list
 ## Learning Task: Your own calculation program
 
 Write a basic calculation program, that is able to store data and to perform a related numeric calculation. The code should use a list data structure and appropriate list operations.
-Do not forget to add commentes to your code.
+Do not forget to add comments to your code.
 
 Implement the program, test it and explain it to another student.
 
@@ -36,9 +36,9 @@ list-1: list, index access, basic list functions
 #### Learning Activities
 
 1) thinking of potential useful problem
-2) design of a benefitial list data structure
+2) design of a beneficial list data structure
 3) writing and running Python code
-4) wrting code comments
+4) writing code comments
 5) explaining Python code to other people
 
 #### Supporting information
