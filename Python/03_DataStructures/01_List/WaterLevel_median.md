@@ -16,18 +16,18 @@ Help: Explanation of the median calculation: https://www.mathsisfun.com/median.h
 
 water_level = []                            # the list variable to store the values
 while True:                                 # loop to enter data
-	val = int(input('Water level [cm]:'))
-	if val >= 0:                            # level >= 0 cm?
-		water_level.append(val)             # yes: store the value at end of list
-	else:
-		break                               # no: ... invalid value, break loop
+    val = int(input('Water level [cm]:'))
+    if val >= 0:                            # level >= 0 cm?
+        water_level.append(val)             # yes: store the value at end of list
+    else:
+        break                               # no: ... invalid value, break loop
 
 avg = sum(water_level)/len(water_level)     # calculate average water level
 
 # calculate standard deviation
 sum2 = 0.0
 for v in water_level:
-	sum2 = sum2 + (v-avg)**2
+    sum2 = sum2 + (v-avg)**2
 std_dev = (sum2/len(water_level))**0.5      
 
 # calculate the median
@@ -55,29 +55,29 @@ print('std. deviation:',std_dev)
 
 water_level = []                            # the list variable to store the values
 while True:                                 # loop to enter data
-	val = int(input('Water level [cm]:'))
-	if val >= 0:                            # level >= 0 cm?
-		water_level.append(val)             # yes: store the value at end of list
-	else:
-		break                               # no: ... invalid value, break loop
+    val = int(input('Water level [cm]:'))
+    if val >= 0:                            # level >= 0 cm?
+        water_level.append(val)             # yes: store the value at end of list
+    else:
+        break                               # no: ... invalid value, break loop
 
 avg = sum(water_level)/len(water_level)     # calculate average water level
 
 # calculate standard deviation
 sum2 = 0.0
 for v in water_level:
-	sum2 = sum2 + (v-avg)**2
+    sum2 = sum2 + (v-avg)**2
 std_dev = (sum2/len(water_level))**0.5      
 
 # calculate the median
 srt_data = sorted(water_level)              # list of sorted data
 n = len(water_level)                        # number of values
 if n%2 == 1:                                # odd number of values?
-	med_idx = int(n/2)                      # yes: median is exact in the middle
-	med_val = srt_data[med_idx]
+    med_idx = int(n/2)                      # yes: median is exact in the middle
+    med_val = srt_data[med_idx]
 else:                                       # even number of values
-	m = int(n/2)-1                          # lower median index
-	med_val = (srt_data[m]+srt_data[m+1])/2 # calc. the medidan
+    m = int(n/2)-1                          # lower median index
+    med_val = (srt_data[m]+srt_data[m+1])/2 # calc. the medidan
 
 # show data and basic statistics
 print('All measured water level values in centimeters:')
