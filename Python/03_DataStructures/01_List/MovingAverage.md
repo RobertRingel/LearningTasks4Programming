@@ -11,14 +11,14 @@ print('--- Water levels: calculation of the moving average ---')
 values = []                                    
 
 while True:                                    
-	v = float(input('new water level [cm]:'))  
-	if v<0.0:                                  
-		break                                  
-	values.append(v)                           
-	n = len(values)                            
-	if n >= 3:                                 
-		mv_avg = sum(values[n-3:])/3           
-		print('moving average:',mv_avg)        
+    v = float(input('new water level [cm]:'))  
+    if v<0.0:                                  
+        break                                  
+    values.append(v)                           
+    n = len(values)                            
+    if n >= 3:                                 
+        mv_avg = sum(values[n-3:])/3           
+        print('moving average:',mv_avg)        
 
 print('End.')
 ```
@@ -32,14 +32,14 @@ print('--- Water levels: calculation of the moving average ---')
 values = []                                    # list of values
 
 while True:                                    # loop to enter and process values
-	v = float(input('new water level [cm]:'))  # enter water level value
-	if v<0.0:                                  # negative water level?
-		break                                  # yes: terminate loop
-	values.append(v)                           # add value to list
-	n = len(values)                            # n: current number of values
-	if n >= 3:                                 # n>3?
-		mv_avg = sum(values[n-3:])/3           # yes: calculate moving average
-		print('moving average:',mv_avg)        #      print mvg. average
+    v = float(input('new water level [cm]:'))  # enter water level value
+    if v<0.0:                                  # negative water level?
+        break                                  # yes: terminate loop
+    values.append(v)                           # add value to list
+    n = len(values)                            # n: current number of values
+    if n >= 3:                                 # n>3?
+        mv_avg = sum(values[n-3:])/3           # yes: calculate moving average
+        print('moving average:',mv_avg)        #      print mvg. average
 
 print('End.')
 ```
