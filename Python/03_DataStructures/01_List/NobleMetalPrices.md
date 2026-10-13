@@ -18,16 +18,16 @@ dest = input('To what currency:')
 i=0     # list index
 # loop to loock up the required rate and to perform the calculation
 while i<len(currencies):
-	if src == currencies[i] and dest == currencies[i+1]:    # currencies found?
-		rate = currencies[i+2]                              # yes: get rate
-		amount = float(input('Amount:'))                    #      ask for amount
-		exchange = amount*rate                              #      calc. exchange
-		print('You will get:',exchange,dest)                #      print result
-		break                                               #      break loop
-	i=i+3                                                   # increment index
+    if src == currencies[i] and dest == currencies[i+1]:    # currencies found?
+        rate = currencies[i+2]                              # yes: get rate
+        amount = float(input('Amount:'))                    #      ask for amount
+        exchange = amount*rate                              #      calc. exchange
+        print('You will get:',exchange,dest)                #      print result
+        break                                               #      break loop
+    i=i+3                                                   # increment index
 
 if i>=len(currencies):                      # currencies not found
-	print('This is not possible.')          #     print message
+    print('This is not possible.')          #     print message
 ```
 
 ---------------------------------------
@@ -46,15 +46,15 @@ metal = input('sort of metal:')
 i=0                       # list index
 # look up the material list for the requested action and metal
 while i<len(material):
-	if act == material[i] and metal == material[i+1]:  # action and metal found?
-		price = material[i+2]                          # yes: get the price
-		weight = float(input('Weight [g]:'))           #      ask for weight
-		amount = price*weight                          #      calculate amount
-		print('Total amount:',amount)                  #      print result
-		break                                          #      terminate loop
-	i=i+3                                              # increment index
+    if act == material[i] and metal == material[i+1]:  # action and metal found?
+        price = material[i+2]                          # yes: get the price
+        weight = float(input('Weight [g]:'))           #      ask for weight
+        amount = price*weight                          #      calculate amount
+        print('Total amount:',amount)                  #      print result
+        break                                          #      terminate loop
+    i=i+3                                              # increment index
 if i>=len(material):                         # action and metal not found
-	print('This is not possible.')           #    print message
+    print('This is not possible.')           #    print message
 ```
 
 **Sketch of the list data structure:**
@@ -70,7 +70,7 @@ if i>=len(material):                         # action and metal not found
 #### Previous Knowledge
 
 vcp-1, vcp-2: print, input, variable , calculation, data type  
-branch-2: if using conjuntion  
+branch-2: if using conjunction  
 loop-2: while-break-loop  
 list-1: list, index access, len-function  
 
