@@ -7,23 +7,23 @@ The following program can be used to process water level measurements using a li
 Read the program, run it and write comments to the code.  
 
 Finally answer the following question:  
-Why is an infinite loop benefitial for this implementation?
+Why is an infinite loop beneficial for this implementation?
 
 ``` python
 # --- process water level measurements ---
 
 water_level = []                            
 while True:                                 
-	val = int(input('Water level [cm]:'))
-	if val >= 0:                            
-		water_level.append(val)             
-	else:
-		break                               
+    val = int(input('Water level [cm]:'))
+    if val >= 0:                            
+        water_level.append(val)             
+    else:
+        break                               
 
 avg = sum(water_level)/len(water_level)     
 sum2 = 0.0
 for v in water_level:
-	sum2 = sum2 + (v-avg)**2
+    sum2 = sum2 + (v-avg)**2
 std_dev = (sum2/len(water_level))**0.5      
 
 print('All measured water level values in centimeters:')
@@ -43,16 +43,16 @@ print('std. deviation:',std_dev)
 
 water_level = []                            # the list variable to store the values
 while True:                                 # loop to enter data
-	val = int(input('Water level [cm]:'))
-	if val >= 0:                            # level >= 0 cm?
-		water_level.append(val)             # yes: store the value at end of list
+    val = int(input('Water level [cm]:'))
+    if val >= 0:                            # level >= 0 cm?
+        water_level.append(val)             # yes: store the value at end of list
 	else:
-		break                               # no: ... invalid value, break loop
+        break                               # no: ... invalid value, break loop
 
 avg = sum(water_level)/len(water_level)     # calculate average water level
 sum2 = 0.0
 for v in water_level:
-	sum2 = sum2 + (v-avg)**2
+    sum2 = sum2 + (v-avg)**2
 std_dev = (sum2/len(water_level))**0.5      # calculate standard deviation
 
 # show data and basic statistics
@@ -64,14 +64,14 @@ print('avg. value:',avg)
 print('std. deviation:',std_dev)
 ```
 
-Answer to the question: Why is an infinite loop benefitial for this implementation?  
+Answer to the question: Why is an infinite loop beneficial for this implementation?  
 Because an infinite loop allows the user to enter non-predefined number of measured values.  
 
 ---------------------------------------
 
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
-| store data in a list and usebasic list functions | worked out example | 2 - normal     |  
+| store data in a list and use basic list functions | worked out example | 2 - normal     |  
 
 #### Previous Knowledge
 
