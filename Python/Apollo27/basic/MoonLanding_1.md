@@ -14,7 +14,7 @@ It is also possible to program an equation, and the calculation result is stored
 v = g * t * 3.6
 
 The values of the variables can be displayed using print:  
-print("Speed:", v, "km/h")  
+print("Velocity:", v, "km/h")  
 
 --- 
 The Python program calculates the speed of a solid after 10 seconds of fall time on the surface of the Moon.  
