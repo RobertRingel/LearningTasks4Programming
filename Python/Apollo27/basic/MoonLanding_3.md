@@ -83,7 +83,7 @@ print("Program end.")
 
 ### Potential learning tasks:
 
-Run the program with different input values for fall durations on Earth and the Moon. Verify the results using a manual calculation on your calculator!
+Run the program with different input values for fall duration on Earth and the Moon. Verify the results using a manual calculation on your calculator!
 
 Explain the program to anybody else.
 
