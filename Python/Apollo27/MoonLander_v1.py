@@ -1,5 +1,5 @@
 """
-Moon Landing Simulation (with intelligent braking)
+Moon Landing Simulation 
 A Python program to simulate a lunar landing, teaching core programming and physics concepts.
 
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
