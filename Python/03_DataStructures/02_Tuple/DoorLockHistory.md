@@ -2,7 +2,7 @@ Topic: data structures - tuple
 
 ## Learning Task: Door-lock history
 
-The following Python program is used to store the history of door-lockings.
+The following Python program is used to store the history of door-locking.
 
 Run the program, read the code and understand it.  
 Write comments to the code and draw a sketch to illustrate the design of the related data structure.  
