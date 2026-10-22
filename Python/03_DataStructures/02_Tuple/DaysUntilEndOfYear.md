@@ -11,9 +11,12 @@ days until end of the year for a date entered by the user.
 # --- calculate the day number of a particular day in the year ---
 
 # a tuple to store all the leap years
-leap_years = (1904,1908,1912,1916,1920,1924,1928,1932,1936,1940,1944,1948,1952,	
-			  1956,1960,1964,1968,1972,1976,1980,1984,1988,1992,1996,2000,2004,2008,2012,2016,	
-			  2020,2024,2028,2032,2036,2040,2044,2048)
+leap_years = (
+    1904, 1908, 1912, 1916, 1920, 1924, 1928, 1932, 1936, 1940,
+    1944, 1948, 1952, 1956, 1960, 1964, 1968, 1972, 1976, 1980,
+    1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020,
+    2024, 2028, 2032, 2036, 2040, 2044, 2048
+)
 
 # a tuple to store all the day counts for the different months
 mon_days = (31,28,31,30,31,30,31,31,30,31,30,31)
