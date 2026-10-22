@@ -4,7 +4,7 @@ Topic: data structures - tuple
 
 The following Python program can process a series of water level measured values in order to calculate a prediction for the next measured value.
 
-Read and run the given Python code. Then write comments to the lines. Highlight the section of the code that is used to extract the data items out of a tuple.
+Read and run the given Python code. Then write comments to the lines. Highlight the section of the code that is used to unpack the data items out of a tuple.
 Explain your code comments to another student.
 
 ``` python
@@ -66,7 +66,7 @@ selected_location = input('Select location (DD-City or HH-City):')  # user selec
 level = []                            # list of water levels for the selected location
 
 for rec in measure:                   # iterate all measured data
-	loc, time, lev = rec              # extract a tuple of measured data <<<<<<<
+	loc, time, lev = rec              # unpack a tuple of measured data <<<<<<<
 	if loc == selected_location:      # loc is selected location?
 		level.append(lev)             # yes: store the level value
 
@@ -88,7 +88,7 @@ while i < n:                                              # loop over all level 
 
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
-| data extraction from tuples, using list of tuples | worked-out example | 3 - high       |  
+| unpacking data from tuples, using list of tuples | worked-out example | 3 - high       |  
 
 #### Previous Knowledge
 
@@ -96,13 +96,13 @@ vcp-1, vcp-2: print, input, variable
 branch-1: simple if  
 loop-1: basic while-loop  
 list-1: list append, list index, for-iteration  
-tuple-2: list of tuples, data extraction from tuple  
+tuple-2: list of tuples, unpacking data from tuple  
 
 #### Learning Activities
 
-1) read and run the code in order to get an understandig of it
+1) read and run the code in order to get an understanding of it
 2) write comments to explain the code
-3) highlight the tuple extraction
+3) highlight the tuple unpacking
 4) explain the code to another student to validate the understanding
 
 #### Supporting information
