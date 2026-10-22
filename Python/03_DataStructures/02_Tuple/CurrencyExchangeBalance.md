@@ -41,7 +41,7 @@ currency = input('Which currency:')        # currency for balance to be calculat
 sum_rec = 0.0                              # sum of received money
 sum_spent = 0.0                            # sum of spent money
 
-for r in exch:                             # iterate the entiere exchange log list
+for r in exch:                             # iterate the entire exchange log list
 	src = r[0]                             # source currency
 	dest = r[1]                            # destination currency
 	if src == currency:                    # sum up for currency as source currency?
@@ -70,7 +70,7 @@ tuple-1, tuple-2: define a tuple, list of tuples, index access
 
 #### Learning Activities
 
-1) read and run the code in order to get an understandig of it
+1) read and run the code in order to get an understanding of it
 2) comment the structure of the tuple data structure
 3) write comments to explain the code
 4) explain the code to another student to validate the understanding
