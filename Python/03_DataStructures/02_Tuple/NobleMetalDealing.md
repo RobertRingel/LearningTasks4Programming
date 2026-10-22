@@ -5,7 +5,7 @@ Topic: data structures - tuple
 The following program can be used to calculate the currency exchange balance out of the log of currency exchanges.  
 Read and run the given code in order to get an understanding of the implementation. 
 
-Write a similar program to analize a noble metal deal transcation log.  
+Write a similar program to analyze a noble metal deal transaction log.  
 Draw a sketch as documentation for the data structure used in your code.  
 Write the program, test it and do not forget to write comments to the code.
 
@@ -17,7 +17,7 @@ currency = input('Which currency:')        # currency for balance to be calculat
 sum_rec = 0.0                              # sum of received money
 sum_spent = 0.0                            # sum of spent money
 
-for r in exch:                             # iterate the entiere exchange log list
+for r in exch:                             # iterate the entire exchange log list
 	src = r[0]                             # source currency
 	dest = r[1]                            # destination currency
 	if src == currency:                    # sum up for currency as source currency?
@@ -38,7 +38,7 @@ print('total   :',sum_rec-sum_spent,'currency')
 ``` python
 # --- noble metal dealing balance ---
 
-# the log for metal deal transactions - a tupel stores: (buy/sell, metal, weight_g, money_EUR)
+# the log for metal deal transactions - a tuple stores: (buy/sell, metal, weight_g, money_EUR)
 log = [('buy','Gold',50.00,4028.50),('sell','Silver',250.00,310.24),('sell','Gold',80.00,7280,8),('buy','Gold',42.00,3383.94)]
 
 sel_metal = input('Which metal:')
