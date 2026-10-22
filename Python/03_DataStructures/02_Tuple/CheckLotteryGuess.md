@@ -4,8 +4,8 @@ Topic: data structures - tuple
 
 Complete the given lines of Python code to check a lottery guess. 
 Because a lottery guess should never be changed the variables a -f shall be stored as a tuple in the variable guess.
-For this guess every number needs to be checked to be greater zero and less then 50 for the '1 out of 49 lottery'. 
-Furthermore it does not make sence that any number is guessed more then once in such a guess. This needs also be checked.
+For this guess every number needs to be checked to be greater than zero and less than 50 for the '1 out of 49 lottery'. 
+Furthermore it does not make sense that any number is guessed more then once in such a guess. This needs also be checked.
 The result of the checking procedure will be printed to the user.
 
 Complete the program, run it and test it and do not forget to add comments to the code.  
