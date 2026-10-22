@@ -4,7 +4,7 @@ Topic: data structures - tuple
 
 Implement a Python program that prints a currency exchange table.
 The current exchange rates shall be stored in a list of tuples structured like (source_currency, destination_currency, rate).
-Use tuple extraction to extract all data from the tuple in just one line of Python code.
+Use tuple unpacking to unpack all data from the tuple in just one line of Python code.
 
 Design, implement and test the program - explain the final program to another student.
 
@@ -29,7 +29,7 @@ currencies = [('EUR','USD',1.12,),('USD','EUR',0.91),('YEN','GBP',0.0051)]
 # data of currencies and rates
 currencies = [('EUR','USD',1.12,),('USD','EUR',0.91),('YEN','GBP',0.0051)]
 
-print('--- currency exhange rates ---')
+print('--- currency exchange rates ---')
 
 print('from','to','rate')
 for record in currencies:
@@ -41,13 +41,13 @@ for record in currencies:
 
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
-| extract data from tuples in just one line of code | conventional task | 2 - normal     |  
+| unpack data from tuples in just one line of code | conventional task | 2 - normal     |  
 
 #### Previous Knowledge
 
 vcp-1: print, variable  
 list-1, list-2: list definition, for-iteration  
-tuple-2: extract tuple, list of tuples  
+tuple-2: unpack tuple, list of tuples  
   
 #### Learning Activities
 
