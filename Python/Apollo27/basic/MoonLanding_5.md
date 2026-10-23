@@ -16,29 +16,29 @@ print("    task 5")
 print()
 
 g = 1.622     
-
+f = 1500.0
+fbr = 10.0
 h = 1000.0    
 s = 0.0       
 v = 0.0       
 ds = 0.0      
 v0 = v
-
 b = 0.0       
 t = 0.0       
 dT = 1.0      
-f = 1500.0    
 
 a = g
 while h > 0.0:    
     print("t =", t, "   a:", a, " s:", s, " h:", h, " v:", v, " ds:", ds)
 
-    fb = input("Braking (0‑10): ")
+    fb = input("Braking fuel (0‑50): ")
     fb = int(fb)
     f = f - fb    
-    b = fb / 10.0 
+    b = fb / (fbr*dT) 
     a = g - b     
+
     v0 = v        
-    v = v + a     
+    v = v + a*dT     
 
     ds = 0.5 * a * dT * dT + v0 * dT   
     s = s + ds                         
@@ -78,29 +78,29 @@ print("    task 5")
 print()
 
 g = 1.622     # Moon gravity (m/s²)
-
-h = 1000.0    # Starting altitude: 1000 m above the Moon
+f = 1500.0    # Initial volume of braking fuel [kg]
+fbr = 10.0    # Fuel burn rate per second [l/s]
+h = 1000.0    # Initial altitude: 1000 m above the Moon
 s = 0.0       # Total distance traveled (fall)
-v = 0.0       # Initial falling speed (m/s)
-ds = 0.0      # Distance covered in the current step [m]
+v = 0.0       # Initial falling velocity (m/s)
+ds = 0.0      # Distance fallen in the current step [m]
 v0 = v
-
 b = 0.0       # Braking acceleration (m/s²)
 t = 0.0       # Elapsed time [s]
 dT = 1.0      # Time increment (1 s)
-f = 1500.0    # Amount of braking fuel [kg]
+
 
 a = g
 while h > 0.0:           # one loop per second until touch down
     print("t =", t, "   a:", a, " s:", s, " h:", h, " v:", v, " ds:", ds, end=" | ")
 
-    fb = input("Braking (0‑10): ")
+    fb = input("Braking fuel (0‑50): ")
     fb = int(fb)
     f = f - fb                  # Fuel consumption
-    b = fb / 10.0               # Braking force derived from fuel
+    b = fb / (fbr*dT)           # Braking force derived from fuel
     a = g - b                   # Net acceleration after braking
     v0 = v                      # Previous velocity
-    v = v + a                   # New velocity
+    v = v + a*dT                # New velocity
 
     ds = 0.5 * a * dT * dT + v0 * dT   # Distance fallen in 1 s
     s = s + ds                         # Total fallen distance
