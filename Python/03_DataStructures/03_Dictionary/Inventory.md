@@ -27,15 +27,15 @@ while True:
 	if prod == 'all':
 		total = 0
 		for key, value in inventory.items():              # iterate all dictionary items to get all product names (key) and product data (value)
-			price, pcs, limit = value[:]                  # get detailled product information by extracting the data list into items
-			print (key,':',pcs, 'pcs:', price,'EUR', pcs*price, 'EUR - limit:',limit)
+			price, pcs, limit = value[:]                  # get detailed product information by extracting the data list into items
+			print (key, ':', pcs, 'pcs:', price, 'EUR', pcs*price, 'EUR - limit:',limit)
 			total = total + price*pcs
-		print('total value:',total,'EUR')
+		print('total value:', total,'EUR')
 	else:
 		if prod in inventory.keys():                      # check if product is listed?
 			item = inventory.get(prod)                    # yes: get the product data
-			price, pcs, limit =  item[:]                  #      get detailled product information
-			print(prod, ':', pcs ,'pcs:', price,'EUR', pcs*price, 'EUR - limit:',limit)  # print requested data
+			price, pcs, limit =  item[:]                  #      get detailed product information
+			print(prod, ':', pcs, 'pcs:', price, 'EUR', pcs*price, 'EUR - limit:',limit)  # print requested data
 		else:
 			print('unknown product')                      # print error message
 ```
@@ -61,14 +61,14 @@ while True:
 		total = 0
 		for key, value in inventory.items():   # iterate entire dictionary data
 			piece, price, room = value[:]      # extract data items from list
-			print (key,':',piece, 'room:', room, price,'EUR')  # print information
-			total = total + price              # cumulate value
-		print('total value:',total,'EUR')      # print total inventory value
+			print (key, ':', piece, 'room:', room, price, 'EUR')  # print information
+			total = total + price              # accumulate value
+		print('total value:', total, 'EUR')      # print total inventory value
 	else:
 		if code in inventory.keys():           # check if item is listed
 			item = inventory.get(code)         # yes: get item data
 			piece, price, room = item[:]       # extract data items from list
-			print(piece, 'room:', room, price,'EUR')  # print information
+			print(piece, 'room:', room, price, 'EUR')  # print information
 		else:
 			print('unknown code')              # item is not listed -> print message
 ```
