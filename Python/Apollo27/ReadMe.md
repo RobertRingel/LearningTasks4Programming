@@ -2,7 +2,7 @@
 
 This will become a series of beginners learning tasks for Python programming based on the simulation game "Landing on the Moon".  
 
-A first initial task is available here: [https://github.com/RobertRingel/LearningTasks4Programming/blob/main/Python/Apollo27/basic/MoonLanding_5.md](https://github.com/RobertRingel/LearningTasks4Programming/blob/main/Python/Apollo27/basic/MoonLanding_5.md)  
+A first complete and running Python program is available here: [https://github.com/RobertRingel/LearningTasks4Programming/blob/main/Python/Apollo27/basic/MoonLanding_5.md](https://github.com/RobertRingel/LearningTasks4Programming/blob/main/Python/Apollo27/MoonLander_v1.md)  
 The related physics explanation can be found at: [LandingPhysics.md](LandingPhysics.md)  
 
 ---------------------------------------
