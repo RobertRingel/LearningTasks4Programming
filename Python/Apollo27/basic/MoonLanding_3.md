@@ -40,7 +40,7 @@ print("Program end.")
 
 **Important notes about if statements**  
 
-The if-line and the else-line always end with a colon :  
+The if-line and the else-line always ends with a colon :  
 The else-clause is optional and does not have to be included.  
 
 Multiple comparisons using and / or:  
