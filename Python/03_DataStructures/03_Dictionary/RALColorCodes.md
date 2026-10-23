@@ -18,7 +18,7 @@ Write this Python program, test it and explain it to another student.
 ``` python
 # --- RAL colors ----
 
-ral_colors = {}                      # dictionary to store the color data (key: RALcode value: color name)
+ral_colors = {}                      # dictionary to store the color data (key: RAL code value: color name)
 
 while True:                          # loop to enter data
 	ral = input('RAL code: ')        # enter RAL color code
