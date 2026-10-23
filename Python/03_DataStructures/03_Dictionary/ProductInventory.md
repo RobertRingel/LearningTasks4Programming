@@ -27,9 +27,9 @@ while True:
 		total = 0
 		for key, value in inventory.items():                # ... add your comment
 			price, pcs, limit = value[:]                    # ... add your comment
-			print (key,':',pcs, 'pcs:', price,'EUR', pcs*price, 'EUR - limit:',limit)
+			print (key,':', pcs, 'pcs:', price,'EUR', pcs*price, 'EUR - limit:', limit)
 			total = total + price*pcs
-		print('total value:',total,'EUR')
+		print('total value:', total, 'EUR')
 	else:
 		# IMPLEMENT: check if product is listed
 
@@ -61,15 +61,15 @@ while True:
 	if prod == 'all':
 		total = 0
 		for key, value in inventory.items():              # iterate all dictionary items to get all product names (key) and product data (value)
-			price, pcs, limit = value[:]                  # get detailled product information by extracting the data list into items
-			print (key,':',pcs, 'pcs:', price,'EUR', pcs*price, 'EUR - limit:',limit)
+			price, pcs, limit = value[:]                  # get detailed product information by extracting the data list into items
+			print (key,':', pcs, 'pcs:', price, 'EUR', pcs*price, 'EUR - limit:', limit)
 			total = total + price*pcs
-		print('total value:',total,'EUR')
+		print('total value:', total, 'EUR')
 	else:
 		if prod in inventory.keys():                      # check if product is listed?
 			item = inventory.get(prod)                    # yes: get the product data
-			price, pcs, limit =  item[:]                  #      get detailled product information
-			print(prod, ':', pcs ,'pcs:', price,'EUR', pcs*price, 'EUR - limit:',limit)  # print requested data
+			price, pcs, limit =  item[:]                  #      get detailed product information
+			print(prod, ':', pcs , 'pcs:', price, 'EUR', pcs*price, 'EUR - limit:', limit)  # print requested data
 		else:
 			print('unknown product')                      # print error message
 ```
