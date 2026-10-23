@@ -3,9 +3,9 @@ Topic: data structures - dictionary
 ## Learning Task: Your own data storing program
 
 Write a program, that is able to store data using a dictionary.  
-First you need to have an idea, then you should design the propper dictionary data structure - what will be the key and what will be the value?
+First you need to have an idea, then you should design the proper dictionary data structure - what will be the key and what will be the value?
 Then implement the Python program and test it.  
-Do not forget to add commentes to your code.
+Do not forget to add comments to your code.
 
 Finally demonstrate your program to another student.
 
@@ -39,9 +39,9 @@ dict-1, dict-3: define dictionary, dictionary stores list, access dictionary dat
 #### Learning Activities
 
 1) thinking of potential useful problem
-2) design of a benefitial dictionary data structure
+2) design of a beneficial dictionary data structure
 3) writing and running Python code
-4) wrting code comments
+4) writing code comments
 5) explaining Python code to other people
 
 #### Supporting information
