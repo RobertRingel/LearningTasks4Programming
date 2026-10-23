@@ -59,7 +59,7 @@ if prices == None:                           # not available?
 	print('Sorry it is not available')       #     print message
 else:
 	i = 0                                    # print metal prices for buying and selling
-	print(metal,'rate table')
+	print(metal, 'rate table')
 	while i < len (prices):                  # use an index to get data out of the list of prices
 		print(prices[i], prices[i+1])        # print price data
 		i = i +2                             # increment index
