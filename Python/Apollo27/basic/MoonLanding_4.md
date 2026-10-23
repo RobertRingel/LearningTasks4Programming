@@ -63,9 +63,10 @@ Highlight all Python commands belonging to the loop!
 
 Name the first command after the loop!
 
-Add an input-statement to let the user enter the initial altitude.
+Add an input-statement to let the user enter the initial altitude.  
 
-Do you have an idea how to add decelartion by retrorockets into the above program? If yes, explain them to another student and write apropriate comments into the code.
+Do you have an idea how to add deceleration by retrorockets into the above program? If yes, explain them to another student and write appropriate comments into the code.  
+
 ---------------------------------------
 
 ##### Previous Knowledge
