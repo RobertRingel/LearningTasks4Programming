@@ -2,10 +2,10 @@ Topic: data structures - dictionary
 
 ## Learning Task: GPS track points
 
-Write a Python program that is able to store and process the data of a series of GPS track points in order to calculate the total track length. Byside this the program shall finally show 
+Write a Python program that is able to store and process the data of a series of GPS track points in order to calculate the total track length. Beside this the program shall finally show 
 all GPS track points with their names and co-ordinates.  
 The user will enter the name of a track point, a timestamp as well as its latitude and longitude for the series of all the passed track points. 
-The programm shall store this data and it shall calculate the total path length.  
+The program shall store this data and it shall calculate the total path length.  
 
 To store the track point data a dictionary shall be used. It will store the location name and the related co-ordinates.  
 
@@ -48,7 +48,7 @@ while True:
 		dx = AVG_LON * (lon1 - lon)                # calculate distance between two track points
 		dy = AVG_LAT * (lat1 - lat)
 		dist = (dx*dx + dy*dy)**0.5        
-		length = length + dist                     # cumulate the track length
+		length = length + dist                     # accumulate the track length
 		print(dist,'km')
 	lon1 = lon                                     # save current point longitude
 	lat1 = lat                                     # save current point latitude
@@ -84,7 +84,7 @@ dict-1, dict-3: define dictionary, dictionary stores tuple, access dictionary da
 2) develop an idea to solve the task
 3) write appropriate Python code
 4) test the Python program using known co-ordinates and distances
-5) speek about your code with another student - add comments to the code
+5) talk about your code to another student - add comments to the code
 
 #### Supporting information
 
