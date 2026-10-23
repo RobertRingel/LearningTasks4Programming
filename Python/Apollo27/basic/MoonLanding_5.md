@@ -62,7 +62,7 @@ print("    ... speed:", v*3.6, "km/h")
 - implement the landing score and print it at the very end of the program
 - write a manual to explain the code and to describe a strategy to land safely
 
-... identify potential improvements of the program!
+... identify weaknesses as potential improvements of the program!
 
 ---------------------------------------
 
