@@ -49,7 +49,7 @@ while True:
 ``` python
 # --- prio todo-list ----
 
-# dictionary of task lists related to 3 prority classes
+# dictionary of task lists related to 3 priority classes
 tasks = {'top' : ['buy X-mas presents'], 
 	     'high' : ['clean kitchen','clean bath room'],
    		 'normal' : ['prepare 4 exam'] }
