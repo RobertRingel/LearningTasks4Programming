@@ -81,7 +81,7 @@ while True:
 
 | **Learning objective**                         | **Task type**   | **Complexity** |
 | ---------------------------------------------- | --------------- | -------------- |
-| practise various dictionary statements         | completion task | 3 - high       |  
+| practice various dictionary statements         | completion task | 3 - high       |  
 
 #### Previous Knowledge
 
