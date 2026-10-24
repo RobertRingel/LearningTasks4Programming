@@ -1,4 +1,4 @@
-Topic: Calculate, print, input
+Topic: Branches and loops
 
 ## Learn about loops to repeat code sections 
 
