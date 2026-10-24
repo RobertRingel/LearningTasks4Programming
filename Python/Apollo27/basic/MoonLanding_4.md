@@ -27,10 +27,10 @@ g = 1.622       # Moon gravity [m/s2]
 h = 1000.0      # Initial altitude: 1000 m above the Moon 
 s = 0.0         # Distance fallen [m]
 v = 0.0         # Initial falling velocity: 0 m/s 
-ds = 0          # Distance fallen in the current step [m] 
+ds = 0.0        # Distance fallen in the current step [m] 
 v0 = v
-t = 0           # Elapsed time [s] 
-dT = 1          # Time step increment: 1 s
+t = 0.0         # Elapsed time [s] 
+dT = 1.0        # Time step increment: 1 s
 a = g 
 
 while h > 0.0: 
@@ -80,10 +80,10 @@ g = 1.622       # Moon gravity [m/s2]
 h = 1000.0      # Initial altitude: 1000 m above the Moon 
 s = 0.0         # Distance fallen [m]
 v = 0.0         # Initial falling velocity: 0 m/s 
-ds = 0          # Distance fallen in the current step [m] 
+ds = 0.0        # Distance fallen in the current step [m] 
 v0 = v
-t = 0           # Elapsed time [s] 
-dT = 1          # Time step increment: 1 s
+t = 0.0         # Elapsed time [s] 
+dT = 1.0        # Time step increment: 1 s
 a = g 
 
 while h > 0.0:  # head of the loop - will repeat as long as altitude is greater zero
