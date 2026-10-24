@@ -1,4 +1,4 @@
-Topic: Loops and Branches
+Topic: Branches and loops
 
 ## Learning Task: Understand and adapt the given Python program
 
