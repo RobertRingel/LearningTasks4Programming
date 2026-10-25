@@ -5,12 +5,12 @@ Topic: Calculate, print, input
 Often it is very beneficial to align print-output left, right, centered or to limit the number of printed decimals.
 In Python printing so-called f-Strings provide this functionality.
 ``` 
-altitude = 142.6121
+altitude = 142.0121
 print(f"Alt: {altitude:>6.1f}m") 
 ``` 
 ... will print: 
 ```
-Alt:  142.6m
+Alt:  142.0m
 ```
 
 It shows the text "Alt:" and the value of the variable altitude followed by "m". But the variable value is shown right-aligned of 6 characters, 1 decimal as fix-point format (decimal is always shown).
