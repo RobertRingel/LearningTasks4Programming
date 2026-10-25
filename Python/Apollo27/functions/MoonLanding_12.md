@@ -2,7 +2,7 @@ Topic: Functions
 
 ## Learning Task: Write function code documentation
 
-Functions need to have a documentation becase the are re-usable elements of programs. Other programmers will read the function documentation before they read the code itself. Therefore the function documentation must fit to the function implementation.
+Functions need to have a documentation because the are re-usable elements of programs. Other programmers will read the function documentation before they read the code itself. Therefore the function documentation must fit to the function implementation.
 
 A very popular style of function documentation is Google Docstring Style that follows this strict layout:  
 
@@ -22,7 +22,7 @@ def function_name(param1, param2):
     """
 ```
 
-The challenge of wrting function documentation is beeing correct and brief at once. This needs practise!  
+The challenge of writing function documentation is being correct and brief at once. This needs practice!  
 See the function documentation for calculating the landing score.
 
 ``` python
