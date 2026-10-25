@@ -3,7 +3,8 @@ Topic: Functions
 ## Learning Task: Understand the idea of functions
 
 Functions are pieces of code implemented to provide a specific service. In many cases they are used to perform certain calculations or to show certain data.
-A function has a name and it may have one or more parameters. This is the purpose of the def-line. All function related code following the def-line must be indented by 4 spaces.  
+A function has a name and it may have one or more parameters. This is the purpose of the def-line.  
+All function related code following the def-line must be indented by 4 spaces.  
 The return-statement is used to return the function result.  
 
 The example below implements a function to calculate the landing score depending on remaining fuel and touch down velocity.
@@ -36,7 +37,7 @@ Read the code and identify calculations to be implemented as Python functions!
 
 ``` python
 # -----------
-# Variant 6: Learning goal identiy potential functions to be implemented
+# Variant 6: Learning goal identify potential functions to be implemented
 # -----------
 def calc_LandingScore(velocity, rem_fuel):
     factor = 10.0
