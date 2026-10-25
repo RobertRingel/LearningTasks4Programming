@@ -58,12 +58,9 @@ def calc_FallDistance(acceleration, velocity, duration):
     return distance
 
 
-def calc_LandingScore(velocity, rem_fuel):
-    factor = 10.0
-    if rem_fuel <= 0.0:
-        return 0.0
-    score = factor * rem_fuel / velocity
-    return score
+def calc_DecelForce(fuel_volume, duration, fuel_flow_rate):
+    decel_force = fuel_volume / (duration * fuel_flow_rate)
+    return decel_force
 ```
 
 ### Potential learning tasks
