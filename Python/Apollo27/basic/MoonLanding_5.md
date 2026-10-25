@@ -52,7 +52,7 @@ while h > 0.0:
 
 print("Touch down.")
 v = 3.6 * v
-print("    ... speed:", v*3.6, "km/h")
+print("    ... speed:", v, "km/h")
 
 ```
 ### Potential learning tasks:
@@ -114,7 +114,7 @@ while h > 0.0:           # one loop per second until touch down
 
 print("Touch down.")
 v = 3.6 * v
-print("    ... speed:", v*3.6, "km/h")                  
+print("    ... speed:", v, "km/h")                  
 ```
 
 **Landing score:** should be maximized depending on remaining fuel and touch down velocity.
