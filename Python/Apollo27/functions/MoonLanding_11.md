@@ -137,7 +137,7 @@ print("Landing score:", scr)
 **Add-on task:**  
 
 Implement a function to calculate the remaining fuel percentage based on the initial fuel value of 1500l.
-Print the remaining fuel percent value after landing and if you like also as part of the variable print-linie in every calculation loop.
+Print the remaining fuel percent value after landing and if you like also as part of the variable print-line in every calculation loop.
 
 ---------------------------------------
 
