@@ -22,9 +22,8 @@ Note: Any variables that are defined within the function (variable factor in the
 To make use of a function you need to call it. The code below shows a call of the landing score calculation:  
 
 ```
-print("Touch down.")
-v = 3.6 * v
-print("    ... speed:", v, "km/h")                  
+f = 545.2                               # fuel assumption
+v = 3.6                                 # velocity assumption
 scr = calc_LandingScore(v, f)           # function call
 print("Landing score:", scr)
 ```
