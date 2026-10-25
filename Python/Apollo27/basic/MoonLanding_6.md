@@ -31,9 +31,9 @@ while h > 0.0:
 ```
 
 
-Run the Python program and watch the new printings!
+Run the adapted Python program and watch the new printings!
 
-Add some notes about the f-String options to you learning reflection sheets.
+Add some notes about the f-String options to your learning reflection sheets.
 
 ---------------------------------------
 
