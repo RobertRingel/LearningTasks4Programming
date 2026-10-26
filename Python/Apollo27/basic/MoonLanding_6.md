@@ -32,7 +32,7 @@ while h > 0.0:
 
 Run the adapted Python program and watch the new printings!
 
-**Note:** You can add an **end=':'** as parameter to the print statement. In that case the print will not produce a line break but it will end with the given character.  
+*Note:* You can add an **end=':'** as parameter to the print statement. In that case the print will not produce a line break but it will end with the given character.  
 Try the following print statement right below the while loop:  
 ``` python
     print(f"Sec:{t:>5g} | {h:>6.1f}m | {v:>5.1f}m/s | Fuel:{f:>4.0f}l ", end='|')
