@@ -63,8 +63,7 @@ dT = 1.0      # Time increment (1 s)
 
 a = g
 while h > 0.0:           # one loop per second until touch down
-    print("t =", t, "   a:", a, " s:", s, " h:", h, " v:", v, " ds:", ds, end=" | ")
-
+    print(f"Sec:{t:>5g} | {h:>6.1f}m | {v:>5.1f}m/s | Fuel:{f:>4.0f}l ", end=":")
     fb = input("Braking fuel (0‑50): ")
     fb = int(fb)
     f = f - fb                  # Fuel consumption
