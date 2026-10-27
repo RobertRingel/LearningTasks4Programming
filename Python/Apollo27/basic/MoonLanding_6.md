@@ -40,7 +40,7 @@ Try the following print statement right below the while loop:
 Do you see the effect?
 
 
-Add some notes about the f-String options to your learning reflection sheets.
+Add some notes about the f-String options to your ([learning reflection sheets](ApolloLearning_printfString.pdf).
 
 ---------------------------------------
 
