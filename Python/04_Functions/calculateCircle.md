@@ -5,7 +5,7 @@ Topic: functions
 Implement the function 'calculate_circle' according to the given function documentation in the code below.
 Implement the related function call as well to test the function.  
 
-Finally run the programm and explain it to another student.
+Finally run the program and explain it to another student.
 
 ``` python
 def calculate_circle..... :
@@ -13,11 +13,12 @@ def calculate_circle..... :
     Calculates area and perimeter of a circle.
 
     Args:
-        diameter (float): the diameter of the circle
+        diameter (float): The diameter of the circle.
 
     Returns:
-        float : the area of the circle
-        float : the perimeter of the circle
+        tuple: A tuple containing:
+            - area (float): The area of the circle.
+            - perimeter (float): The perimeter of the circle.
     """
 
     ... implement the function ...
@@ -40,11 +41,12 @@ def calculate_circle(diameter):
     Calculates area and perimeter of a circle.
 
     Args:
-        diameter (float): the diameter of the circle
+        diameter (float): The diameter of the circle.
 
     Returns:
-        float : the area of the circle
-        float : the perimeter of the circle
+        tuple: A tuple containing:
+            - area (float): The area of the circle.
+            - perimeter (float): The perimeter of the circle.
     """
     area = diameter * diameter * 3.14/4.0
     perimeter = 3.14 * diameter
