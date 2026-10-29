@@ -2,7 +2,7 @@ Topic: Functions
 
 ## Learning Task: No-return function
 
-There are a few more things to know about functions. You can implement functions in order to do a certain job but not to return a calculation result. Such functions can be used to just print a buch of information. A function like this would end by the last statement of the function code - without any return. Or it will be performed until it hits a return statement. But in that case the return statement will have no return value or variable - just a blank return.
+There are a few more things to know about functions. You can implement functions in order to do a certain job but not to return a calculation result. Such functions can be used to just print a bunch of information. A function like this would end by the last statement of the function code - without any return. Or it will be performed until it hits a return statement. But in that case the return statement will have no return value or variable - just a blank return.
 
 ```
 def print_beginner_info(experience):
@@ -15,7 +15,7 @@ def print_beginner_info(experience):
 The following function prints an altitude indicator for the Apollo-27 simulation. It will print a "<" character to indicate the altitude above lunar surface. To right side of the "<" it will print a row of "-" characters to indicate the fallen distance (similar to velocity). So the user will get a visual impression of the landing approach.
 
 The key feature of the implementation is the Python star-operation for strings. It does repeat a given string as often as stated by the star-operation.
-Try the following Pyton commands as demo program:
+Try the following Python commands as demo program:
 
 ```
 alt = 7                    # assumed altitude
@@ -30,7 +30,7 @@ print(display)                      # should print "|       <---"
 ```
 
 Do you understand the idea of printing the altitude indicator display?  
-Adpot the code to play a little around and talk to another student about it.  
+Adopt the code to play a little around and talk to another student about it.  
 You need to have understood it before proceeding with the given function below.
 
 ---  
@@ -46,7 +46,7 @@ def printAltIndicator(altitude, distance_fallen, MAX_ALT=1000):
     Args:
         altitude (float): Current altitude [m]
         distance_fallen (float): Distance fallen in this step [m]
-        MAX_ALT (float): Maximum atitude for scaling [m]
+        MAX_ALT (float): Maximum attitude for scaling [m]
     """
     WIDTH = 80  # Width of the visual bar
     # Position of the lander in the bar (0 = bottom, WIDTH = top)
