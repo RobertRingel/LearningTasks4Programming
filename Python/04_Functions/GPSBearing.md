@@ -5,14 +5,14 @@ Topic: functions
 The following program calculates the bearing from one GPS point to the other GPS point.
 The mathematical calculation is implemented with help of several mathematical functions provided by two Python modules.
 
-Run the programm, read the code and identify the mathematical functions and the related modules.
+Run the program, read the code and identify the mathematical functions and the related modules.
 Explain how these functions are used and what is required to use them in the code.
 
 ``` python
 import numpy
 import math
 
-def get_bearing(lat1, long1, lat2, long2):
+def get_bearing(lat1, lon1, lat2, lon2):
     """
     Calculates the bearing between the two given GPS points.
     Args:
@@ -24,7 +24,7 @@ def get_bearing(lat1, long1, lat2, long2):
     Returns:
         float: the bearing between the given GPS points [°]
     """	
-    dLon = (long2 - long1)
+    dLon = (lon2 - lon1)
     x = math.cos(math.radians(lat2)) * math.sin(math.radians(dLon))
     y = math.cos(math.radians(lat1)) * math.sin(math.radians(lat2)) \
         - math.sin(math.radians(lat1)) * math.cos(math.radians(lat2)) \
