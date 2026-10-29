@@ -4,7 +4,7 @@ Topic: functions
 
 The following program calculates the factorial using a recursive function call.
 
-Read the code, run the programm and write comments to the code. Highlight the 
+Read the code, run the program and write comments to the code. Highlight the 
 recursive function call inside the function implementation.
 
 ``` python
@@ -43,7 +43,7 @@ def factorial(n):
 
     Returns:
         int : the factorial
-"""
+    """
     if n == 0:   # factorial of 0 is 1
         return 1
     else:   # calculate factorial for n-1 by recursive function call
