@@ -5,13 +5,15 @@ Topic: functions
 The following function can be used to calculate the approximate distance for near-by GPS-points in Germany.
 Read the code and its documentation.  
 
-Implement three different calls for this function (straight-foreward, other values for the default arguments, make use of named arguments).
+Implement three different calls for this function (straight-forward, other values for the default arguments, make use of named arguments).
 
 ``` python
 def calc_GPS_distance(lat1, lon1, lat2, lon2, lat_width=111.3, lon_width=71.5):
     """
     Calculates the distance between two GPS co-ordinate points.
-    The function uses a simple theorem of Pythagoras approach. 
+    The function uses a simple theorem of Pythagoras approach.
+    Note: These values are approximations for Germany. Latitude width (~111.3 km/degree)
+    is nearly constant, but longitude width decreases with latitude (e.g., ~71.5 km/degree at ~51°N).
 
     Args:
         lat1 (float): latitude of point 1
@@ -39,7 +41,9 @@ def calc_GPS_distance(lat1, lon1, lat2, lon2, lat_width=111.3, lon_width=71.5):
 def calc_GPS_distance(lat1, lon1, lat2, lon2, lat_width=111.3, lon_width=71.5):
     """
     Calculates the distance between two GPS co-ordinate points.
-    The function uses a simple theorem of Pythagoras approach. 
+    The function uses a simple theorem of Pythagoras approach.
+    Note: These values are approximations for Germany. Latitude width (~111.3 km/degree)
+    is nearly constant, but longitude width decreases with latitude (e.g., ~71.5 km/degree at ~51°N).
 
     Args:
         lat1 (float): latitude of point 1
@@ -76,7 +80,7 @@ print(d)
 
 #### Previous Knowledge
 
-vcp-1: print, variable  
+vcp-1: print, variables  
 func-1, func-2: basic function call and implementation using named and default arguments  
 
 #### Learning Activities
