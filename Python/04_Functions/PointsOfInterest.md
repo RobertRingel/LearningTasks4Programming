@@ -12,7 +12,7 @@ is an approximation for nearby points in Germany.
 Background information: https://www.kompf.de/gps/distcalc.html  
 
 Use functions for the implementation of this task and do not forget to write a
-function documentation based on Google docstyle.
+function documentation based on Google doc-style.
 
 ``` python
 # --- approximate GPS distance ---
@@ -23,7 +23,7 @@ dy = AVG_LAT * (lat1 - lat2)
 distance = (dx * dx + dy * dy) ** 0.5
 
 # --- bearing between 2 GPS points ---
-dLon = (long2 - long1)
+dLon = (lon2 - lon1)
 x = math.cos(math.radians(lat2)) * math.sin(math.radians(dLon))
 y = math.cos(math.radians(lat1)) * math.sin(math.radians(lat2)) \
     - math.sin(math.radians(lat1)) * math.cos(math.radians(lat2)) \
@@ -43,7 +43,7 @@ import math
 gps_points = {'Opera' : (51.054, 13.735), 'Airport' : (51.128, 13.766), 
 			  'Central Station' : (51.040, 13.731), 'Blue Wonder':(51.053, 13.809)}
 
-def calculate_bearing(lat1, long1, lat2, long2):
+def calculate_bearing(lat1, lon1, lat2, lon2):
     """
     Calculates the bearing between the two given GPS points.
     Args:
@@ -55,7 +55,7 @@ def calculate_bearing(lat1, long1, lat2, long2):
     Returns:
         float: the bearing between the given GPS points [°]
     """	
-    dLon = (long2 - long1)
+    dLon = (lon2 - lon1)
     x = math.cos(math.radians(lat2)) * math.sin(math.radians(dLon))
     y = math.cos(math.radians(lat1)) * math.sin(math.radians(lat2)) - math.sin(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.cos(math.radians(dLon))
     brng = numpy.arctan2(x,y)
