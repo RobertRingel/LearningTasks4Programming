@@ -2,7 +2,7 @@ Topic: functions
 
 ## Learning Task: Update exchange rates
 
-The following Python program ist used to show and update currency exchange rates. Read the code and run the code to obtain an understanding.
+The following Python program is used to show and update currency exchange rates. Read the code and run the code to obtain an understanding.
 Focus on the function "update_rates" in order to write the function documentation based on Google-Doc-Style.
 How will the updated exchange rates be usable in the main part of the program without a function return statement?
 
