@@ -72,6 +72,13 @@ while h > 0.0:
     fb = input("Braking fuel (0‑50): ")
     fb = int(fb)
 ``` 
+---------------------------------------
+
+### Potential learning tasks:
+
+1) Take a pen, a sheet of paper and some glue: Write some notes regarding no-return functions and glue them to the functions learning-sheet.
+2) Demonstrate the current version of the Apollo-27 program to another person and explain them how it works.
+3) Use the smart-phone to take some photos or the record a short video of Apllo-27 and share it with other people - may be even your Physic's teacher would be impressed?
 
 ---------------------------------------
 
