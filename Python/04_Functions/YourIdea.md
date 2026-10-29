@@ -5,7 +5,7 @@ Topic: functions
 Write a program, that is able to solve a problem by calling several functions.  
 First you need to have an idea, then you should decompose it into specific functions. Each function will solve a specific sub-task of the problem.
 Then implement the Python program and test it.  
-Do not forget write an inline function documentation based on Google docstyle.
+Do not forget write an inline function documentation based on Google doc-style.
 
 Finally demonstrate your program to another student.
 
