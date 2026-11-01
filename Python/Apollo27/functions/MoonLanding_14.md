@@ -28,7 +28,7 @@ We can use this to implement a new function named 'simulateDescentStep' to calcu
 The Python code below shows the implementation of this function.
 
 ``` python
-def simulateDescentStep(gravity, braking_force, initial_velocity, altitude, time_step):
+def simulate_DescentStep(gravity, braking_force, initial_velocity, altitude, time_step):
     """
     Simulate one time step of the descent.
     Applies net acceleration (gravity - braking) to update velocity and altitude.
@@ -60,20 +60,20 @@ def simulateDescentStep(gravity, braking_force, initial_velocity, altitude, time
 while h > 0.0:           # one loop per second until touch down
 
     print(f"Sec:{t:>5g} | {h:>6.1f}m | {v:>5.1f}m/s | Fuel:{f:>4.0f}l ", end=":")
-    printAltIndicator(height, distance_fallen)
+    print_AltIndicator(h, ds_fallen)
 
     fb = input("Braking fuel (0‑50): ")
     fb = int(fb)
 
     f = f - fb                                        # Fuel consumption
     b = calc_DecelForce(fb, dT, fbr)
-    v, h, ds = simulateDescentStep(g, b, v, h, dT)
+    v, h, ds = simulate_DescentStep(g, b, v, h, dT)
     t = t + dT
 
 ...
 ```
 
-First: Add the new function 'simulateDescentStep' to your current code.  
+First: Add the new function 'simulate_DescentStep' to your current code.  
 Second Update the Python code below the while - loop accordingly.
 
 ### Potential learning tasks
