@@ -2,7 +2,7 @@ Topic: Functions
 
 ## Learning Task: Functions may return multiple values at once
 
-A function return statement can have a comma-separated list of variables to be returned as the result of the function. The function calling statement will then make an assigment to different variables separated by commas. 
+A function return statement can have a comma-separated list of variables to be returned as the result of the function. The function calling statement will then make an assignment to different variables separated by commas. 
 
 ```
 def enter_name_rank():
@@ -24,8 +24,8 @@ cmd_name, cmd_rank = enter_name_rank()
 
 ```
 
-We can use this to implement a new function named 'simulateDescentStep' to calulate and update all landing physics variables at once.
-The Pyton code below shows the implementation of this function.
+We can use this to implement a new function named 'simulateDescentStep' to calculate and update all landing physics variables at once.
+The Python code below shows the implementation of this function.
 
 ``` python
 def simulateDescentStep(gravity, braking_force, initial_velocity, altitude, time_step):
@@ -68,7 +68,6 @@ while h > 0.0:           # one loop per second until touch down
     f = f - fb                                        # Fuel consumption
     b = calc_DecelForce(fb, dT, fbr)
     v, h, ds = simulateDescentStep(g, b, v, h, dT)
-
     t = t + dT
 
 ...
