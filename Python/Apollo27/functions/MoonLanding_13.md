@@ -39,7 +39,7 @@ Next you see a complete implementation of the altitude indicator. It uses a defa
 Type the code of this function into thew current version of the Apollo-27 Python program. 
 
 ``` python
-def printAltIndicator(altitude, distance_fallen, MAX_ALT=1000.0):
+def print_AltIndicator(altitude, distance_fallen, MAX_ALT=1000.0):
     """
     Print a visual altitude indicator showing the lander's position and descent.
     Uses a bar to represent altitude and a "falling" segment to show distance fallen.
@@ -67,7 +67,7 @@ In order to make use of this function you need to at a call to the function. Imp
 ``` python
 while h > 0.0: 
     print(f"Sec:{t:>5g} | {h:>6.1f}m | {v:>5.1f}m/s | Fuel:{f:>4.0f}l ", end=":")
-    printAltIndicator(h, ds)
+    print_AltIndicator(h, ds)
 
     fb = input("Braking fuel (0‑50): ")
     fb = int(fb)
