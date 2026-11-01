@@ -67,7 +67,7 @@ In order to make use of this function you need to at a call to the function. Imp
 ``` python
 while h > 0.0: 
     print(f"Sec:{t:>5g} | {h:>6.1f}m | {v:>5.1f}m/s | Fuel:{f:>4.0f}l ", end=":")
-    printAltIndicator(height, distance_fallen)
+    printAltIndicator(h, ds)
 
     fb = input("Braking fuel (0‑50): ")
     fb = int(fb)
