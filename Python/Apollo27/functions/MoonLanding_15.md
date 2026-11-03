@@ -19,7 +19,7 @@ calc_landing_score(velocity, rem_fuel)
 print_alt_indicator(altitude, distance_fallen, max_alt=1000.0)
 ```
 
-We can consider all of the of generic nature for a Moon landing simulation except the "print_alt_indicator" that is a very specific altitude visualisation. So we decide to move the function definition python code of the calc- and simulate-functions to the Python module file "lunar_physics_model.py". Consequently the Moon landing simulation needs to import this Python module to make use of it. The new Moon landing simulation MoonLander_v15.py is implemented as follows:
+We can consider all of the of generic nature for a Moon landing simulation except the "print_alt_indicator" that is a very specific altitude visualization. So we decide to move the function definition python code of the calc- and simulate-functions to the Python module file "lunar_physics_model.py". Consequently the Moon landing simulation needs to import this Python module to make use of it. The new Moon landing simulation MoonLander_v15.py is implemented as follows:
 
 ``` python
 import lunar_physics_model as lpm
