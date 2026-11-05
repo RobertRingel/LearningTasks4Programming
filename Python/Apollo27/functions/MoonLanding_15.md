@@ -19,7 +19,7 @@ calc_landing_score(velocity, rem_fuel)
 print_alt_indicator(altitude, distance_fallen, max_alt=1000.0)
 ```
 
-We can consider all of the of generic nature for a Moon landing simulation except the "print_alt_indicator" that is a very specific altitude visualization. So we decide to move the function definition python code of the calc- and simulate-functions to the Python module file "lunar_physics_model.py". Consequently the Moon landing simulation needs to import this Python module to make use of it. The new Moon landing simulation MoonLander_v15.py is implemented as follows:
+We can consider all of them are of generic nature for a Moon landing simulation except the "print_alt_indicator". This function is a very specific altitude visualization. So we decide to move the function definition python code of the calc- and simulate-functions to the Python module file "lunar_physics_model.py". Consequently the Moon landing simulation needs to import this Python module to make use of it. The new Moon landing simulation MoonLander_v15.py is implemented as follows:
 
 ``` python
 import lunar_physics_model as lpm
@@ -89,7 +89,7 @@ print("Landing score:", scr)
 
 What are the benefits of such function modules?
 1) A module is re-usable for different Python programs that need to make use of the module functions.
-2) The program code of the main program is much shorter than before.
+2) The program code is much shorter than before.
 
 
 ### Potential learning tasks
