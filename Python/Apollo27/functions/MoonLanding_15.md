@@ -110,8 +110,9 @@ Implement a new version of the Moon landing simulation that makes use of above f
 ---------------------------------------
 
 #### Solution
-``` python
+Implement the following functions as part of the module: lunar_physics_model.py
 
+``` python
 def calculate_deceleration_force(velocity, altitude, gravity):
     """
     Calculate the required braking force to land safely at low altitude.
@@ -154,8 +155,23 @@ def calc_decel_fuel(deceleration_force, duration, fuel_flow_rate):
     return fuel
 ```
 
----------------------------------------
+Change the main program section of Moon_lander_v15.py as follows:
+``` python
+...
+while h > 0.0:  # One loop per second until touch down
+    print(f"Sec:{t:>5g} | {h:>6.1f}m | {v:>5.1f}m/s | Fuel:{f:>4.0f}l ", end=":")
+    print_alt_indicator(h, ds)
 
+    b = lpm.calculate_deceleration_force(v, h, g)
+    fb = lpm.calc_decel_fuel(b, dT, fbr)
+    fb = int(fb)
+    f = f - fb  # Fuel consumption
+
+    b = lpm.calc_decel_force(fb, dT, fbr)
+    ...
+```
+
+---------------------------------------
 
 ##### Previous Knowledge
 
