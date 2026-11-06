@@ -107,6 +107,52 @@ Implement a function to calculate the required deceleration force as part of the
 
 Implement a new version of the Moon landing simulation that makes use of above function instead of user input for braking fuel.
 
+---------------------------------------
+
+#### Solution
+``` python
+
+def calculate_deceleration_force(velocity, altitude, gravity):
+    """
+    Calculate the required braking force to land safely at low altitude.
+    Uses kinematic equation: v² = u² + 2as   : solve for required deceleration.
+    Assumes a safe landing speed of 0 m/s at altitude 0.
+    Args:
+        velocity (float): Current velocity [m/s]
+        altitude (float): Current altitude [m]
+        gravity (float): Gravitational acceleration [m/s²]
+    Returns:
+        float: Required braking force [m/s²], capped between 0 and 50
+    """
+    # Avoid division by zero or negative altitude
+    if altitude <= 0.001:
+        return 0.0
+
+    # Required deceleration to stop in remaining distance (using v² = u² + 2as)
+    # Rearranged: a = (v² - u²) / (2s), but here we want to stop from current velocity
+    # So: a_needed = (0 - v²) / (2 * h) → but we must also counteract gravity
+    # Thus: a_needed = v² / (2 * (h + 0.5)) + g  (adding 0.5 to avoid instability at very low h)
+    a_needed = velocity * velocity / (2 * (altitude + 0.5)) + gravity
+
+    # Clamp to realistic range: 0 to 50 m/s² (max thrust)
+    return max(0, min(50, a_needed))
+
+
+def calc_decel_fuel(deceleration_force, duration, fuel_flow_rate):
+    """
+    Calculate the amount of fuel [l] to burn to yield the desired deceleration force.
+
+    Args:
+        deceleration_force (float): Deceleration force [m/s²] produced by the fuel burn
+        duration (float): Duration of the burn [s]
+        fuel_flow_rate (float): Fuel burn rate [l/s]
+
+    Returns:
+        float: Amount of fuel burned in the current time step [l]
+    """
+    fuel = decel_force * duration * fuel_flow_rate
+    return fuel
+```
 
 ---------------------------------------
 
