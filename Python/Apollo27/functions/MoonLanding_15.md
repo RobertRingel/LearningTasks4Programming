@@ -98,7 +98,10 @@ What are the benefits of such function modules?
 Change your Python program in the same way: implement the Python module lunar_physics_model.py and the main program MoonLander_v15.py as shown above.
 Perform a test run to verify the program MoonLander_v15.py is running correctly.  
 
-Implement a function to calculate the required amount of retro-rocket braking fuel as part of the module "lunar_physics_model.py".   
+Implement a function to calculate the required deceleration force as part of the module "lunar_physics_model.py".   
+- a = v² / (2 * (h + 0.5)) + g  (adding 0.5 to avoid instability at very low h)
+- for altitudes h > 400 we did not brake a = 0.0
+- in case h < 0.001: set a = 0.0
 
 Implement a new version of the Moon landing simulation that makes use of above function instead of user input for braking fuel.
 
