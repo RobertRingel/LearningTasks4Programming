@@ -129,10 +129,7 @@ def calculate_deceleration_force(velocity, altitude, gravity):
     if altitude <= 0.001:
         return 0.0
 
-    # Required deceleration to stop in remaining distance (using v² = u² + 2as)
-    # Rearranged: a = (v² - u²) / (2s), but here we want to stop from current velocity
-    # So: a_needed = (0 - v²) / (2 * h) → but we must also counteract gravity
-    # Thus: a_needed = v² / (2 * (h + 0.5)) + g  (adding 0.5 to avoid instability at very low h)
+    # a_needed = v² / (2 * (h + 0.5)) + g  (adding 0.5 to avoid instability at very low h)
     a_needed = velocity * velocity / (2 * (altitude + 0.5)) + gravity
 
     # Clamp to realistic range: 0 to 50 m/s² (max thrust)
