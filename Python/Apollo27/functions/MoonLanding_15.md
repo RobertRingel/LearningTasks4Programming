@@ -155,7 +155,7 @@ def calc_decel_fuel(deceleration_force, duration, fuel_flow_rate):
     return fuel
 ```
 
-Change the main program section of Moon_lander_v15.py as follows:
+Change the main program section of Moonlander_v15.py as follows:
 ``` python
 ...
 while h > 0.0:  # One loop per second until touch down
