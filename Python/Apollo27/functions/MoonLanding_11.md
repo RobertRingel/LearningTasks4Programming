@@ -4,20 +4,22 @@ Topic: Functions
 
 Implement the following two functions in the given Python code variant 6:
 
-- calc_DecelForce: b = fb / (fbr*dT)  
-- calc_FallDistance: ds = 0.5 * a * dT * dT + v0 * dT  
+- calc_decel_force: b = fb / (fbr*dT)  
+- calc_fall_distance: ds = 0.5 * a * dT * dT + v0 * dT  
 
 ``` python
 # -----------
 # Variant 6: Learning goal function programming
 # -----------
-def calc_LandingScore(velocity, rem_fuel):
+def calc_landing_score(velocity, rem_fuel):
     factor = 10.0
     if rem_fuel <= 0.0:
         return 0.0
     score = factor * rem_fuel / velocity
     return score
 
+
+# ----- main program -----
 print(">>> Moon landing with braking: <<< ")
 print("    task 6")
 print()
@@ -56,7 +58,7 @@ while h > 0.0:           # one loop per second until touch down
 print("Touch down.")
 v = 3.6 * v
 print("    ... speed:", v, "km/h")                  
-scr = calc_LandingScore(v, f)           # function call
+scr = calc_landing_score(v, f)           # function call
 print("Landing score:", scr)
 ```
 
@@ -69,23 +71,25 @@ print("Landing score:", scr)
 # Variant 6: Learning goal function programming
 # -----------
 
-def calc_DecelForce(fuel_volume, duration, fuel_flow_rate):
-    decel_force = fuel_volume / (duration * fuel_flow_rate)
+def calc_decel_force(fuel_volume, duration, fuel_burn_rate):
+    decel_force = fuel_volume / (duration * fuel_burn_rate)
     return decel_force
 
 
-def calc_FallDistance(acceleration, velocity, duration):
+def calc_fall_distance(acceleration, velocity, duration):
     distance = 0.5 * acceleration * duration * duration + velocity * duration
     return distance
 
 
-def calc_LandingScore(velocity, rem_fuel):
+def calc_landing_score(velocity, rem_fuel):
     factor = 10.0
     if rem_fuel <= 0.0:
         return 0.0
     score = factor * rem_fuel / velocity
     return score
 
+
+# ----- main program -----
 print(">>> Moon landing with braking: <<< ")
 print("    task 6")
 print()
@@ -107,15 +111,15 @@ while h > 0.0:           # one loop per second until touch down
 
     fb = input("Braking fuel (0‑50): ")
     fb = int(fb)
-    f = f - fb                         # Fuel consumption
-    b = calc_DecelForce(fb, dT, fbr)   # Deceleration force derived from fuel <<< function call
-    a = g - b                          # Net acceleration after braking
-    v0 = v                             # Previous velocity
-    v = v + a*dT                       # New velocity
+    f = f - fb                          # Fuel consumption
+    b = calc_decel_force(fb, dT, fbr)   # Deceleration force derived from fuel <<< function call
+    a = g - b                           # Net acceleration after braking
+    v0 = v                              # Previous velocity
+    v = v + a*dT                        # New velocity
 
-    ds = calc_FallDistance(a, v0, dT)  # Distance fallen in 1 s <<< function call
-    h = h - ds                         # Current altitude
-
+    ds = calc_fall_distance(a, v0, dT)  # Distance fallen in 1 s <<< function call
+    h = h - ds                          # Current altitude
+ 
     t = t + dT
 
     if f < 0.0:
@@ -125,7 +129,7 @@ while h > 0.0:           # one loop per second until touch down
 print("Touch down.")
 v = 3.6 * v
 print("    ... speed:", v, "km/h")                  
-scr = calc_LandingScore(v, f)           # function call
+scr = calc_landing_score(v, f)          
 print("Landing score:", scr)
 ```
 
