@@ -174,7 +174,6 @@ while altitude > 0.0:
                 braking_force = calculate_deceleration_force(velocity, altitude, GRAVITY)
                 # Calculate fuel needed for this braking force
                 fuel_used = braking_force * DT * FUEL_BURN_RATE
-                # print(f": {fuel_used:.1f}l fuel used")
             else:
                 # No braking at high altitude in auto mode
                 braking_force = 0.0
@@ -182,7 +181,7 @@ while altitude > 0.0:
             
             print(f": {fuel_used:.1f}l fuel used")
         # Update fuel supply
-        fuel -= fuel_used
+        fuel = fuel - fuel_used
     else:
         # Out of fuel
         print("\nOut of fuel!")
