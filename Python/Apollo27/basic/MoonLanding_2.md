@@ -36,8 +36,8 @@ t = int(t)
 v = g * t * 3.6     # falling velocity [km/h]
 s = 0.5 * g * t*t   # fallen distance [m]
 
-print("Velocity:",v,"km/h")
-print("Distance:",s,"m")
+print("Velocity:", v, "km/h")
+print("Distance:", s, "m")
 ```
 **Note:**  
 Gravitational acceleration at the Earth's surface: 9.81  
