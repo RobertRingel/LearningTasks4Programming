@@ -4,7 +4,7 @@ Topic: Functions
 
 Implement the following two functions in the given Python code variant 6:
 
-- calc_decel_force: b = fb / (fbr*dT)  
+- calc_deceleration_force: b = fb / (fbr*dT)  
 - calc_fall_distance: ds = 0.5 * a * dT * dT + v0 * dT  
 
 ``` python
@@ -71,9 +71,9 @@ print("Landing score:", scr)
 # Variant 6: Learning goal function programming
 # -----------
 
-def calc_decel_force(fuel_volume, duration, fuel_burn_rate):
-    decel_force = fuel_volume / (duration * fuel_burn_rate)
-    return decel_force
+def calc_deceleration_force(fuel_volume, duration, fuel_burn_rate):
+    deceleration_force = fuel_volume / (duration * fuel_burn_rate)
+    return deceleration_force
 
 
 def calc_fall_distance(acceleration, velocity, duration):
@@ -111,11 +111,11 @@ while h > 0.0:           # one loop per second until touch down
 
     fb = input("Braking fuel (0‑50): ")
     fb = int(fb)
-    f = f - fb                          # Fuel consumption
-    b = calc_decel_force(fb, dT, fbr)   # Deceleration force derived from fuel <<< function call
-    a = g - b                           # Net acceleration after braking
-    v0 = v                              # Previous velocity
-    v = v + a*dT                        # New velocity
+    f = f - fb                                 # Fuel consumption
+    b = calc_deceleration_force(fb, dT, fbr)   # Deceleration force derived from fuel <<< function call
+    a = g - b                                  # Net acceleration after braking
+    v0 = v                                     # Previous velocity
+    v = v + a*dT                               # New velocity
 
     ds = calc_fall_distance(a, v0, dT)  # Distance fallen in 1 s <<< function call
     h = h - ds                          # Current altitude
@@ -155,3 +155,4 @@ Print the remaining fuel percent value after landing and if you like also as par
 Author: Robert Ringel, Faculty Informatics/Mathematics, HTWD – University of Applied Sciences  
 Version: 10/2026  
 License: CC BY-SA 4.0
+  
