@@ -24,11 +24,11 @@ cmd_name, cmd_rank = enter_name_rank()
 
 ```
 
-We can use this to implement a new function named 'simulateDescentStep' to calculate and update all landing physics variables at once.
+We can use this to implement a new function named 'simulate_descent_step' to calculate and update all landing physics variables at once.
 The Python code below shows the implementation of this function.
 
 ``` python
-def simulate_DescentStep(gravity, braking_force, initial_velocity, altitude, time_step):
+def simulate_descent_step(gravity, braking_force, initial_velocity, altitude, time_step):
     """
     Simulate one time step of the descent.
     Applies net acceleration (gravity - braking) to update velocity and altitude.
@@ -48,7 +48,7 @@ def simulate_DescentStep(gravity, braking_force, initial_velocity, altitude, tim
     new_velocity = initial_velocity + net_acceleration * time_step
 
     # Calculate distance fallen during this time step
-    distance_fallen = calc_FallDistance(net_acceleration, initial_velocity, time_step)
+    distance_fallen = calc_fall_distance(net_acceleration, initial_velocity, time_step)
 
     # Update altitude
     new_altitude = altitude - distance_fallen
@@ -60,20 +60,20 @@ def simulate_DescentStep(gravity, braking_force, initial_velocity, altitude, tim
 while h > 0.0:           # one loop per second until touch down
 
     print(f"Sec:{t:>5g} | {h:>6.1f}m | {v:>5.1f}m/s | Fuel:{f:>4.0f}l ", end=":")
-    print_AltIndicator(h, ds_fallen)
+    print_alt_indicator(h, ds_fallen)
 
     fb = input("Braking fuel (0‑50): ")
     fb = int(fb)
 
     f = f - fb                                        # Fuel consumption
-    b = calc_DecelForce(fb, dT, fbr)
-    v, h, ds = simulate_DescentStep(g, b, v, h, dT)
+    b = calc_decel_force(fb, dT, fbr)
+    v, h, ds = simulate_descent_step(g, b, v, h, dT)
     t = t + dT
 
 ...
 ```
 
-First: Add the new function 'simulate_DescentStep' to your current code.  
+First: Add the new function 'simulate_descent_step' to your current code.  
 Second Update the Python code below the while - loop accordingly.
 
 ### Potential learning tasks
