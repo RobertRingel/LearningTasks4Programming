@@ -29,7 +29,7 @@ See the function documentation for calculating the landing score.
 # -----------
 # Variant 6: Learning goal function programming
 # -----------
-def calc_LandingScore(velocity, rem_fuel):
+def calc_landing_score(velocity, rem_fuel):
     """
     Calculate a landing score based on the final velocity and remaining fuel.
     The score is proportional to remaining fuel and inversely proportional to velocity.
@@ -49,17 +49,17 @@ def calc_LandingScore(velocity, rem_fuel):
     return score
 ```
 
-Write a similar documentation for the functions calc_DecelForce and calc_FallDistance!
+Write a similar documentation for the functions calc_decel_force and calc_fall_distance!
 
 ``` python
 
-def calc_FallDistance(acceleration, velocity, duration):
+def calc_fall_distance(acceleration, velocity, duration):
     distance = 0.5 * acceleration * duration * duration + velocity * duration
     return distance
 
 
-def calc_DecelForce(fuel_volume, duration, fuel_flow_rate):
-    decel_force = fuel_volume / (duration * fuel_flow_rate)
+def calc_decel_force(fuel_volume, duration, fuel_burn_rate):
+    decel_force = fuel_volume / (duration * fuel_burn_rate)
     return decel_force
 ```
 
@@ -74,24 +74,24 @@ Make sure the documentation matches the actual code!
 #### Solution
 
 ``` python
-def calc_DecelForce(fuel_volume, duration, fuel_flow_rate):
+def calc_decel_force(fuel_volume, duration, fuel_burn_rate):
     """
     Calculate the deceleration force [m/s²] produced by burning a given volume of fuel
-    over a specified duration at a given fuel flow rate.
+    over a specified duration at a given fuel burn rate.
 
     Args:
         fuel_volume (float): Volume of fuel burned in the current time step [l]
         duration (float): Duration of the burn [s]
-        fuel_flow_rate (float): Fuel burn rate [l/s]
+        fuel_burn_rate (float): Fuel burn rate [l/s]
 
     Returns:
         float: Deceleration force [m/s²] produced by the fuel burn
     """
-    decel_force = fuel_volume / (duration * fuel_flow_rate)
+    decel_force = fuel_volume / (duration * fuel_burn_rate)
     return decel_force
 
 
-def calc_FallDistance(acceleration, velocity, duration):
+def calc_fall_distance(acceleration, velocity, duration):
     """
     Calculate the distance fallen during a time interval given initial velocity and constant
     acceleration (e.g., net gravity minus braking).
