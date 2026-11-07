@@ -9,7 +9,7 @@ License: CC BY-SA 4.0
 
 # === Constants ===
 GRAVITY = 1.622               # Lunar gravity in m/s²
-FUEL_CONSUMPTION_RATE = 10.0  # Fuel used per second per unit of thrust [l/s]
+FUEL_BURN_RATE = 10.0         # Fuel burned per second [l/s]
 MAX_ALTITUDE = 1000.0         # Maximum initial altitude [m]
 FUEL_VOLUME = 1500.0          # Total fuel available [l]
 DT = 2.0                      # Time step [s] (simulation interval)
@@ -17,7 +17,7 @@ MANUAL_MODE = True            # Whether to use manual or automatic braking
 
 # === Helper Functions ===
 
-def calcDistance(a, v0, t):
+def calc_distance(a, v0, t):
     """
     Calculate distance traveled under constant acceleration.
     Formula: s = 0.5 * a * t² + v0 * t
@@ -31,7 +31,7 @@ def calcDistance(a, v0, t):
     return 0.5 * a * t * t + v0 * t
 
 
-def simulateDescent(gravity, braking_force, initial_velocity, altitude, time_step):
+def simulate_descent(gravity, braking_force, initial_velocity, altitude, time_step):
     """
     Simulate one time step of the descent.
     Applies net acceleration (gravity - braking) to update velocity and altitude.
@@ -51,7 +51,7 @@ def simulateDescent(gravity, braking_force, initial_velocity, altitude, time_ste
     new_velocity = initial_velocity + net_acceleration * time_step
 
     # Calculate distance fallen during this time step
-    distance_fallen = calcDistance(net_acceleration, initial_velocity, time_step)
+    distance_fallen = calc_distance(net_acceleration, initial_velocity, time_step)
 
     # Update altitude
     new_altitude = altitude - distance_fallen
@@ -59,7 +59,7 @@ def simulateDescent(gravity, braking_force, initial_velocity, altitude, time_ste
     return new_velocity, new_altitude, distance_fallen
 
 
-def printDisplay(time, velocity, altitude, distance_fallen, fuel):
+def print_display(time, velocity, altitude, distance_fallen, fuel):
     """
     Print the current state of the simulation in a formatted line.
     Args:
@@ -70,21 +70,21 @@ def printDisplay(time, velocity, altitude, distance_fallen, fuel):
         fuel (float): Remaining fuel [l]
     """
     print(f"Sec:{time:>5g} | {altitude:>6.1f}m | {velocity:>5.1f}m/s | Fuel:{fuel:>4.0f}l ", end="")
-    printAltIndicator(altitude, distance_fallen)
+    print_alt_indicator(altitude, distance_fallen)
 
 
-def printAltIndicator(altitude, distance_fallen, MAX_ALT=1000):
+def print_alt_indicator(altitude, distance_fallen, max_alt=1000):
     """
     Print a visual altitude indicator showing the lander's position and descent.
     Uses a bar to represent altitude and a "falling" segment to show distance fallen.
     Args:
         altitude (float): Current altitude [m]
         distance_fallen (float): Distance fallen in this step [m]
-        MAX_ALT (float): Maximum atitude for scaling [m]
+        max_at (float): Maximum atitude for scaling [m]
     """
     WIDTH = 80  # Width of the visual bar
     # Position of the lander in the bar (0 = bottom, WIDTH = top)
-    pos = int(WIDTH * altitude / MAX_ALT)
+    pos = int(WIDTH * altitude / max_alt)
 
     # Scale distance fallen to fit in the bar (every 5m = 1 character)
     ds5 = int(distance_fallen / 5)
@@ -96,7 +96,7 @@ def printAltIndicator(altitude, distance_fallen, MAX_ALT=1000):
     print(f"{line:<90}", end=".")
 
 
-def enterDecelerationFuel():
+def enter_deceleration_fuel():
     """
     Prompt the user to enter how much retro-rocket fuel to burn.
     Ensures input is non-negative.
@@ -107,7 +107,7 @@ def enterDecelerationFuel():
     return max(0, fuel)  # Clamp to zero if negative
 
 
-def calculateDecelerationForce(velocity, altitude, gravity):
+def calculate_deceleration_force(velocity, altitude, gravity):
     """
     Calculate the required braking force to land safely at low altitude.
     Uses kinematic equation: v² = u² + 2as   : solve for required deceleration.
@@ -155,7 +155,7 @@ distance_fallen = 0.0
 # Main simulation loop
 while altitude > 0.0:
     # Display current state
-    printDisplay(time, velocity, altitude, distance_fallen, fuel)
+    print_display(time, velocity, altitude, distance_fallen, fuel)
 
     # Initialize braking and fuel usage
     braking_force = 0.0
@@ -165,15 +165,15 @@ while altitude > 0.0:
     if fuel > 0:
         if MANUAL_MODE:
             # Manual input: user decides how much fuel to burn
-            fuel_used = enterDecelerationFuel()
-            # Convert fuel to braking force (thrust): force = fuel / (time_step * consumption_rate)
-            braking_force = fuel_used / (DT * FUEL_CONSUMPTION_RATE)
+            fuel_used = enter_deceleration_fuel()
+            # Convert fuel to braking force (thrust): force = fuel / (time_step * burn_rate)
+            braking_force = fuel_used / (DT * FUEL_BURN_RATE)
         else:
             # Automatic mode: calculate required braking at low altitude
             if altitude < 400.0:
-                braking_force = calculateDecelerationForce(velocity, altitude, GRAVITY)
+                braking_force = calculate_deceleration_force(velocity, altitude, GRAVITY)
                 # Calculate fuel needed for this braking force
-                fuel_used = braking_force * DT * FUEL_CONSUMPTION_RATE
+                fuel_used = braking_force * DT * FUEL_BURN_RATE
                 # print(f": {fuel_used:.1f}l fuel used")
             else:
                 # No braking at high altitude in auto mode
@@ -190,13 +190,13 @@ while altitude > 0.0:
         fuel = 0.0
 
     # Update physics state for next time step
-    velocity, altitude, distance_fallen = simulateDescent(GRAVITY, braking_force, velocity, altitude, DT)
+    velocity, altitude, distance_fallen = simulate_descent(GRAVITY, braking_force, velocity, altitude, DT)
     
-    time += DT
+    time = time + DT
 
 # Final state at landing
 altitude = 0.0
-printDisplay(time, velocity, altitude, distance_fallen, fuel)
+print_display(time, velocity, altitude, distance_fallen, fuel)
 
 # Convert landing speed to km/h
 landing_speed_kmh = velocity * 3.6
