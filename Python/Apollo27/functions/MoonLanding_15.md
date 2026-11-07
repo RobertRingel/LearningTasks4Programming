@@ -8,7 +8,7 @@ Modules must be available at the same directory as the Python program or they mu
 The current version of the Apollo-27 Moon landing simulation (MoonLander_v14.py) provides the following functions:
 
 ```
-calc_decel_force(fuel_volume, duration, fuel_flow_rate)  
+calc_deceleration_force(fuel_volume, duration, fuel_flow_rate)  
 
 calc_fall_distance(acceleration, velocity, duration)  
 
@@ -72,7 +72,7 @@ while h > 0.0:  # One loop per second until touch down
     fb = int(fb)
     f = f - fb  # Fuel consumption
 
-    b = lpm.calc_decel_force(fb, dT, fbr)
+    b = lpm.calc_deceleration_force(fb, dT, fbr)
     v, h, ds = lpm.simulate_descent_step(g, b, v, h, dT)
     t = t + dT
 
@@ -136,19 +136,19 @@ def calculate_deceleration_force(velocity, altitude, gravity):
     return max(0, min(50, a_needed))
 
 
-def calc_decel_fuel(deceleration_force, duration, fuel_flow_rate):
+def calc_deceleration_fuel(deceleration_force, duration, fuel_burn_rate):
     """
     Calculate the amount of fuel [l] to burn to yield the desired deceleration force.
 
     Args:
         deceleration_force (float): Deceleration force [m/s²] produced by the fuel burn
         duration (float): Duration of the burn [s]
-        fuel_flow_rate (float): Fuel burn rate [l/s]
+        fuel_burn_rate (float): Fuel burn rate [l/s]
 
     Returns:
         float: Amount of fuel burned in the current time step [l]
     """
-    fuel = decel_force * duration * fuel_flow_rate
+    fuel = deceleration_force * duration * fuel_burn_rate
     return fuel
 ```
 
@@ -160,11 +160,11 @@ while h > 0.0:  # One loop per second until touch down
     print_alt_indicator(h, ds)
 
     b = lpm.calculate_deceleration_force(v, h, g)
-    fb = lpm.calc_decel_fuel(b, dT, fbr)
+    fb = lpm.calc_deceleration_fuel(b, dT, fbr)
     fb = int(fb)
     f = f - fb  # Fuel consumption
 
-    b = lpm.calc_decel_force(fb, dT, fbr)
+    v, h, ds = lpm.simulate_descent_step(g, b, v, h, dT)
     ...
 ```
 
