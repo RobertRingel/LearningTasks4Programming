@@ -66,7 +66,7 @@ while h > 0.0:           # one loop per second until touch down
     fb = int(fb)
 
     f = f - fb                                        # Fuel consumption
-    b = calc_decel_force(fb, dT, fbr)
+    b = calc_deceleration_force(fb, dT, fbr)
     v, h, ds = simulate_descent_step(g, b, v, h, dT)
     t = t + dT
 
