@@ -10,7 +10,7 @@ The return-statement is used to return the function result.
 The example below implements a function to calculate the landing score depending on remaining fuel and touch down velocity.
 
 ```
-def calc_LandingScore(velocity, rem_fuel):
+def calc_landing_score(velocity, rem_fuel):
     factor = 10.0
     if rem_fuel <= 0.0:
         return 0.0
@@ -24,7 +24,7 @@ To make use of a function you need to call it. The code below shows a call of th
 ```
 f = 545.2                               # fuel assumption
 v = 3.6                                 # velocity assumption
-scr = calc_LandingScore(v, f)           # function call
+scr = calc_landing_score(v, f)           # function call
 print("Landing score:", scr)
 ```
 
@@ -38,7 +38,7 @@ Read the code and identify calculations to be implemented as Python functions!
 # -----------
 # Variant 6: Learning goal identify potential functions to be implemented
 # -----------
-def calc_LandingScore(velocity, rem_fuel):
+def calc_landing_score(velocity, rem_fuel):
     factor = 10.0
     if rem_fuel <= 0.0:
         return 0.0
@@ -83,7 +83,7 @@ while h > 0.0:           # one loop per second until touch down
 print("Touch down.")
 v = 3.6 * v
 print("    ... speed:", v, "km/h")                  
-scr = calc_LandingScore(v, f)           # function call
+scr = calc_landing_score(v, f)           # function call
 print("Landing score:", scr)
 ```
 
@@ -91,9 +91,9 @@ print("Landing score:", scr)
 
 #### Solution
 
-- calc_DecelForce: b = fb / (fbr*dT)  
-- calc_FallDistance: ds = 0.5 * a * dT * dT + v0 * dT  
-- calc_Velocity_kmh: v = 3.6 * v  
+- calc_decel_force: b = fb / (fbr*dT)  
+- calc_fall_distance: ds = 0.5 * a * dT * dT + v0 * dT  
+- calc_velocity_kmh: v = 3.6 * v  
 
 ---------------------------------------
 
