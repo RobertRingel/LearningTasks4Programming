@@ -1,6 +1,6 @@
 Topic: Branches and loops
 
-## Learn about branching program code 
+## Learn about branching program execution 
 
 if compares values and reacts accordingly. If the condition is met, the following commands are executed. These commands are indented by four spaces as a command block!  
 ```
