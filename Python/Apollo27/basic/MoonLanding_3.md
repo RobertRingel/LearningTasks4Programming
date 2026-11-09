@@ -27,7 +27,7 @@ t = 10
 g = input("Gravitational acceleration [m/s²]: ") 
 g = float(g) 
 
-if g > 1: 
+if g > 1.0: 
     v = g * t * 3.6             # falling velocity [km/h]
     s = 0.5 * g * t * t         # fallen distance [m] 
     print("Speed:", v, "km/h") 
@@ -70,7 +70,7 @@ t = int(t)
 g = input("Gravitational acceleration [m/s²]: ") 
 g = float(g) 
 
-if g > 1 and t >= 1: 
+if g > 1.0 and t >= 1: 
     v = g * t * 3.6             # falling velocity [km/h]
     s = 0.5 * g * t * t         # fallen distance [m] 
     print("Speed:", v, "km/h") 
