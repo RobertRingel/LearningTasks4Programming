@@ -4,12 +4,12 @@ Topic: Branches and loops
 
 if compares values and reacts accordingly. If the condition is met, the following commands are executed. These commands are indented by four spaces as a command block!  
 ```
-if g <= 1: 
+if g <= 1.0: 
     print("Invalid input!")
 ```
 else after if contains commands to become executed when the if condition is not satisfied:  
 ```
-if g > 1: 
+if g > 1.0: 
     v = g * t * 3.6
     s = 0.5 * g * t * t 
 else: 
