@@ -18,7 +18,7 @@ Author: Robert Ringel   License: CC-BY-SA 4.0  version: November 2026
 """
 
 
-def calc_decel_force(fuel_volume, duration, fuel_flow_rate):
+def calc_deceleration_force(fuel_volume, duration, fuel_flow_rate):
     """
     Calculate the deceleration force [m/s²] produced by burning a given volume
     of fuel over a specified duration at a given fuel flow rate.
@@ -31,8 +31,8 @@ def calc_decel_force(fuel_volume, duration, fuel_flow_rate):
     Returns:
         float: Deceleration force [m/s²] produced by the fuel burn
     """
-    decel_force = fuel_volume / (duration * fuel_flow_rate)
-    return decel_force
+    deceleration_force = fuel_volume / (duration * fuel_flow_rate)
+    return deceleration_force
 
 
 def calc_fall_distance(acceleration, velocity, duration):
